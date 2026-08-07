@@ -1,0 +1,172 @@
+{
+  ".agents/skills/backend/SKILL.md": {
+    "mtime": 1786072630.710803,
+    "ast_hash": "f7b57ab6502f0174612b5f1e67893c6a",
+    "semantic_hash": "f7b57ab6502f0174612b5f1e67893c6a"
+  },
+  ".agents/skills/backend/references/api-design-guide.md": {
+    "mtime": 1785853677.679366,
+    "ast_hash": "57472c363ebcf1adbab4ae1656104c38",
+    "semantic_hash": "57472c363ebcf1adbab4ae1656104c38"
+  },
+  ".agents/skills/backend/references/architecture-guide.md": {
+    "mtime": 1785853791.2371511,
+    "ast_hash": "eb9b66567195af66dec278d02ca4c0a7",
+    "semantic_hash": "eb9b66567195af66dec278d02ca4c0a7"
+  },
+  ".agents/skills/backend/references/auth-patterns.md": {
+    "mtime": 1785853779.6021369,
+    "ast_hash": "95712654bf6ceaef4357d2453c48e5ba",
+    "semantic_hash": "95712654bf6ceaef4357d2453c48e5ba"
+  },
+  ".agents/skills/backend/references/database-patterns.md": {
+    "mtime": 1785853731.2152555,
+    "ast_hash": "5b7a85a5447cc3c3ce58c22bcd394fa2",
+    "semantic_hash": "5b7a85a5447cc3c3ce58c22bcd394fa2"
+  },
+  ".agents/skills/backend/references/js-at-scale-backend.md": {
+    "mtime": 1785907398.0500636,
+    "ast_hash": "6c3b86de454d2abe1d47e5bdb6d718dc",
+    "semantic_hash": "6c3b86de454d2abe1d47e5bdb6d718dc"
+  },
+  ".agents/skills/frontend/SKILL.md": {
+    "mtime": 1786072636.610513,
+    "ast_hash": "73843f24c867e95c579711c6881c485c",
+    "semantic_hash": "73843f24c867e95c579711c6881c485c"
+  },
+  ".agents/skills/frontend/references/accessibility-checklist.md": {
+    "mtime": 1785854302.6991515,
+    "ast_hash": "961d681c3ee6c92a2ec04521c18f2f6e",
+    "semantic_hash": "961d681c3ee6c92a2ec04521c18f2f6e"
+  },
+  ".agents/skills/frontend/references/component-patterns.md": {
+    "mtime": 1785854250.8875272,
+    "ast_hash": "7d3dc53ef850a93efdf55cd51ab43cb3",
+    "semantic_hash": "7d3dc53ef850a93efdf55cd51ab43cb3"
+  },
+  ".agents/skills/frontend/references/js-at-scale-frontend.md": {
+    "mtime": 1785917352.169756,
+    "ast_hash": "b39a9fc235869e7cde3a1f7531a6e5aa",
+    "semantic_hash": "b39a9fc235869e7cde3a1f7531a6e5aa"
+  },
+  ".agents/skills/frontend/references/performance-guide.md": {
+    "mtime": 1785854288.13893,
+    "ast_hash": "3aed561d74377b20bddccf2f874a3e0e",
+    "semantic_hash": "3aed561d74377b20bddccf2f874a3e0e"
+  },
+  ".agents/skills/frontend/references/ui-design-system.md": {
+    "mtime": 1785854180.9993966,
+    "ast_hash": "c4aa68323177a16188a2e807b3a4acb5",
+    "semantic_hash": "c4aa68323177a16188a2e807b3a4acb5"
+  },
+  ".agents/skills/pm/SKILL.md": {
+    "mtime": 1785990934.1692374,
+    "ast_hash": "7f45b532340ce5e69fd344cdee65f12d",
+    "semantic_hash": "7f45b532340ce5e69fd344cdee65f12d"
+  },
+  ".agents/skills/pm/references/feature-breakdown-guide.md": {
+    "mtime": 1785854899.803366,
+    "ast_hash": "e25302f45f0240e7f1a641dcc90f680c",
+    "semantic_hash": "e25302f45f0240e7f1a641dcc90f680c"
+  },
+  ".agents/skills/pm/references/js-at-scale-pm.md": {
+    "mtime": 1785907558.4640045,
+    "ast_hash": "1701277ddb5a7c5663d1a7d5a4205e1e",
+    "semantic_hash": "1701277ddb5a7c5663d1a7d5a4205e1e"
+  },
+  ".agents/skills/pm/references/methodology-guide.md": {
+    "mtime": 1785854937.7978063,
+    "ast_hash": "23c5c5d741e3aac26539c9229312680c",
+    "semantic_hash": "23c5c5d741e3aac26539c9229312680c"
+  },
+  ".agents/skills/pm/references/prd-template.md": {
+    "mtime": 1785920369.7057238,
+    "ast_hash": "0a496020f19b2eeeb9f815a16d2317bc",
+    "semantic_hash": "0a496020f19b2eeeb9f815a16d2317bc"
+  },
+  ".agents/skills/pm/references/roadmap-template.md": {
+    "mtime": 1785854974.22522,
+    "ast_hash": "b1675d7ffca5004951e8fd50e1071586",
+    "semantic_hash": "b1675d7ffca5004951e8fd50e1071586"
+  },
+  ".agents/skills/qa/SKILL.md": {
+    "mtime": 1785990955.4762063,
+    "ast_hash": "8a5c56ba5dd4448fa475fae0c250f448",
+    "semantic_hash": "8a5c56ba5dd4448fa475fae0c250f448"
+  },
+  ".agents/skills/qa/references/code-review-patterns.md": {
+    "mtime": 1785853164.3626034,
+    "ast_hash": "f80d5b575f82847f1d27c460a6fada59",
+    "semantic_hash": "f80d5b575f82847f1d27c460a6fada59"
+  },
+  ".agents/skills/qa/references/js-at-scale-qa.md": {
+    "mtime": 1785907556.3345602,
+    "ast_hash": "169a098f2e08e8591301f61bc46bae78",
+    "semantic_hash": "169a098f2e08e8591301f61bc46bae78"
+  },
+  ".agents/skills/qa/references/security-checklist.md": {
+    "mtime": 1785853227.3417785,
+    "ast_hash": "018deb7b2ef6ef9dce72ea126efca1a7",
+    "semantic_hash": "018deb7b2ef6ef9dce72ea126efca1a7"
+  },
+  ".agents/skills/qa/references/testing-guide.md": {
+    "mtime": 1785853213.1429377,
+    "ast_hash": "2e40c0e00cee8f614c906bea04713c80",
+    "semantic_hash": "2e40c0e00cee8f614c906bea04713c80"
+  },
+  ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  ".agents/skills/backend/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  ".agents/skills/frontend/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  ".agents/skills/frontend/references/ui-ux-pro-max-guide.md": {
+    "mtime": 1786071156.0895045,
+    "ast_hash": "77c726e1aecaf56135b510d29a4ca64a",
+    "semantic_hash": "77c726e1aecaf56135b510d29a4ca64a"
+  },
+  ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  ".agents/skills/pm/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  ".agents/skills/qa/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  ".agents/skills/backend/references/safe-logic-flow-guide.md": {
+    "mtime": 1786072618.122926,
+    "ast_hash": "b2f8455e192c8e1081ed3df2948283b4",
+    "semantic_hash": "b2f8455e192c8e1081ed3df2948283b4"
+  },
+  ".agents/skills/frontend/references/safe-logic-flow-guide.md": {
+    "mtime": 1786072623.508635,
+    "ast_hash": "b2f8455e192c8e1081ed3df2948283b4",
+    "semantic_hash": "b2f8455e192c8e1081ed3df2948283b4"
+  }
+}

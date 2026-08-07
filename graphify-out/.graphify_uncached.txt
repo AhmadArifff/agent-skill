@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\backend\SKILL.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\backend\references\dynamic-masterdata-and-flow-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\backend\references\routing-and-maps-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\frontend\SKILL.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\frontend\references\dynamic-masterdata-and-flow-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\frontend\references\js-at-scale-frontend.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\frontend\references\routing-and-maps-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\frontend\references\ui-ux-pro-max-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\pm\SKILL.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\pm\references\dynamic-masterdata-and-flow-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\pm\references\prd-template.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\pm\references\routing-and-maps-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\qa\SKILL.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\qa\references\dynamic-masterdata-and-flow-guide.md
+C:\Users\ASUS\Documents\Web Dev\skill\.agents\skills\qa\references\routing-and-maps-guide.md
