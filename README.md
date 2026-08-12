@@ -34,6 +34,7 @@ All skills are configured to work seamlessly together under this unified tech st
 - 🗺️ **Maps & Routing**: Google Maps Platform / Mapbox GL JS / OSRM + Leaflet / MapLibre
 - 🌿 **Git Workflow**: GitHub with `dev` branch (Development) & `main` branch (Production Release)
 - 🚀 **Deployment**: Vercel
+- 📐 **Prompting Framework**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate)
 
 ---
 
