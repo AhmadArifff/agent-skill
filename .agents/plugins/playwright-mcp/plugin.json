@@ -1,0 +1,4 @@
+{
+  "name": "playwright-mcp",
+  "description": "Playwright MCP plugin for browser automation, enabling LLMs to interact with web pages through structured accessibility snapshots."
+}
