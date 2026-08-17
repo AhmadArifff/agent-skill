@@ -50,6 +50,7 @@ Saat menyusun PRD, Arsitektur Aplikasi, dan Feature Breakdown, PM WAJIB mengacu 
 - 🗺️ **Maps, Routing & Location**: Evaluasi Provider (Google Maps vs Mapbox vs OSRM + Leaflet/MapLibre) di PRD. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data & Flow Design**: Arsitektur data master dinamis & alur terikat tanpa misconception. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
 - 📐 **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
+- 📦 **Monorepo & PWA Product Guide**: Standar penyusunan PRD, Arsitektur Monorepo (Turborepo), dan Frontend PWA. Lihat `references/monorepo-product-guide.md`.
 
 ---
 

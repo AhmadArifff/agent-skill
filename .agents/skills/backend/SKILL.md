@@ -48,6 +48,7 @@ Setiap pengembangan Backend WAJIB mengacu pada stack standar berikut:
 - 🗺️ **Maps & Routing Services**: Route API Proxy (sembunyikan API Key) atau Self-hosted OSRM Engine. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data Schema & APIs**: Tabel dinamis & CRUD Admin API untuk data master. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
 - 📐 **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
+- ⏱️ **Supabase CronJob & Auth Guide**: Panduan implementasi cron job keep-alive dan keamanan data Supabase. Lihat `references/supabase-cronjob-guide.md`.
 
 ---
 
