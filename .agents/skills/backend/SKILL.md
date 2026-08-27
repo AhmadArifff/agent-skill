@@ -48,6 +48,7 @@ Setiap pengembangan Backend WAJIB mengacu pada stack standar berikut:
 - 🎬 **Motion Design**: Gunakan panduan LottieFiles motion design skill untuk keselarasan endpoint & state UI animation (loading, success, error feedback) dengan frontend.
 - 🧊 **Three.js / 3D Asset Management**: Gunakan skill threejs-* (misal: @threejs-loaders, @threejs-geometry) jika backend bertugas memproses, memvalidasi, atau menyimpan aset 3D (GLTF/GLB) untuk di-serve ke frontend.
 - 🎨 **Design DNA**: Gunakan skill @design-dna jika perlu mendesain database atau skema API untuk menyimpan konfigurasi tema/design tokens secara dinamis.
+- 🎭 **Creative Code Sync**: Jika berinteraksi dengan antarmuka yang di-generate via @paint atau @cast (Genjutsu), pastikan payload API dioptimalkan agar tidak memblokir main thread UI selama animasi kompleks berlangsung.
 - 🛡️ **Safe Logic Flow & Error Handling Guide**: Guard Clause, Result Pattern, Custom Exception, Global Error Handler & Structured Logging. Lihat `references/safe-logic-flow-guide.md`.
 - 🗺️ **Maps & Routing Services**: Route API Proxy (sembunyikan API Key) atau Self-hosted OSRM Engine. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data Schema & APIs**: Tabel dinamis & CRUD Admin API untuk data master. Lihat `references/dynamic-masterdata-and-flow-guide.md`.

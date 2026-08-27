@@ -44,6 +44,7 @@ Saat menyusun PRD, Arsitektur Aplikasi, dan Feature Breakdown, PM WAJIB mengacu 
   - **Motion Design**: Gunakan LottieFiles motion design skill untuk timing, choreography, dan state feedback.
   - **Three.js / 3D Experiences**: Gunakan skill threejs-* (misal: @threejs-fundamentals) untuk merancang kebutuhan teknis visualisasi 3D.
   - **Design DNA**: Gunakan skill @design-dna untuk mengekstrak spesifikasi visual produk (Design Tokens & Style) dari referensi desain atau screenshot sebelum diserahkan ke tim frontend.
+  - **Genjutsu (Creative Coding)**: Gunakan skill @paint untuk mendefinisikan visual universe dan design system dari awal, atau @cast untuk merancang *interaction thesis* pada fitur interaktif yang spesifik.
 - âš™ï¸ **Backend**: Express JS (Node.js / TypeScript)
 - ðŸ—„ï¸ **Database & Storage**: Supabase PostgreSQL + Supabase Bucket Storage
 - ðŸ› ï¸ **ORM**: Prisma ORM (`prisma/schema.prisma`)
