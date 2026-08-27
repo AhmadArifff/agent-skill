@@ -16,7 +16,7 @@ This repository contains production-grade AI Agent Skills designed for autonomou
 | 📋 [**PM (Product Manager)**](./skills/pm) | Product Requirements & Architecture | • **Documentation Only (No Code Writing)**<br>• PRD Creation & Feature Breakdown (MoSCoW)<br>• Mandatory Admin/App Auth Planning<br>• Early QA Shift-Left Alignment<br>• Dynamic Master Data & Unambiguous Flow Design |
 | ⚙️ [**Backend Engineer**](./skills/backend) | Server, API & Database | • **Express JS + Prisma ORM + Supabase DB & Storage**<br>• Better Auth + JWT Token Rotation & RBAC<br>• Centralized Global Error Handler & Custom Exceptions<br>• Safe Logic Flow (Guard Clause & Result Pattern)<br>• Route Proxy API for Maps (Google/Mapbox/OSRM) |
 | 🎨 [**Frontend Engineer**](./skills/frontend) | UI/UX & Client Applications | • **Next.js + PWA + Tailwind CSS + Zustand**<br>• **UI/UX Pro Max Design Intelligence** (50+ styles, 97 palettes, 57 font pairings)<br>• Component Setup: Shadcn UI + Untitled UI + Animate UI<br>• Animations: Framer Motion + AnimeJS<br>• **Device Priority**: 📱 Mobile (HP) & Tablet/iPad → 💻 Desktop<br>• Protected Routes & Admin Auth Guard |
-| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• Zero Hardcode Master Data Audit<br>• Data Misconception & Edge Case Testing<br>• Security Audit (OWASP, Auth, RBAC, IDOR, API Key leaks)<br>• Unit & E2E Testing (Vitest, Playwright) |
+| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• Zero Hardcode Master Data Audit<br>• Data Misconception & Edge Case Testing<br>• Security Audit (OWASP, Auth, RBAC, IDOR, API Key leaks)<br>• Unit & E2E Testing (Vitest, Playwright Automation) |
 | 🌐 [**Graphify**](./skills/graphify) | Knowledge Graph & Codebase Mapping | • Persistent Codebase Knowledge Graph<br>• God Nodes & Community Detection<br>• Query, Path Extraction & Codebase Explanations |
 
 ---
@@ -27,10 +27,11 @@ This ecosystem is enhanced with specialized external skills sourced from GitHub 
 
 | External Skill | Source / Package | Purpose / Capabilities |
 |---|---|---|
-| 🎬 **Motion Design** | `LottieFiles/motion-design-skill` | Standardizes easing curves, choreography, motion layers, and UI feedback states. |
-| 🧊 **Three.js Skills** | `pinkforest/threejs-playground` | 10 specialized skills (`threejs-fundamentals`, `threejs-geometry`, `threejs-materials`, `threejs-lighting`, `threejs-textures`, `threejs-animation`, `threejs-loaders`, `threejs-shaders`, `threejs-postprocessing`, `threejs-interaction`) for 3D/WebGL rendering, asset pipelines, and performance audits. |
-| 🧬 **Design DNA** | `zanwei/design-dna` | Extracts, structures, and enforces visual design identity (Design Tokens JSON, qualitative style, effects) from reference screenshots/URLs. |
-| 🎭 **Genjutsu** | `AThevon/genjutsu` | Creative coding suite featuring `/cast` (The Illusionist) for micro-interactions & motion and `/paint` (The Master Painter) for bootstrapping entire visual universes + audits. |
+| 🎭 [**Playwright Skill**](./skills/playwright-skill) | `lackeyjb/playwright-skill` | General-purpose browser automation, visual testing, responsive screenshots, multi-step flow execution, and dev-server auto-detection. |
+| 🎬 [**Motion Design**](./skills/motion-design-skill) | `LottieFiles/motion-design-skill` | Standardizes easing curves, choreography, motion layers, and UI feedback states. |
+| 🧊 [**Three.js Skills**](./skills/threejs-fundamentals) | `pinkforest/threejs-playground` | 10 specialized skills (`threejs-fundamentals`, `threejs-geometry`, `threejs-materials`, `threejs-lighting`, `threejs-textures`, `threejs-animation`, `threejs-loaders`, `threejs-shaders`, `threejs-postprocessing`, `threejs-interaction`) for 3D/WebGL rendering, asset pipelines, and performance audits. |
+| 🧬 [**Design DNA**](./skills/design-dna) | `zanwei/design-dna` | Extracts, structures, and enforces visual design identity (Design Tokens JSON, qualitative style, effects) from reference screenshots/URLs. |
+| 🎭 [**Genjutsu**](./skills/cast) | `AThevon/genjutsu` | Creative coding suite featuring `/cast` (The Illusionist) for micro-interactions & motion and `/paint` (The Master Painter) for bootstrapping entire visual universes + audits. |
 
 ---
 
@@ -47,6 +48,9 @@ flowchart TD
     
     C -->|Client Implementation| F[QA Agent: /qa]
     D -->|Endpoints & Security| F
+    
+    F -->|Automated E2E Tests| P[Playwright: /playwright-skill]
+    P -->|Reports & Screenshots| F
     
     F -->|Quality Gate / Test Audit| G[Production Release 🚀]
     
@@ -68,6 +72,7 @@ All skills are configured to work seamlessly together under this unified tech st
 - 🗄️ **Database & Storage**: Supabase PostgreSQL + Supabase Bucket Storage
 - 🛠️ **ORM**: Prisma ORM (`prisma/schema.prisma`)
 - 🔐 **Auth & Security**: Better Auth + JWT Token (Access/Refresh Token Rotation)
+- 🧪 **Testing & Automation**: Vitest (Unit) + Playwright (`/playwright-skill` E2E)
 - 🗺️ **Maps & Routing**: Google Maps Platform / Mapbox GL JS / OSRM + Leaflet / MapLibre
 - 🌿 **Git Workflow**: GitHub with `dev` branch (Development) & `main` branch (Production Release)
 - 🚀 **Deployment**: Vercel
@@ -87,6 +92,7 @@ agent-skill/
 │   ├── frontend/                # Frontend Engineer & UI/UX Pro Max Skill
 │   ├── qa/                      # Quality Assurance Skill & Reference Guides
 │   ├── graphify/                # Graphify Skill & Knowledge Graph Spec
+│   ├── playwright-skill/        # Playwright Browser Automation Skill
 │   ├── motion-design-skill/     # Motion Design Skill (LottieFiles)
 │   ├── design-dna/              # Design DNA Extraction & Generation Skill
 │   ├── cast/                    # Genjutsu: The Illusionist (/cast)
@@ -100,6 +106,7 @@ agent-skill/
         ├── frontend/
         ├── qa/
         ├── graphify/
+        ├── playwright-skill/
         ├── motion-design-skill/
         ├── design-dna/
         ├── cast/

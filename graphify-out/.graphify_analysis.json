@@ -331,33 +331,59 @@
       ".agents/skills/pm/references/js-at-scale-pm.md#testing"
     ],
     "10": [
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_ansi_ljust",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_detect_page_type",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_ascii_box",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_markdown",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_master_md",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_page_override_md",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_design_system",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_hex_to_ansi",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_persist_design_system",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1110",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1219",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1325",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_337",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_351",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_359",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_366",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_529",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_672",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_711",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_723",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_793",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_safe_slug",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_section_header"
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_ansi_ljust",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_hex_to_ansi",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1110",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1219",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1325",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_337",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_351",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_359",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_366",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_529",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_672",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_711",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_723",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_793",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_safe_slug",
+      "skills_jutsu_ui_ux_pro_max_scripts_design_system_section_header"
     ],
     "11": [
+      ".agents/skills/backend/references/database-patterns.md",
+      ".agents/skills/backend/references/js-at-scale-backend.md",
+      ".agents/skills/pm/references/js-at-scale-pm.md",
+      ".agents/skills/qa/references/js-at-scale-qa.md",
+      ".agents/skills/qa/references/js-at-scale-qa.md#github-workflows-ciyml",
+      ".agents/skills/qa/references/js-at-scale-qa.md#husky-pre-commit",
+      ".agents/skills/qa/references/js-at-scale-qa.md#knip-\u2014-find-unused-exports,-files,-and-dependencies",
+      ".agents/skills/qa/references/js-at-scale-qa.md#moment-(packagejson)",
+      ".agents/skills/qa/references/js-at-scale-qa.md#output:",
+      ".agents/skills/qa/references/js-at-scale-qa.md#src-components-buttontsx:-buttonvariant",
+      ".agents/skills/qa/references/js-at-scale-qa.md#src-hooks-useoldhookts:-useoldhook-(default)",
+      ".agents/skills/qa/references/js-at-scale-qa.md#src-services-userservicets:-formatusername",
+      ".agents/skills/qa/references/js-at-scale-qa.md#src-utils-deprecated-helperts",
+      ".agents/skills/qa/references/js-at-scale-qa.md#unused-dependencies-(2):",
+      ".agents/skills/qa/references/js-at-scale-qa.md#unused-exports-(3):",
+      ".agents/skills/qa/references/js-at-scale-qa.md#unused-files-(1):",
+      "concept:eslint",
+      "concept:express",
+      "concept:jest",
+      "concept:pino",
+      "concept:postgresql",
+      "concept:prettier",
+      "concept:supertest",
+      "concept:vitest"
+    ],
+    "12": [
       ".agents/skills/backend/references/database-patterns.md#common-anti-patterns",
       ".agents/skills/backend/references/database-patterns.md#composite-index-order",
       ".agents/skills/backend/references/database-patterns.md#configuration-guide",
@@ -382,7 +408,7 @@
       ".agents/skills/backend/references/database-patterns.md#when-to-denormalize",
       ".agents/skills/backend/references/database-patterns.md#zero-downtime-migration-strategy"
     ],
-    "12": [
+    "13": [
       ".agents/skills/frontend/references/component-patterns.md",
       ".agents/skills/frontend/references/component-patterns.md#atomic-design-methodology",
       ".agents/skills/frontend/references/component-patterns.md#bem-naming-convention",
@@ -407,7 +433,7 @@
       ".agents/skills/frontend/references/component-patterns.md#styling-strategy-comparison",
       ".agents/skills/frontend/references/component-patterns.md#toast---notification"
     ],
-    "13": [
+    "14": [
       ".agents/skills/pm/references/feature-breakdown-guide.md",
       ".agents/skills/pm/references/feature-breakdown-guide.md#decomposition-rules",
       ".agents/skills/pm/references/feature-breakdown-guide.md#dependency-mapping",
@@ -432,7 +458,7 @@
       ".agents/skills/pm/references/feature-breakdown-guide.md#user-story-mapping",
       "concept:rice-score"
     ],
-    "14": [
+    "15": [
       ".agents/skills/pm/references/methodology-guide.md",
       ".agents/skills/pm/references/methodology-guide.md#agenda",
       ".agents/skills/pm/references/methodology-guide.md#artifacts",
@@ -456,7 +482,7 @@
       ".agents/skills/pm/references/methodology-guide.md#when",
       ".agents/skills/pm/references/methodology-guide.md#wip-limits"
     ],
-    "15": [
+    "16": [
       ".agents/skills/qa/references/security-checklist.md",
       ".agents/skills/qa/references/security-checklist.md#a01:2021-\u2014-broken-access-control",
       ".agents/skills/qa/references/security-checklist.md#a02:2021-\u2014-cryptographic-failures",
@@ -480,7 +506,7 @@
       ".agents/skills/qa/references/security-checklist.md#security-review-checklist",
       ".agents/skills/qa/references/security-checklist.md#sql-injection-vectors"
     ],
-    "16": [
+    "17": [
       "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
@@ -504,7 +530,7 @@
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testreasoningmatch_test_known_category_matches_exactly",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testreasoningmatch_test_unknown_category_falls_back_gracefully"
     ],
-    "17": [
+    "18": [
       "skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
       "skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
       "skills_jutsu_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
@@ -528,7 +554,7 @@
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testreasoningmatch_test_known_category_matches_exactly",
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testreasoningmatch_test_unknown_category_falls_back_gracefully"
     ],
-    "18": [
+    "19": [
       ".agents/skills/pm/references/js-at-scale-pm.md#32-estimation-guidelines-untuk-javascript",
       ".agents/skills/pm/references/js-at-scale-pm.md#33-prioritization-dengan-rice-score",
       ".agents/skills/pm/references/js-at-scale-pm.md#4-roadmap-&-timeline-untuk-proyek-javascript-besar",
@@ -551,7 +577,30 @@
       ".agents/skills/pm/references/js-at-scale-pm.md#us-2:-checkout-flow-(13-sp)",
       ".agents/skills/pm/references/js-at-scale-pm.md#user-stories:"
     ],
-    "19": [
+    "20": [
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_ansi_ljust",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_hex_to_ansi",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1110",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1219",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1325",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_337",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_351",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_359",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_366",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_711",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_723",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_793",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_safe_slug",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_section_header"
+    ],
+    "21": [
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_bm25",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_bm25_fit",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_bm25_init",
@@ -572,7 +621,7 @@
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testtokenizer_test_stopwords_removed",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testtokenizer_test_synonym_normalization"
     ],
-    "20": [
+    "22": [
       "agents_skills_qa_skill",
       "agents_skills_qa_skill_1_code_review",
       "agents_skills_qa_skill_2_testing_strategy",
@@ -592,7 +641,7 @@
       "agents_skills_qa_skill_recommendations",
       "agents_skills_qa_skill_standard_tech_stack_audit_guidelines"
     ],
-    "21": [
+    "23": [
       ".agents/skills/backend/references/js-at-scale-backend.md#1-pemilihan-teknologi-&-arsitektur-dasar",
       ".agents/skills/backend/references/js-at-scale-backend.md#11-gunakan-typescript",
       ".agents/skills/backend/references/js-at-scale-backend.md#12-framework-backend-modern",
@@ -611,7 +660,7 @@
       ".agents/skills/backend/references/js-at-scale-backend.md#35-horizontal-scaling-dengan-pm2-docker",
       ".agents/skills/backend/references/js-at-scale-backend.md#javascript-backend-at-scale-\u2014-architecture,-maintenance,-scalability-&-performance"
     ],
-    "22": [
+    "24": [
       "skills_jutsu_ui_ux_pro_max_scripts_core_bm25",
       "skills_jutsu_ui_ux_pro_max_scripts_core_bm25_fit",
       "skills_jutsu_ui_ux_pro_max_scripts_core_bm25_init",
@@ -630,7 +679,7 @@
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testtokenizer_test_stopwords_removed",
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testtokenizer_test_synonym_normalization"
     ],
-    "23": [
+    "25": [
       ".agents/skills/frontend/references/accessibility-checklist.md",
       ".agents/skills/frontend/references/accessibility-checklist.md#1-perceivable-\u2014-can-users-perceive-the-content?",
       ".agents/skills/frontend/references/accessibility-checklist.md#2-operable-\u2014-can-users-operate-the-interface?",
@@ -648,7 +697,7 @@
       ".agents/skills/frontend/references/accessibility-checklist.md#the-5-minute-check",
       ".agents/skills/frontend/references/accessibility-checklist.md#wcag-21-aa-checklist-by-principle"
     ],
-    "24": [
+    "26": [
       ".agents/skills/backend/references/js-at-scale-backend.md#4-optimasi-performa-(performance-optimization)",
       ".agents/skills/backend/references/js-at-scale-backend.md#41-database-query-optimization",
       ".agents/skills/backend/references/js-at-scale-backend.md#42-response-compression-&-streaming",
@@ -665,7 +714,7 @@
       ".agents/skills/backend/references/js-at-scale-backend.md#performance-checklist",
       ".agents/skills/backend/references/js-at-scale-backend.md#scalability-checklist"
     ],
-    "25": [
+    "27": [
       ".agents/skills/qa/references/code-review-patterns.md",
       ".agents/skills/qa/references/code-review-patterns.md#anti-patterns-to-flag",
       ".agents/skills/qa/references/code-review-patterns.md#architecture-level",
@@ -682,7 +731,7 @@
       ".agents/skills/qa/references/code-review-patterns.md#positive-patterns-to-acknowledge",
       ".agents/skills/qa/references/code-review-patterns.md#solid-principles"
     ],
-    "26": [
+    "28": [
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_domain_keywords",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_get_bm25",
@@ -699,24 +748,41 @@
       "agents_skills_jutsu_ui_ux_pro_max_scripts_search_rationale_45",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_every_stack_file_exists_and_is_searchable"
     ],
-    "27": [
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_ansi_ljust",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_detect_page_type",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_ascii_box",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_page_override_md",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_hex_to_ansi",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1110",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1219",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_1325",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_337",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_351",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_359",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_366",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_section_header"
+    "29": [
+      "agents_skills_playwright_skill_package",
+      "agents_skills_playwright_skill_package_author",
+      "agents_skills_playwright_skill_package_dependencies",
+      "agents_skills_playwright_skill_package_dependencies_playwright",
+      "agents_skills_playwright_skill_package_description",
+      "agents_skills_playwright_skill_package_engines",
+      "agents_skills_playwright_skill_package_engines_node",
+      "agents_skills_playwright_skill_package_license",
+      "agents_skills_playwright_skill_package_main",
+      "agents_skills_playwright_skill_package_name",
+      "agents_skills_playwright_skill_package_scripts",
+      "agents_skills_playwright_skill_package_scripts_install_all_browsers",
+      "agents_skills_playwright_skill_package_scripts_setup",
+      "agents_skills_playwright_skill_package_scripts_test",
+      "agents_skills_playwright_skill_package_version"
     ],
-    "28": [
+    "30": [
+      "skills_playwright_skill_package",
+      "skills_playwright_skill_package_author",
+      "skills_playwright_skill_package_dependencies",
+      "skills_playwright_skill_package_dependencies_playwright",
+      "skills_playwright_skill_package_description",
+      "skills_playwright_skill_package_engines",
+      "skills_playwright_skill_package_engines_node",
+      "skills_playwright_skill_package_license",
+      "skills_playwright_skill_package_main",
+      "skills_playwright_skill_package_name",
+      "skills_playwright_skill_package_scripts",
+      "skills_playwright_skill_package_scripts_install_all_browsers",
+      "skills_playwright_skill_package_scripts_setup",
+      "skills_playwright_skill_package_scripts_test",
+      "skills_playwright_skill_package_version"
+    ],
+    "31": [
       ".agents/skills/frontend/references/ui-design-system.md",
       ".agents/skills/frontend/references/ui-design-system.md#animation-&-transition-tokens",
       ".agents/skills/frontend/references/ui-design-system.md#color-system",
@@ -732,7 +798,7 @@
       ".agents/skills/frontend/references/ui-design-system.md#typography-scale",
       ".agents/skills/frontend/references/ui-design-system.md#ui-design-system-\u2014-tokens-&-visual-guide"
     ],
-    "29": [
+    "32": [
       "skills_jutsu_ui_ux_pro_max_scripts_core",
       "skills_jutsu_ui_ux_pro_max_scripts_core_domain_keywords",
       "skills_jutsu_ui_ux_pro_max_scripts_core_get_bm25",
@@ -748,38 +814,7 @@
       "skills_jutsu_ui_ux_pro_max_scripts_core_suggest_terms",
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_every_stack_file_exists_and_is_searchable"
     ],
-    "30": [
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_markdown",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_format_master_md",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_design_system",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_persist_design_system",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_529",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_672",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_711",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_723",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_793",
-      "skills_jutsu_ui_ux_pro_max_scripts_design_system_safe_slug",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_then_skip_then_force",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_writes_only_under_output_dir"
-    ],
-    "31": [
-      ".agents/skills/qa/references/js-at-scale-qa.md",
-      ".agents/skills/qa/references/js-at-scale-qa.md#github-workflows-ciyml",
-      ".agents/skills/qa/references/js-at-scale-qa.md#husky-pre-commit",
-      ".agents/skills/qa/references/js-at-scale-qa.md#knip-\u2014-find-unused-exports,-files,-and-dependencies",
-      ".agents/skills/qa/references/js-at-scale-qa.md#moment-(packagejson)",
-      ".agents/skills/qa/references/js-at-scale-qa.md#output:",
-      ".agents/skills/qa/references/js-at-scale-qa.md#src-components-buttontsx:-buttonvariant",
-      ".agents/skills/qa/references/js-at-scale-qa.md#src-hooks-useoldhookts:-useoldhook-(default)",
-      ".agents/skills/qa/references/js-at-scale-qa.md#src-services-userservicets:-formatusername",
-      ".agents/skills/qa/references/js-at-scale-qa.md#src-utils-deprecated-helperts",
-      ".agents/skills/qa/references/js-at-scale-qa.md#unused-dependencies-(2):",
-      ".agents/skills/qa/references/js-at-scale-qa.md#unused-exports-(3):",
-      ".agents/skills/qa/references/js-at-scale-qa.md#unused-files-(1):"
-    ],
-    "32": [
+    "33": [
       "agents_skills_backend_references_dynamic_masterdata_and_flow_guide",
       "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data",
       "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps",
@@ -794,7 +829,7 @@
       "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_role_qa_qa",
       "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     ],
-    "33": [
+    "34": [
       "agents_skills_backend_references_routing_and_maps_guide",
       "agents_skills_backend_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute",
       "agents_skills_backend_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama",
@@ -809,7 +844,7 @@
       "agents_skills_backend_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox",
       "agents_skills_backend_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     ],
-    "34": [
+    "35": [
       "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide",
       "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data",
       "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps",
@@ -824,7 +859,7 @@
       "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_role_qa_qa",
       "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     ],
-    "35": [
+    "36": [
       "agents_skills_frontend_references_routing_and_maps_guide",
       "agents_skills_frontend_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute",
       "agents_skills_frontend_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama",
@@ -839,7 +874,7 @@
       "agents_skills_frontend_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox",
       "agents_skills_frontend_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     ],
-    "36": [
+    "37": [
       "agents_skills_pm_references_dynamic_masterdata_and_flow_guide",
       "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data",
       "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps",
@@ -854,7 +889,7 @@
       "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_role_qa_qa",
       "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     ],
-    "37": [
+    "38": [
       "agents_skills_pm_references_routing_and_maps_guide",
       "agents_skills_pm_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute",
       "agents_skills_pm_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama",
@@ -869,7 +904,7 @@
       "agents_skills_pm_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox",
       "agents_skills_pm_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     ],
-    "38": [
+    "39": [
       "agents_skills_qa_references_dynamic_masterdata_and_flow_guide",
       "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data",
       "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps",
@@ -884,7 +919,7 @@
       "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_role_qa_qa",
       "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     ],
-    "39": [
+    "40": [
       "agents_skills_qa_references_routing_and_maps_guide",
       "agents_skills_qa_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute",
       "agents_skills_qa_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama",
@@ -899,7 +934,35 @@
       "agents_skills_qa_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox",
       "agents_skills_qa_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     ],
-    "40": [
+    "41": [
+      "agents_skills_playwright_skill_lib_helpers",
+      "agents_skills_playwright_skill_lib_helpers_chromium_firefox_webkit",
+      "agents_skills_playwright_skill_lib_helpers_createcontext",
+      "agents_skills_playwright_skill_lib_helpers_detectdevservers",
+      "agents_skills_playwright_skill_lib_helpers_fs",
+      "agents_skills_playwright_skill_lib_helpers_getextraheadersfromenv",
+      "agents_skills_playwright_skill_lib_helpers_handlecookiebanner",
+      "agents_skills_playwright_skill_lib_helpers_http",
+      "agents_skills_playwright_skill_lib_helpers_launchbrowser",
+      "agents_skills_playwright_skill_lib_helpers_os",
+      "agents_skills_playwright_skill_lib_helpers_path",
+      "agents_skills_playwright_skill_lib_helpers_takescreenshot"
+    ],
+    "42": [
+      "skills_playwright_skill_lib_helpers",
+      "skills_playwright_skill_lib_helpers_chromium_firefox_webkit",
+      "skills_playwright_skill_lib_helpers_createcontext",
+      "skills_playwright_skill_lib_helpers_detectdevservers",
+      "skills_playwright_skill_lib_helpers_fs",
+      "skills_playwright_skill_lib_helpers_getextraheadersfromenv",
+      "skills_playwright_skill_lib_helpers_handlecookiebanner",
+      "skills_playwright_skill_lib_helpers_http",
+      "skills_playwright_skill_lib_helpers_launchbrowser",
+      "skills_playwright_skill_lib_helpers_os",
+      "skills_playwright_skill_lib_helpers_path",
+      "skills_playwright_skill_lib_helpers_takescreenshot"
+    ],
+    "43": [
       "agents_skills_frontend_skill",
       "agents_skills_frontend_skill_core_principles",
       "agents_skills_frontend_skill_detail_5_pola_utama",
@@ -912,20 +975,20 @@
       "agents_skills_frontend_skill_standard_tech_stack_setup_guidelines",
       "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework"
     ],
-    "41": [
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_core_detect_domain",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_core_rationale_378",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_accessibility_keywords_route_to_ux",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_ambiguous_query_returns_runner_up",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_empty_query_falls_back_to_style",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_style_keywords_route_to_style",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_then_skip_then_force",
-      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_writes_only_under_output_dir"
+    "44": [
+      "skills_jutsu_ui_ux_pro_max_scripts_core_detect_domain",
+      "skills_jutsu_ui_ux_pro_max_scripts_core_rationale_378",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_accessibility_keywords_route_to_ux",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_ambiguous_query_returns_runner_up",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_empty_query_falls_back_to_style",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_style_keywords_route_to_style",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_then_skip_then_force",
+      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_writes_only_under_output_dir"
     ],
-    "42": [
+    "45": [
       "skills_jutsu_ui_ux_pro_max_scripts_core_rationale_412",
       "skills_jutsu_ui_ux_pro_max_scripts_core_search",
       "skills_jutsu_ui_ux_pro_max_scripts_search",
@@ -938,19 +1001,7 @@
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_ui_is_searchable_in_style_domain",
       "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_zero_result_query_reports_suggestions_not_error"
     ],
-    "43": [
-      ".agents/skills/backend/references/js-at-scale-backend.md",
-      ".agents/skills/pm/references/js-at-scale-pm.md",
-      "concept:eslint",
-      "concept:express",
-      "concept:jest",
-      "concept:pino",
-      "concept:playwright",
-      "concept:prettier",
-      "concept:supertest",
-      "concept:vitest"
-    ],
-    "44": [
+    "46": [
       ".agents/skills/qa/references/js-at-scale-qa.md#1-strategi-testing-untuk-proyek-besar",
       ".agents/skills/qa/references/js-at-scale-qa.md#11-test-pyramid-untuk-javascript",
       ".agents/skills/qa/references/js-at-scale-qa.md#12-framework-testing-rekomendasi",
@@ -962,7 +1013,29 @@
       ".agents/skills/qa/references/js-at-scale-qa.md#23-pre-commit-hooks",
       ".agents/skills/qa/references/js-at-scale-qa.md#javascript-qa-at-scale-\u2014-testing,-quality-gates-&-monitoring"
     ],
-    "45": [
+    "47": [
+      "agents_skills_playwright_skill_run",
+      "agents_skills_playwright_skill_run_args",
+      "agents_skills_playwright_skill_run_ensureplaywright",
+      "agents_skills_playwright_skill_run_fs",
+      "agents_skills_playwright_skill_run_nodemodules",
+      "agents_skills_playwright_skill_run_path",
+      "agents_skills_playwright_skill_run_run",
+      "agents_skills_playwright_skill_run_savescript",
+      "agents_skills_playwright_skill_run_spawn"
+    ],
+    "48": [
+      "skills_playwright_skill_run",
+      "skills_playwright_skill_run_args",
+      "skills_playwright_skill_run_ensureplaywright",
+      "skills_playwright_skill_run_fs",
+      "skills_playwright_skill_run_nodemodules",
+      "skills_playwright_skill_run_path",
+      "skills_playwright_skill_run_run",
+      "skills_playwright_skill_run_savescript",
+      "skills_playwright_skill_run_spawn"
+    ],
+    "49": [
       "agents_skills_backend_references_safe_logic_flow_guide",
       "agents_skills_backend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
       "agents_skills_backend_references_safe_logic_flow_guide_2_result_pattern_result_object",
@@ -972,7 +1045,7 @@
       "agents_skills_backend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
       "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     ],
-    "46": [
+    "50": [
       "agents_skills_frontend_references_safe_logic_flow_guide",
       "agents_skills_frontend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
       "agents_skills_frontend_references_safe_logic_flow_guide_2_result_pattern_result_object",
@@ -982,7 +1055,7 @@
       "agents_skills_frontend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
       "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     ],
-    "47": [
+    "51": [
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_rationale_412",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_core_search",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_rationale_47",
@@ -992,7 +1065,27 @@
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_ui_is_searchable_in_style_domain",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testsearchdomains_test_zero_result_query_reports_suggestions_not_error"
     ],
-    "48": [
+    "52": [
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_529",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_design_system_rationale_672",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_then_skip_then_force",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_writes_only_under_output_dir"
+    ],
+    "53": [
+      "agents_skills_playwright_skill_package_keywords",
+      "concept:playwright",
+      "skills_playwright_skill_package_json_ref_automation",
+      "skills_playwright_skill_package_json_ref_browser_testing",
+      "skills_playwright_skill_package_json_ref_claude_skill",
+      "skills_playwright_skill_package_json_ref_general_purpose",
+      "skills_playwright_skill_package_json_ref_web_automation",
+      "skills_playwright_skill_package_keywords"
+    ],
+    "54": [
       "agents_skills_pm_references_prd_template",
       "agents_skills_pm_references_prd_template_acceptance_criteria_given_when_then",
       "agents_skills_pm_references_prd_template_full_prd_template",
@@ -1002,7 +1095,7 @@
       "agents_skills_pm_references_prd_template_problem_statement_formula",
       "agents_skills_pm_references_prd_template_user_story_formula"
     ],
-    "49": [
+    "55": [
       ".agents/skills/qa/references/js-at-scale-qa.md#3-monitoring-&-error-tracking",
       ".agents/skills/qa/references/js-at-scale-qa.md#31-error-tracking-(sentry)",
       ".agents/skills/qa/references/js-at-scale-qa.md#32-performance-monitoring",
@@ -1011,16 +1104,16 @@
       ".agents/skills/qa/references/js-at-scale-qa.md#42-dead-code-detection",
       ".agents/skills/qa/references/js-at-scale-qa.md#husky-commit-msg"
     ],
-    "50": [
-      "skills_jutsu_ui_ux_pro_max_scripts_core_detect_domain",
-      "skills_jutsu_ui_ux_pro_max_scripts_core_rationale_378",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_accessibility_keywords_route_to_ux",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_ambiguous_query_returns_runner_up",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_empty_query_falls_back_to_style",
-      "skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_style_keywords_route_to_style"
+    "56": [
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_core_detect_domain",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_core_rationale_378",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_accessibility_keywords_route_to_ux",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_ambiguous_query_returns_runner_up",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_empty_query_falls_back_to_style",
+      "agents_skills_jutsu_ui_ux_pro_max_scripts_tests_test_core_testdomaindetection_test_style_keywords_route_to_style"
     ],
-    "51": [
+    "57": [
       ".agents/skills/qa/references/js-at-scale-qa.md#5-checklist:-qa-untuk-javascript-at-scale",
       ".agents/skills/qa/references/js-at-scale-qa.md#ci-cd-checklist",
       ".agents/skills/qa/references/js-at-scale-qa.md#lodash-(packagejson)",
@@ -1028,99 +1121,95 @@
       ".agents/skills/qa/references/js-at-scale-qa.md#quality-gates-checklist",
       ".agents/skills/qa/references/js-at-scale-qa.md#testing-checklist"
     ],
-    "52": [
+    "58": [
       ".agents/skills/pm/references/js-at-scale-pm.md#1-pemilihan-teknologi-&-arsitektur-\u2014-pm-perspective",
       ".agents/skills/pm/references/js-at-scale-pm.md#11-technology-decision-framework",
       ".agents/skills/pm/references/js-at-scale-pm.md#12-architecture-decision-records-(adr)",
       ".agents/skills/pm/references/js-at-scale-pm.md#javascript-project-management-at-scale-\u2014-methodology,-architecture-&-team-scaling"
     ],
-    "53": [
+    "59": [
       "agents_skills_jutsu_ui_ux_pro_max_scripts_validate_data",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_validate_data_check_file",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_validate_data_main",
       "agents_skills_jutsu_ui_ux_pro_max_scripts_validate_data_read_rows"
     ],
-    "54": [
+    "60": [
       "skills_jutsu_ui_ux_pro_max_scripts_validate_data",
       "skills_jutsu_ui_ux_pro_max_scripts_validate_data_check_file",
       "skills_jutsu_ui_ux_pro_max_scripts_validate_data_main",
       "skills_jutsu_ui_ux_pro_max_scripts_validate_data_read_rows"
     ],
-    "55": [
-      ".agents/skills/backend/references/database-patterns.md",
-      "concept:postgresql"
-    ],
-    "56": [
+    "61": [
       "_agents_skills_backend_skill_backend_skill",
       "readme_agent_skill_repository"
     ],
-    "57": [
+    "62": [
       "skills_graphify_references_hooks_hooks"
     ],
-    "58": [
+    "63": [
       "skills_graphify_references_query_query"
     ],
-    "59": [
+    "64": [
       "skills_graphify_references_transcribe_transcribe"
     ],
-    "60": [
+    "65": [
       "skills_graphify_references_update_update"
     ],
-    "61": [
+    "66": [
       "skills_graphify_skill_graphify_cli"
     ],
-    "62": [
+    "67": [
       "skills_pm_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide"
     ],
-    "63": [
+    "68": [
       "skills_pm_references_feature_breakdown_guide_feature_breakdown_guide"
     ],
-    "64": [
+    "69": [
       "skills_pm_references_js_at_scale_pm_js_at_scale_pm"
     ],
-    "65": [
+    "70": [
       "skills_pm_references_methodology_guide_methodology_guide"
     ],
-    "66": [
+    "71": [
       "skills_pm_references_monorepo_product_guide_monorepo_product_guide"
     ],
-    "67": [
+    "72": [
       "skills_pm_references_prd_template_prd_template"
     ],
-    "68": [
+    "73": [
       "skills_pm_references_prompting_framework_guide_prompting_framework_guide"
     ],
-    "69": [
+    "74": [
       "skills_pm_references_roadmap_template_roadmap_template"
     ],
-    "70": [
+    "75": [
       "skills_pm_references_routing_and_maps_guide_routing_and_maps_guide"
     ],
-    "71": [
+    "76": [
       "skills_pm_skill_skill"
     ],
-    "72": [
+    "77": [
       "skills_qa_references_code_review_patterns_code_review_patterns"
     ],
-    "73": [
+    "78": [
       "skills_qa_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide"
     ],
-    "74": [
+    "79": [
       "skills_qa_references_js_at_scale_qa_js_at_scale_qa"
     ],
-    "75": [
+    "80": [
       "skills_qa_references_prompting_framework_guide_prompting_framework_guide"
     ],
-    "76": [
+    "81": [
       "skills_qa_references_routing_and_maps_guide_routing_and_maps_guide"
     ],
-    "77": [
+    "82": [
       "skills_qa_references_security_checklist_security_checklist"
     ],
-    "78": [
+    "83": [
       "skills_qa_references_testing_guide_testing_guide"
     ],
-    "79": [
+    "84": [
       "skills_qa_skill_skill"
     ]
   },
@@ -1136,28 +1225,28 @@
     "8": 0.07407407407407407,
     "9": 0.09,
     "10": 0.11666666666666667,
-    "11": 0.08695652173913043,
+    "11": 0.11956521739130435,
     "12": 0.08695652173913043,
     "13": 0.08695652173913043,
-    "14": 0.09090909090909091,
+    "14": 0.08695652173913043,
     "15": 0.09090909090909091,
-    "16": 0.12554112554112554,
+    "16": 0.09090909090909091,
     "17": 0.12554112554112554,
-    "18": 0.09523809523809523,
-    "19": 0.14035087719298245,
-    "20": 0.1111111111111111,
-    "21": 0.11764705882352941,
-    "22": 0.15441176470588236,
-    "23": 0.125,
-    "24": 0.13333333333333333,
-    "25": 0.13333333333333333,
-    "26": 0.19047619047619047,
-    "27": 0.18095238095238095,
-    "28": 0.14285714285714285,
-    "29": 0.2087912087912088,
-    "30": 0.17582417582417584,
-    "31": 0.15384615384615385,
-    "32": 0.15384615384615385,
+    "18": 0.12554112554112554,
+    "19": 0.09523809523809523,
+    "20": 0.13333333333333333,
+    "21": 0.14035087719298245,
+    "22": 0.1111111111111111,
+    "23": 0.11764705882352941,
+    "24": 0.15441176470588236,
+    "25": 0.125,
+    "26": 0.13333333333333333,
+    "27": 0.13333333333333333,
+    "28": 0.19047619047619047,
+    "29": 0.13333333333333333,
+    "30": 0.13333333333333333,
+    "31": 0.14285714285714285,
+    "32": 0.2087912087912088,
     "33": 0.15384615384615385,
     "34": 0.15384615384615385,
     "35": 0.15384615384615385,
@@ -1165,27 +1254,27 @@
     "37": 0.15384615384615385,
     "38": 0.15384615384615385,
     "39": 0.15384615384615385,
-    "40": 0.18181818181818182,
-    "41": 0.2545454545454545,
-    "42": 0.23636363636363636,
-    "43": 0.28888888888888886,
-    "44": 0.2,
-    "45": 0.25,
-    "46": 0.25,
-    "47": 0.35714285714285715,
-    "48": 0.25,
-    "49": 0.2857142857142857,
-    "50": 0.42857142857142855,
-    "51": 0.3333333333333333,
-    "52": 0.5,
-    "53": 0.8333333333333334,
-    "54": 0.8333333333333334,
-    "55": 1.0,
-    "56": 1.0,
-    "57": 1.0,
-    "58": 1.0,
-    "59": 1.0,
-    "60": 1.0,
+    "40": 0.15384615384615385,
+    "41": 0.18181818181818182,
+    "42": 0.18181818181818182,
+    "43": 0.18181818181818182,
+    "44": 0.2545454545454545,
+    "45": 0.23636363636363636,
+    "46": 0.2,
+    "47": 0.2222222222222222,
+    "48": 0.2222222222222222,
+    "49": 0.25,
+    "50": 0.25,
+    "51": 0.35714285714285715,
+    "52": 0.32142857142857145,
+    "53": 0.42857142857142855,
+    "54": 0.25,
+    "55": 0.2857142857142857,
+    "56": 0.42857142857142855,
+    "57": 0.3333333333333333,
+    "58": 0.5,
+    "59": 0.8333333333333334,
+    "60": 0.8333333333333334,
     "61": 1.0,
     "62": 1.0,
     "63": 1.0,
@@ -1204,7 +1293,12 @@
     "76": 1.0,
     "77": 1.0,
     "78": 1.0,
-    "79": 1.0
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0
   },
   "gods": [
     {
@@ -1260,59 +1354,59 @@
   ],
   "surprises": [
     {
-      "source": "Agent Skill Repository",
-      "target": "Backend Skill",
+      "source": "keywords",
+      "target": "Playwright",
       "source_files": [
-        "README.md",
-        ".agents/skills/backend/SKILL.md"
+        "skills/playwright-skill/package.json",
+        ".agents/skills/backend/references/js-at-scale-backend.md"
       ],
       "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories"
+      "relation": "extends",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories"
     },
     {
-      "source": "TestDomainDetection",
-      "target": "BM25",
+      "source": "keywords",
+      "target": "automation",
       "source_files": [
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/tests/test_core.py",
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/core.py"
+        ".agents/skills/playwright-skill/package.json",
+        "skills/playwright-skill/package.json"
       ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "why": "connects across different repos/directories; peripheral node `automation` unexpectedly reaches hub `keywords`"
     },
     {
-      "source": "TestPersistence",
-      "target": "BM25",
+      "source": "keywords",
+      "target": "browser-testing",
       "source_files": [
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/tests/test_core.py",
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/core.py"
+        ".agents/skills/playwright-skill/package.json",
+        "skills/playwright-skill/package.json"
       ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "why": "connects across different repos/directories; peripheral node `browser-testing` unexpectedly reaches hub `keywords`"
     },
     {
-      "source": "TestReasoningMatch",
-      "target": "BM25",
+      "source": "keywords",
+      "target": "claude-skill",
       "source_files": [
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/tests/test_core.py",
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/core.py"
+        ".agents/skills/playwright-skill/package.json",
+        "skills/playwright-skill/package.json"
       ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "why": "connects across different repos/directories; peripheral node `claude-skill` unexpectedly reaches hub `keywords`"
     },
     {
-      "source": "TestSearchDomains",
-      "target": "BM25",
+      "source": "keywords",
+      "target": "general-purpose",
       "source_files": [
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/tests/test_core.py",
-        ".agents/skills/_jutsu/ui-ux-pro-max/scripts/core.py"
+        ".agents/skills/playwright-skill/package.json",
+        "skills/playwright-skill/package.json"
       ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "why": "connects across different repos/directories; peripheral node `general-purpose` unexpectedly reaches hub `keywords`"
     }
   ],
   "tokens": {

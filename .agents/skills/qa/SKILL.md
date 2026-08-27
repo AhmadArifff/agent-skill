@@ -37,6 +37,7 @@ QA WAJIB memfokuskan pengujian dan audit pada stack standar berikut:
 - 💻 **Frontend & UI Testing**: Next.js PWA audit, Tailwind CSS + Shadcn/Untitled/Animate UI component rendering, Zustand state immutability, Framer Motion & AnimeJS animation performance (<60fps dropping check), serta audit kesesuaian **Motion Design Skill** (timing, choreography, state feedback).
 - 🎲 **Three.js / 3D Testing**: Gunakan skill threejs-* (misal: @threejs-postprocessing, @threejs-materials) untuk mengevaluasi performa rendering WebGL, load time aset 3D, dan memory leaks.
 - 🎨 **Design Identity Audit**: Gunakan skill @design-dna untuk mengaudit apakah implementasi UI secara visual sudah akurat dan sesuai dengan profil Design DNA JSON yang telah ditetapkan.
+- 🎭 **Playwright Automation**: Gunakan skill @playwright-skill untuk menulis, menjalankan, dan merekam pengujian E2E interaktif (headed/headless), visual regression screenshot, validasi form, dan auth flow.
 - 🎭 **Creative Code Audit**: Gunakan fitur mini-audit dari @cast atau full-audit dari @paint (Genjutsu) untuk mendeteksi *missing exit animations*, masalah aksesibilitas (reduced-motion), color contrast, dan UI hitches pada animasi kompleks.
 - 🚀 **Deployment & Git Workflow**: Vercel deployment verification, GitHub PR checks (`dev` branch → `main` branch).
 - 🗺️ **Maps & Navigation Audit**: Audit kebocoran API Key (Google/Mapbox Key), presisi plotting koordinat GPS, rendering polyline, & penanganan jaringan offline/lemah. Lihat `references/routing-and-maps-guide.md`.

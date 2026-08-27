@@ -52,6 +52,7 @@ Setiap pengembangan Frontend WAJIB mengacu pada stack standar berikut:
   - **Motion Design**: Gunakan LottieFiles motion design skill untuk timing, choreography, dan state feedback.
   - **Three.js / 3D**: Gunakan skill threejs-* (misal: @threejs-fundamentals, @threejs-loaders, @threejs-materials) untuk integrasi 3D dan WebGL.
   - **Design DNA**: Gunakan skill @design-dna untuk mengekstrak dan menerapkan Design DNA JSON (Tokens & Style) dari screenshot agar hasil UI konsisten.
+    - **Playwright E2E**: Gunakan skill @playwright-skill untuk memverifikasi fungsionalitas UI, responsive breakpoint screenshots, dan flow interaksi komponen di browser sungguhan.
   - **Genjutsu (Creative Coding)**: Gunakan skill @paint untuk mem-bootstrap dan mengaudit seluruh visual universe/desain sistem UI, atau @cast untuk mengimplementasikan dan mengaudit micro-interactions dan efek motion yang kompleks tanpa terasa murahan.
 - 🚀“¦ **State Management**: Zustand (+ library pendukung)
 - ðÅ¸â€â€™ **Auth Integration**: Better Auth (Client integration) + JWT Token
