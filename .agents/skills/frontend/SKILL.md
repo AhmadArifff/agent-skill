@@ -51,6 +51,7 @@ Setiap pengembangan Frontend WAJIB mengacu pada stack standar berikut:
   - **Animate UI**: Added via Shadcn CLI `npx shadcn@latest add @animate-ui/primitives-texts-sliding-number`
   - **Motion Design**: Gunakan LottieFiles motion design skill untuk timing, choreography, dan state feedback.
   - **Three.js / 3D**: Gunakan skill threejs-* (misal: @threejs-fundamentals, @threejs-loaders, @threejs-materials) untuk integrasi 3D dan WebGL.
+  - **Design DNA**: Gunakan skill @design-dna untuk mengekstrak dan menerapkan Design DNA JSON (Tokens & Style) dari screenshot agar hasil UI konsisten.
 - ðŸ“¦ **State Management**: Zustand (+ library pendukung)
 - ðŸ”’ **Auth Integration**: Better Auth (Client integration) + JWT Token
 - ðŸš€ **Deployment**: Vercel

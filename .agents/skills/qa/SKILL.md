@@ -36,6 +36,7 @@ QA WAJIB memfokuskan pengujian dan audit pada stack standar berikut:
 - âš™ï¸  **Backend Testing**: Express JS error handling & route middleware, Prisma ORM query performance (N+1 check & SQL injection prevention).
 - ðŸ’» **Frontend & UI Testing**: Next.js PWA audit, Tailwind CSS + Shadcn/Untitled/Animate UI component rendering, Zustand state immutability, Framer Motion & AnimeJS animation performance (<60fps dropping check), serta audit kesesuaian **Motion Design Skill** (timing, choreography, state feedback).
 - 🎲 **Three.js / 3D Testing**: Gunakan skill threejs-* (misal: @threejs-postprocessing, @threejs-materials) untuk mengevaluasi performa rendering WebGL, load time aset 3D, dan memory leaks.
+- 🎨 **Design Identity Audit**: Gunakan skill @design-dna untuk mengaudit apakah implementasi UI secara visual sudah akurat dan sesuai dengan profil Design DNA JSON yang telah ditetapkan.
 - ðŸš€ **Deployment & Git Workflow**: Vercel deployment verification, GitHub PR checks (`dev` branch â†’ `main` branch).
 - ðŸ—ºï¸  **Maps & Navigation Audit**: Audit kebocoran API Key (Google/Mapbox Key), presisi plotting koordinat GPS, rendering polyline, & penanganan jaringan offline/lemah. Lihat `references/routing-and-maps-guide.md`.
 - ðŸ› ï¸  **Dynamic Master Data & Flow Audit**: Audit zero hardcode data master & pengujian alur filter bebas misconception. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
