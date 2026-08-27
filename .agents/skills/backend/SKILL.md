@@ -11,7 +11,7 @@ description: >
   "desain database", "login flow", "struktur project", "guard clause", "result pattern".
 ---
 
-# Backend Skill — Comprehensive Backend Engineer
+# Backend Skill â€” Comprehensive Backend Engineer
 
 You are a **Senior Backend Engineer** with deep expertise in building robust, scalable, and secure server-side applications. Your mission is to guide backend development decisions with best practices across API design, database management, authentication, architecture, error handling, structured logging, and deployment.
 
@@ -19,17 +19,17 @@ You are a **Senior Backend Engineer** with deep expertise in building robust, sc
 
 ## Core Principles
 
-1. 🔒 **Mandatory Admin & App Auth Protection** — Jika proyek berkaitan dengan Admin Panel, CRM, Dashboard, atau aplikasi selain landing page publik, WAJIB mengimplementasikan Auth Middleware (JWT/Session) & Authorization (RBAC) yang sangat ketat pada seluruh endpoint API internal untuk mencegah akses tanpa izin dan peretasan.
-2. 🛠️ **Zero Hardcoded Master Data (Dynamic Master Tables)** — Dilarang keras meng-hardcode data master (Label, Priority, Category, Status) di codebase. Buat tabel database dinamis & Endpoint CRUD Admin (`/api/v1/admin/master/*`) agar Admin dapat mengubah data master di runtime tanpa redeploy.
-3. 🛡️ **Pola Guard Clause & Early Return** — Hindari *pyramid of doom* (`if-else` bersarang). Lakukan validasi prasyarat di awal fungsi; jika gagal langsung `return Result.fail()` atau lempar *exception*.
-4. 📦 **Result Pattern pada Service Layer** — Kembalikan objek terstruktur `Result.ok(data)` atau `Result.fail(error)` daripada melempar exception acak untuk kesalahan logika bisnis biasa.
-5. ⚠️ **Custom Domain Exception & Centralized Global Exception Handler** — Pisahkan error bisnis vs error teknis. Biarkan error teknis *bubble up* ke Global Error Middleware yang mencatat log lengkap dan merespons `500` tanpa membocorkan stack trace ke client.
-6. 📊 **Structured Logging & Observability** — Dilarang keras membiarkan blok `catch` kosong. Catat log berstruktur (JSON dengan `userId`, `errorMessage`, `stackTrace`) untuk audittrail dan investigasi bug.
-7. 🔍 **Unambiguous Query Filtering Logic** — Logika query database (WHERE clause SQL/Prisma) WAJIB menangani data `NULL`/unassigned secara transparan (misal `WHERE label_id IS NULL`) agar data tidak hilang secara membingungkan saat pengguna memfilter.
-8. **Security First** — Every endpoint is an attack surface. Validate inputs, authenticate requests, authorize access, and protect data.
-9. **Fail Gracefully** — Systems will fail. Design for resilience with proper error handling, retries, circuit breakers, and fallbacks.
-10. **Document Everything** — APIs, database schemas, architecture decisions, and deployment processes must be well-documented.
-11. 📐 **5-Step T-C-R-E-I Prompting Framework** — Terapkan kerangka kerja 5 langkah (Task, Context, References, Evaluate, Iterate) untuk memformulasi instruksi dan arsitektur backend. Lihat `references/prompting-framework-guide.md`.
+1. ðŸ”’ **Mandatory Admin & App Auth Protection** â€” Jika proyek berkaitan dengan Admin Panel, CRM, Dashboard, atau aplikasi selain landing page publik, WAJIB mengimplementasikan Auth Middleware (JWT/Session) & Authorization (RBAC) yang sangat ketat pada seluruh endpoint API internal untuk mencegah akses tanpa izin dan peretasan.
+2. ðŸ› ï¸ **Zero Hardcoded Master Data (Dynamic Master Tables)** â€” Dilarang keras meng-hardcode data master (Label, Priority, Category, Status) di codebase. Buat tabel database dinamis & Endpoint CRUD Admin (`/api/v1/admin/master/*`) agar Admin dapat mengubah data master di runtime tanpa redeploy.
+3. ðŸ›¡ï¸ **Pola Guard Clause & Early Return** â€” Hindari *pyramid of doom* (`if-else` bersarang). Lakukan validasi prasyarat di awal fungsi; jika gagal langsung `return Result.fail()` atau lempar *exception*.
+4. ðŸ“¦ **Result Pattern pada Service Layer** â€” Kembalikan objek terstruktur `Result.ok(data)` atau `Result.fail(error)` daripada melempar exception acak untuk kesalahan logika bisnis biasa.
+5. âš ï¸ **Custom Domain Exception & Centralized Global Exception Handler** â€” Pisahkan error bisnis vs error teknis. Biarkan error teknis *bubble up* ke Global Error Middleware yang mencatat log lengkap dan merespons `500` tanpa membocorkan stack trace ke client.
+6. ðŸ“Š **Structured Logging & Observability** â€” Dilarang keras membiarkan blok `catch` kosong. Catat log berstruktur (JSON dengan `userId`, `errorMessage`, `stackTrace`) untuk audittrail dan investigasi bug.
+7. ðŸ” **Unambiguous Query Filtering Logic** â€” Logika query database (WHERE clause SQL/Prisma) WAJIB menangani data `NULL`/unassigned secara transparan (misal `WHERE label_id IS NULL`) agar data tidak hilang secara membingungkan saat pengguna memfilter.
+8. **Security First** â€” Every endpoint is an attack surface. Validate inputs, authenticate requests, authorize access, and protect data.
+9. **Fail Gracefully** â€” Systems will fail. Design for resilience with proper error handling, retries, circuit breakers, and fallbacks.
+10. **Document Everything** â€” APIs, database schemas, architecture decisions, and deployment processes must be well-documented.
+11. ðŸ“ **5-Step T-C-R-E-I Prompting Framework** â€” Terapkan kerangka kerja 5 langkah (Task, Context, References, Evaluate, Iterate) untuk memformulasi instruksi dan arsitektur backend. Lihat `references/prompting-framework-guide.md`.
 
 ---
 
@@ -37,18 +37,20 @@ You are a **Senior Backend Engineer** with deep expertise in building robust, sc
 
 Setiap pengembangan Backend WAJIB mengacu pada stack standar berikut:
 
+- âš™ï¸ **Server Framework**: Express JS (TypeScript / Node.js)
 - ⚙️ **Server Framework**: Express JS (TypeScript / Node.js)
-- 🗄️ **Database**: Supabase PostgreSQL
+- 📁 **Database**: Supabase PostgreSQL
 - 📦 **File & Media Storage**: Supabase Bucket Storage
 - 🛠️ **ORM**: Prisma ORM (`prisma/schema.prisma` migrations & client)
-- 🔒 **Authentication & Authorization**: Better Auth + JWT Token (Rotation & RBAC)
+- 🔐 **Authentication & Authorization**: Better Auth + JWT Token (Rotation & RBAC)
 - 🚀 **Deployment**: Vercel
 - 🌿 **Git Branching Strategy**: GitHub dengan `dev` branch (development) & `main` branch (production release)
-- 🎭 **Motion Design**: Gunakan panduan LottieFiles motion design skill untuk keselarasan endpoint & state UI animation (loading, success, error feedback) dengan frontend.
+- 🎬 **Motion Design**: Gunakan panduan LottieFiles motion design skill untuk keselarasan endpoint & state UI animation (loading, success, error feedback) dengan frontend.
+- 🧊 **Three.js / 3D Asset Management**: Gunakan skill threejs-* (misal: @threejs-loaders, @threejs-geometry) jika backend bertugas memproses, memvalidasi, atau menyimpan aset 3D (GLTF/GLB) untuk di-serve ke frontend.
 - 🛡️ **Safe Logic Flow & Error Handling Guide**: Guard Clause, Result Pattern, Custom Exception, Global Error Handler & Structured Logging. Lihat `references/safe-logic-flow-guide.md`.
 - 🗺️ **Maps & Routing Services**: Route API Proxy (sembunyikan API Key) atau Self-hosted OSRM Engine. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data Schema & APIs**: Tabel dinamis & CRUD Admin API untuk data master. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
-- 📐 **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
+- 📝 **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
 - ⏱️ **Supabase CronJob & Auth Guide**: Panduan implementasi cron job keep-alive dan keamanan data Supabase. Lihat `references/supabase-cronjob-guide.md`.
 
 ---
@@ -104,7 +106,7 @@ See `references/database-patterns.md`.
 See `references/auth-patterns.md`.
 
 ### 4. Architecture Patterns
-- **Layered Architecture**: Controller → Service → Repository → Data Source
+- **Layered Architecture**: Controller â†’ Service â†’ Repository â†’ Data Source
 - **Dependency Injection**: IoC containers, constructor injection
 - **Clean Architecture & DDD**: Use cases, domain events, bounded contexts
 
@@ -154,6 +156,8 @@ See `references/safe-logic-flow-guide.md`.
 - [ ] Service methods return Result objects (`Result.ok`, `Result.fail`) for business validations
 - [ ] Custom Domain Exceptions created for domain-specific errors
 - [ ] Centralized Global Error Handler handles all uncaught exceptions
-- [ ] No empty `catch` blocks — all caught errors are logged with context (`userId`, `stackTrace`)
+- [ ] No empty `catch` blocks â€” all caught errors are logged with context (`userId`, `stackTrace`)
 - [ ] Internal system stack traces hidden from HTTP 500 responses sent to clients
 - [ ] Master data dynamically fetched from DB/API (zero hardcoded master data)
+
+
