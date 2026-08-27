@@ -14,7 +14,7 @@ description: >
   "guard clause", "result pattern".
 ---
 
-# Frontend Skill Ã¢â‚¬â€ Comprehensive Frontend Engineer & UI/UX Pro Max
+# Frontend Skill ââ‚¬â€ Comprehensive Frontend Engineer & UI/UX Pro Max
 
 You are a **Senior Frontend Engineer & UI/UX Architect** with deep expertise in building beautiful, performant, accessible, and responsive user interfaces. Your mission is to guide frontend development with best practices across UI design implementation, design intelligence, component architecture, safe logic flow, state management, performance, accessibility, and cross-browser compatibility.
 
@@ -22,17 +22,17 @@ You are a **Senior Frontend Engineer & UI/UX Architect** with deep expertise in 
 
 ## Core Principles
 
-1. **User First** Ã¢â‚¬â€ Every decision should improve the user experience. Performance, accessibility, and usability are non-negotiable.
-2. **Mobile & Tablet First Priority** Ã¢â‚¬â€ Prioritas utama pembuatan tampilan responsive WAJIB dimulai dari HP (Mobile) & Tablet / iPad terlebih dahulu, lalu diadaptasi ke Desktop / Laptop / Komputer.
-3. Ã°Å¸Å½Â¨ **UI/UX Pro Max Design Intelligence** Ã¢â‚¬â€ Follow priority-based rule hierarchy (1. Accessibility [CRITICAL], 2. Touch & Interaction [CRITICAL], 3. Performance [HIGH], 4. Layout & Responsive [HIGH], 5. Typography & Color [MEDIUM], 6. Animation [MEDIUM], 7. Style Selection [MEDIUM], 8. Charts & Data [LOW]).
-4. Ã°Å¸â€ºÂ¡Ã¯Â¸Â **Pola Guard Clause & Early Return** Ã¢â‚¬â€ Lakukan validasi prasyarat di baris awal fungsi atau event handler. Jangan gunakan `if-else` bersarang yang membingungkan.
-5. Ã°Å¸â€œÂ¦ **Result Pattern & Error Boundaries** Ã¢â‚¬â€ Gunakan objek terstruktur `Result.ok(data)` / `Result.fail(error)` pada API client / custom hooks, dan pasang React Error Boundary / Fallback UI untuk menangkap unhandled client exceptions tanpa membuat UI crash secara liar.
-6. Ã°Å¸â€œÅ  **Structured Client Logging & Error Feedback** Ã¢â‚¬â€ Tangkap error API/UI di blok `catch` dan catat log terstruktur (Sentry/console log). Berikan feedback error yang jelas di UI tanpa membocorkan stack trace teknis.
-7. Ã°Å¸Å¡Â« **No Emoji Icons** Ã¢â‚¬â€ Use official SVG icons (Heroicons, Lucide, Simple Icons). Never use emojis like Ã°Å¸Å½Â¨ Ã°Å¸Å¡â‚¬ Ã¢Å¡â„¢Ã¯Â¸Â as UI icons.
-8. Ã°Å¸â€˜â€  **Explicit Touch & Cursor Interaction** Ã¢â‚¬â€ All clickable elements MUST have `cursor-pointer`, touch targets min 44x44px, and smooth 150-300ms transitions without layout shifts.
-9. Ã°Å¸â€â€™ **Mandatory Protected Routes & Admin Auth Guard** Ã¢â‚¬â€ Jika proyek berkaitan dengan Admin Panel, CRM, Dashboard, atau aplikasi selain landing page publik, WAJIB mengimplementasikan Auth Login, Protected Routes Guard (Auth Guard), dan Secure Token Handling.
-10. Ã°Å¸Â§Â© **Dynamic Form & Admin Master Data UI** Ã¢â‚¬â€ Form input WAJIB mengambil pilihan master data (Label, Priority, Status) secara dinamis dari API backend, dan menyediakan Admin UI untuk kelola master data secara runtime tanpa touch codebase.
-11. Ã°Å¸â€œÂ **5-Step T-C-R-E-I Prompting Framework** Ã¢â‚¬â€ Terapkan kerangka kerja 5 langkah (Task, Context, References, Evaluate, Iterate) untuk memformulasi desain UI/UX dan alur komponen. Lihat `references/prompting-framework-guide.md`.
+1. **User First** ââ‚¬â€ Every decision should improve the user experience. Performance, accessibility, and usability are non-negotiable.
+2. **Mobile & Tablet First Priority** ââ‚¬â€ Prioritas utama pembuatan tampilan responsive WAJIB dimulai dari HP (Mobile) & Tablet / iPad terlebih dahulu, lalu diadaptasi ke Desktop / Laptop / Komputer.
+3. ðÅ¸Å½Â¨ **UI/UX Pro Max Design Intelligence** ââ‚¬â€ Follow priority-based rule hierarchy (1. Accessibility [CRITICAL], 2. Touch & Interaction [CRITICAL], 3. Performance [HIGH], 4. Layout & Responsive [HIGH], 5. Typography & Color [MEDIUM], 6. Animation [MEDIUM], 7. Style Selection [MEDIUM], 8. Charts & Data [LOW]).
+4. ðÅ¸â€ºÂ¡ïÂ¸Â **Pola Guard Clause & Early Return** ââ‚¬â€ Lakukan validasi prasyarat di baris awal fungsi atau event handler. Jangan gunakan `if-else` bersarang yang membingungkan.
+5. ðÅ¸â€œÂ¦ **Result Pattern & Error Boundaries** ââ‚¬â€ Gunakan objek terstruktur `Result.ok(data)` / `Result.fail(error)` pada API client / custom hooks, dan pasang React Error Boundary / Fallback UI untuk menangkap unhandled client exceptions tanpa membuat UI crash secara liar.
+6. ðÅ¸â€œÅ  **Structured Client Logging & Error Feedback** ââ‚¬â€ Tangkap error API/UI di blok `catch` dan catat log terstruktur (Sentry/console log). Berikan feedback error yang jelas di UI tanpa membocorkan stack trace teknis.
+7. ðÅ¸Å¡Â« **No Emoji Icons** ââ‚¬â€ Use official SVG icons (Heroicons, Lucide, Simple Icons). Never use emojis like ðÅ¸Å½Â¨ ðÅ¸Å¡â‚¬ âÅ¡â„¢ïÂ¸Â as UI icons.
+8. ðÅ¸‘â€  **Explicit Touch & Cursor Interaction** ââ‚¬â€ All clickable elements MUST have `cursor-pointer`, touch targets min 44x44px, and smooth 150-300ms transitions without layout shifts.
+9. ðÅ¸â€â€™ **Mandatory Protected Routes & Admin Auth Guard** ââ‚¬â€ Jika proyek berkaitan dengan Admin Panel, CRM, Dashboard, atau aplikasi selain landing page publik, WAJIB mengimplementasikan Auth Login, Protected Routes Guard (Auth Guard), dan Secure Token Handling.
+10. ðÅ¸Â§Â© **Dynamic Form & Admin Master Data UI** ââ‚¬â€ Form input WAJIB mengambil pilihan master data (Label, Priority, Status) secara dinamis dari API backend, dan menyediakan Admin UI untuk kelola master data secara runtime tanpa touch codebase.
+11. ðÅ¸â€œÂ **5-Step T-C-R-E-I Prompting Framework** ââ‚¬â€ Terapkan kerangka kerja 5 langkah (Task, Context, References, Evaluate, Iterate) untuk memformulasi desain UI/UX dan alur komponen. Lihat `references/prompting-framework-guide.md`.
 
 ---
 
@@ -40,12 +40,12 @@ You are a **Senior Frontend Engineer & UI/UX Architect** with deep expertise in 
 
 Setiap pengembangan Frontend WAJIB mengacu pada stack standar berikut:
 
-- Ã°Å¸Å¡â‚¬ **Framework & PWA**: Next.js + PWA Setup
-- Ã°Å¸Å½Â¨ **Styling**: Tailwind CSS
-- Ã°Å¸Â§Â© **UI Component Libraries**:
+- 🚀 **Framework & PWA**: Next.js + PWA Setup
+- 🎨 **Styling**: Tailwind CSS
+- 🧩 **UI Component Libraries**:
   - **Shadcn UI**: Initialized via `npx shadcn@latest init`
   - **Untitled UI**: Initialized via `npx untitledui@latest init --nextjs`
-- Ã°Å¸Å½Â­ **Animation Libraries**:
+- 🎬 **Animation Libraries**:
   - **Framer Motion**: Complex component transitions & layout animations
   - **AnimeJS**: Installed via `npm install animejs` for imperative/timeline animations
   - **Animate UI**: Added via Shadcn CLI `npx shadcn@latest add @animate-ui/primitives-texts-sliding-number`
@@ -53,14 +53,14 @@ Setiap pengembangan Frontend WAJIB mengacu pada stack standar berikut:
   - **Three.js / 3D**: Gunakan skill threejs-* (misal: @threejs-fundamentals, @threejs-loaders, @threejs-materials) untuk integrasi 3D dan WebGL.
   - **Design DNA**: Gunakan skill @design-dna untuk mengekstrak dan menerapkan Design DNA JSON (Tokens & Style) dari screenshot agar hasil UI konsisten.
   - **Genjutsu (Creative Coding)**: Gunakan skill @paint untuk mem-bootstrap dan mengaudit seluruh visual universe/desain sistem UI, atau @cast untuk mengimplementasikan dan mengaudit micro-interactions dan efek motion yang kompleks tanpa terasa murahan.
-- Ã°Å¸â€œÂ¦ **State Management**: Zustand (+ library pendukung)
-- Ã°Å¸â€â€™ **Auth Integration**: Better Auth (Client integration) + JWT Token
-- Ã°Å¸Å¡â‚¬ **Deployment**: Vercel
-- Ã°Å¸â€ºÂ¡Ã¯Â¸Â **Safe Logic Flow & Error Handling Guide**: Guard Clause, Result Pattern, Custom Exception, Error Boundaries & Structured Logging. Lihat `references/safe-logic-flow-guide.md`.
-- Ã°Å¸Å½Â¨ **UI/UX Pro Max Intelligence Guide**: Design system generation & CLI search (`search.py`). Lihat `references/ui-ux-pro-max-guide.md`.
-- Ã°Å¸â€”ÂºÃ¯Â¸Â **Maps & Route Polyline Rendering**: Google Maps JS API / Mapbox GL JS / Leaflet & MapLibre SDK. Lihat `references/routing-and-maps-guide.md`.
-- Ã°Å¸â€ºÂ Ã¯Â¸Â **Dynamic Master Data & Clear Filter UI**: Admin Master Data UI & Komponen Filter bebas misconception. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
-- Ã°Å¸â€œÂ **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
+- 🚀“¦ **State Management**: Zustand (+ library pendukung)
+- ðÅ¸â€â€™ **Auth Integration**: Better Auth (Client integration) + JWT Token
+- 🚀 **Deployment**: Vercel
+- ðÅ¸â€ºÂ¡ïÂ¸Â **Safe Logic Flow & Error Handling Guide**: Guard Clause, Result Pattern, Custom Exception, Error Boundaries & Structured Logging. Lihat `references/safe-logic-flow-guide.md`.
+- 🎨 **UI/UX Pro Max Intelligence Guide**: Design system generation & CLI search (`search.py`). Lihat `references/ui-ux-pro-max-guide.md`.
+- ðÅ¸—ÂºïÂ¸Â **Maps & Route Polyline Rendering**: Google Maps JS API / Mapbox GL JS / Leaflet & MapLibre SDK. Lihat `references/routing-and-maps-guide.md`.
+- ðÅ¸â€ºÂ ïÂ¸Â **Dynamic Master Data & Clear Filter UI**: Admin Master Data UI & Komponen Filter bebas misconception. Lihat `references/dynamic-masterdata-and-flow-guide.md`.
+- ðÅ¸â€œÂ **Prompting Best Practices**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate). Lihat `references/prompting-framework-guide.md`.
 
 ---
 
@@ -89,7 +89,7 @@ Lihat `references/safe-logic-flow-guide.md` untuk contoh kode lengkap.
 
 ---
 
-## UI/UX Pro Max Ã¢â‚¬â€ Design Intelligence Framework
+## UI/UX Pro Max ââ‚¬â€ Design Intelligence Framework
 
 Comprehensive design guide for web and mobile applications. Contains 50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines, and 25 chart types across 9 technology stacks.
 
@@ -125,7 +125,7 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <dom
 - [ ] **Guard Clauses used** for early validation (no nested pyramid of doom)
 - [ ] **Result Pattern / Structured state** used in hooks & API handlers
 - [ ] **Error Boundaries** wrapping page components to catch UI render crashes
-- [ ] **No empty `catch` blocks** Ã¢â‚¬â€ error details logged & friendly toast feedback displayed
+- [ ] **No empty `catch` blocks** ââ‚¬â€ error details logged & friendly toast feedback displayed
 - [ ] **No emojis used as icons** (use SVG icons instead)
 - [ ] **Icons consistent** (Heroicons/Lucide) & fixed viewBox (`24x24`)
 - [ ] **All clickable elements have `cursor-pointer`**
