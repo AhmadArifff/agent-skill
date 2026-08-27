@@ -1,8 +1,8 @@
 {
   ".agents/skills/backend/SKILL.md": {
-    "mtime": 1786072630.710803,
-    "ast_hash": "f7b57ab6502f0174612b5f1e67893c6a",
-    "semantic_hash": "f7b57ab6502f0174612b5f1e67893c6a"
+    "mtime": 1787801611.0708375,
+    "ast_hash": "fc6c3c16a39d8e659faa694e295a0975",
+    "semantic_hash": "fc6c3c16a39d8e659faa694e295a0975"
   },
   ".agents/skills/backend/references/api-design-guide.md": {
     "mtime": 1785853677.679366,
@@ -17,7 +17,7 @@
   ".agents/skills/backend/references/auth-patterns.md": {
     "mtime": 1785853779.6021369,
     "ast_hash": "95712654bf6ceaef4357d2453c48e5ba",
-    "semantic_hash": "95712654bf6ceaef4357d2453c48e5ba"
+    "semantic_hash": ""
   },
   ".agents/skills/backend/references/database-patterns.md": {
     "mtime": 1785853731.2152555,
@@ -32,7 +32,7 @@
   ".agents/skills/frontend/SKILL.md": {
     "mtime": 1786072636.610513,
     "ast_hash": "73843f24c867e95c579711c6881c485c",
-    "semantic_hash": "73843f24c867e95c579711c6881c485c"
+    "semantic_hash": ""
   },
   ".agents/skills/frontend/references/accessibility-checklist.md": {
     "mtime": 1785854302.6991515,
@@ -62,7 +62,7 @@
   ".agents/skills/pm/SKILL.md": {
     "mtime": 1785990934.1692374,
     "ast_hash": "7f45b532340ce5e69fd344cdee65f12d",
-    "semantic_hash": "7f45b532340ce5e69fd344cdee65f12d"
+    "semantic_hash": ""
   },
   ".agents/skills/pm/references/feature-breakdown-guide.md": {
     "mtime": 1785854899.803366,
@@ -92,7 +92,7 @@
   ".agents/skills/qa/SKILL.md": {
     "mtime": 1785990955.4762063,
     "ast_hash": "8a5c56ba5dd4448fa475fae0c250f448",
-    "semantic_hash": "8a5c56ba5dd4448fa475fae0c250f448"
+    "semantic_hash": ""
   },
   ".agents/skills/qa/references/code-review-patterns.md": {
     "mtime": 1785853164.3626034,
@@ -168,5 +168,140 @@
     "mtime": 1786072623.508635,
     "ast_hash": "b2f8455e192c8e1081ed3df2948283b4",
     "semantic_hash": "b2f8455e192c8e1081ed3df2948283b4"
+  },
+  ".agents/plugins/playwright-mcp/mcp_config.json": {
+    "mtime": 1786632851.4395514,
+    "ast_hash": "f5a86fecea478bdf38a2a7857aa8e9db",
+    "semantic_hash": "f5a86fecea478bdf38a2a7857aa8e9db"
+  },
+  ".agents/plugins/playwright-mcp/plugin.json": {
+    "mtime": 1786632849.3441045,
+    "ast_hash": "c31835623102e33f4c85bc9a69031605",
+    "semantic_hash": "c31835623102e33f4c85bc9a69031605"
+  },
+  "README.md": {
+    "mtime": 1786509062.3120005,
+    "ast_hash": "1694c433cf661b7dbc3002b82def6b74",
+    "semantic_hash": "1694c433cf661b7dbc3002b82def6b74"
+  },
+  "skills/backend/references/auth-patterns.md": {
+    "mtime": 1786145327.82669,
+    "ast_hash": "a48e411dffb90a3a846cff1e862d8b82",
+    "semantic_hash": "a48e411dffb90a3a846cff1e862d8b82"
+  },
+  "skills/graphify/SKILL.md": {
+    "mtime": 1785196297.7644527,
+    "ast_hash": "62aa0f6529a7784d9542c575a87d7077",
+    "semantic_hash": "62aa0f6529a7784d9542c575a87d7077"
+  },
+  "skills/graphify/references/hooks.md": {
+    "mtime": 1785196084.9753838,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": "3f545db6ce646650bb9de588f5512a27"
+  },
+  "skills/graphify/references/query.md": {
+    "mtime": 1785196084.977391,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": "3c46f8ad006874260614ed8657d02307"
+  },
+  "skills/graphify/references/transcribe.md": {
+    "mtime": 1785196084.977391,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": "67b6a5fa6c0974e18f60db9f8932fbd8"
+  },
+  "skills/graphify/references/update.md": {
+    "mtime": 1785196084.977391,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": "9378bd03d56baaf78bd738ab3848f142"
+  },
+  "skills/pm/SKILL.md": {
+    "mtime": 1786962894.3473172,
+    "ast_hash": "99e939268d8e3bc90c4b5b074cd79534",
+    "semantic_hash": "99e939268d8e3bc90c4b5b074cd79534"
+  },
+  "skills/pm/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  "skills/pm/references/feature-breakdown-guide.md": {
+    "mtime": 1785854899.803366,
+    "ast_hash": "e25302f45f0240e7f1a641dcc90f680c",
+    "semantic_hash": "e25302f45f0240e7f1a641dcc90f680c"
+  },
+  "skills/pm/references/js-at-scale-pm.md": {
+    "mtime": 1785907558.4640045,
+    "ast_hash": "1701277ddb5a7c5663d1a7d5a4205e1e",
+    "semantic_hash": "1701277ddb5a7c5663d1a7d5a4205e1e"
+  },
+  "skills/pm/references/methodology-guide.md": {
+    "mtime": 1785854937.7978063,
+    "ast_hash": "23c5c5d741e3aac26539c9229312680c",
+    "semantic_hash": "23c5c5d741e3aac26539c9229312680c"
+  },
+  "skills/pm/references/monorepo-product-guide.md": {
+    "mtime": 1786962858.1630225,
+    "ast_hash": "cdd142d2f483325378db4928c3946869",
+    "semantic_hash": "cdd142d2f483325378db4928c3946869"
+  },
+  "skills/pm/references/prd-template.md": {
+    "mtime": 1785920369.7057238,
+    "ast_hash": "0a496020f19b2eeeb9f815a16d2317bc",
+    "semantic_hash": "0a496020f19b2eeeb9f815a16d2317bc"
+  },
+  "skills/pm/references/prompting-framework-guide.md": {
+    "mtime": 1786509005.6286466,
+    "ast_hash": "e5365ebf7165f87b0bb19c8917fb7dc8",
+    "semantic_hash": "e5365ebf7165f87b0bb19c8917fb7dc8"
+  },
+  "skills/pm/references/roadmap-template.md": {
+    "mtime": 1785854974.22522,
+    "ast_hash": "b1675d7ffca5004951e8fd50e1071586",
+    "semantic_hash": "b1675d7ffca5004951e8fd50e1071586"
+  },
+  "skills/pm/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  "skills/qa/SKILL.md": {
+    "mtime": 1786509044.6477325,
+    "ast_hash": "fa9ec5f23d489c9c0d9c13cee28aedce",
+    "semantic_hash": "fa9ec5f23d489c9c0d9c13cee28aedce"
+  },
+  "skills/qa/references/code-review-patterns.md": {
+    "mtime": 1785853164.3626034,
+    "ast_hash": "f80d5b575f82847f1d27c460a6fada59",
+    "semantic_hash": "f80d5b575f82847f1d27c460a6fada59"
+  },
+  "skills/qa/references/dynamic-masterdata-and-flow-guide.md": {
+    "mtime": 1785990923.1851194,
+    "ast_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a",
+    "semantic_hash": "fc9b29ce74c5fc0a31fbe1caba72d27a"
+  },
+  "skills/qa/references/js-at-scale-qa.md": {
+    "mtime": 1785907556.3345602,
+    "ast_hash": "169a098f2e08e8591301f61bc46bae78",
+    "semantic_hash": "169a098f2e08e8591301f61bc46bae78"
+  },
+  "skills/qa/references/prompting-framework-guide.md": {
+    "mtime": 1786509005.6286466,
+    "ast_hash": "e5365ebf7165f87b0bb19c8917fb7dc8",
+    "semantic_hash": "e5365ebf7165f87b0bb19c8917fb7dc8"
+  },
+  "skills/qa/references/routing-and-maps-guide.md": {
+    "mtime": 1785986021.0609164,
+    "ast_hash": "cb0128e0df90f47f7db0d1493ff62d81",
+    "semantic_hash": "cb0128e0df90f47f7db0d1493ff62d81"
+  },
+  "skills/qa/references/security-checklist.md": {
+    "mtime": 1785853227.3417785,
+    "ast_hash": "018deb7b2ef6ef9dce72ea126efca1a7",
+    "semantic_hash": "018deb7b2ef6ef9dce72ea126efca1a7"
+  },
+  "skills/qa/references/testing-guide.md": {
+    "mtime": 1785853213.1429377,
+    "ast_hash": "2e40c0e00cee8f614c906bea04713c80",
+    "semantic_hash": "2e40c0e00cee8f614c906bea04713c80"
   }
 }

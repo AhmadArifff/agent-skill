@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "id": "readme_agent_skill_repository",
+      "label": "Agent Skill Repository",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Ahmad Arif",
+      "contributor": null
+    },
+    {
+      "id": "_agents_skills_backend_skill_backend_skill",
+      "label": "Backend Skill",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\.agents\\skills\\backend\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_backend_references_auth_patterns_jwt_flow",
+      "label": "JWT Flow",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\backend\\references\\auth-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_backend_references_auth_patterns_session_management",
+      "label": "Session Management",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\backend\\references\\auth-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_graphify_skill_graphify_cli",
+      "label": "Graphify CLI",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\graphify\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_graphify_references_hooks_hooks",
+      "label": "graphify reference: commit hook and native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\graphify\\references\\hooks.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_graphify_references_query_query",
+      "label": "graphify reference: query, path, explain",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\graphify\\references\\query.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_graphify_references_transcribe_transcribe",
+      "label": "graphify reference: transcribe video and audio",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\graphify\\references\\transcribe.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_graphify_references_update_update",
+      "label": "graphify reference: incremental update and cluster-only",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\graphify\\references\\update.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_skill_skill",
+      "label": "PM Skill — Comprehensive Product Manager",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide",
+      "label": "Dynamic Master Data & Unambiguous Flow Guide",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\dynamic-masterdata-and-flow-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_feature_breakdown_guide_feature_breakdown_guide",
+      "label": "Feature Breakdown Guide — Decomposition & Estimation",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\feature-breakdown-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_js_at_scale_pm_js_at_scale_pm",
+      "label": "JavaScript Project Management at Scale — Methodology, Architecture & Team Scaling",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\js-at-scale-pm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_methodology_guide_methodology_guide",
+      "label": "Methodology Guide — Agile, Scrum, Kanban & More",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\methodology-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_monorepo_product_guide_monorepo_product_guide",
+      "label": "Panduan Product & Frontend: Standar PWA & Arsitektur Monorepo",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\monorepo-product-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_prd_template_prd_template",
+      "label": "PRD Template — Product Requirements Document",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\prd-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_prompting_framework_guide_prompting_framework_guide",
+      "label": "Prompting Best Practices — 5-Step T-C-R-E-I Framework",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\prompting-framework-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_roadmap_template_roadmap_template",
+      "label": "Roadmap & Timeline Templates",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\roadmap-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_pm_references_routing_and_maps_guide_routing_and_maps_guide",
+      "label": "Routing, Maps & Navigation Guide — Web & Mobile Integration",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\pm\\references\\routing-and-maps-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_skill_skill",
+      "label": "QA Skill — Comprehensive Quality Assurance Engineer",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_code_review_patterns_code_review_patterns",
+      "label": "Code Review Patterns & Anti-Patterns Reference",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\code-review-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide",
+      "label": "Dynamic Master Data & Unambiguous Flow Guide",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\dynamic-masterdata-and-flow-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_js_at_scale_qa_js_at_scale_qa",
+      "label": "JavaScript QA at Scale — Testing, Quality Gates & Monitoring",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\js-at-scale-qa.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_prompting_framework_guide_prompting_framework_guide",
+      "label": "Prompting Best Practices — 5-Step T-C-R-E-I Framework",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\prompting-framework-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_routing_and_maps_guide_routing_and_maps_guide",
+      "label": "Routing, Maps & Navigation Guide — Web & Mobile Integration",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\routing-and-maps-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_security_checklist_security_checklist",
+      "label": "Security Review Checklist",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\security-checklist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "skills_qa_references_testing_guide_testing_guide",
+      "label": "Testing Guide — Methodology & Best Practices",
+      "file_type": "document",
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\qa\\references\\testing-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_agent_skill_repository",
+      "target": "_agents_skills_backend_skill_backend_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "skills_backend_references_auth_patterns_jwt_flow",
+      "target": "skills_backend_references_auth_patterns_session_management",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\ASUS\\Documents\\Web Dev\\skill\\skills\\backend\\references\\auth-patterns.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1000,
+  "output_tokens": 500
+}

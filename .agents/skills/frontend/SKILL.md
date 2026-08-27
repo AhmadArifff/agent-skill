@@ -49,6 +49,7 @@ Setiap pengembangan Frontend WAJIB mengacu pada stack standar berikut:
   - **Framer Motion**: Complex component transitions & layout animations
   - **AnimeJS**: Installed via `npm install animejs` for imperative/timeline animations
   - **Animate UI**: Added via Shadcn CLI `npx shadcn@latest add @animate-ui/primitives-texts-sliding-number`
+  - **Motion Design**: Gunakan LottieFiles motion design skill untuk timing, choreography, dan state feedback.
 - 📦 **State Management**: Zustand (+ library pendukung)
 - 🔒 **Auth Integration**: Better Auth (Client integration) + JWT Token
 - 🚀 **Deployment**: Vercel

@@ -41,6 +41,7 @@ Saat menyusun PRD, Arsitektur Aplikasi, dan Feature Breakdown, PM WAJIB mengacu 
 - 🎭 **Animations**:
   - **Framer Motion** & **AnimeJS** (`npm install animejs`)
   - **Animate UI** (`npx shadcn@latest add @animate-ui/primitives-...`)
+  - **Motion Design**: Gunakan LottieFiles motion design skill untuk timing, choreography, dan state feedback.
 - ⚙️ **Backend**: Express JS (Node.js / TypeScript)
 - 🗄️ **Database & Storage**: Supabase PostgreSQL + Supabase Bucket Storage
 - 🛠️ **ORM**: Prisma ORM (`prisma/schema.prisma`)

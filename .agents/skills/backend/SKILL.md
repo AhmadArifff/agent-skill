@@ -44,6 +44,7 @@ Setiap pengembangan Backend WAJIB mengacu pada stack standar berikut:
 - 🔒 **Authentication & Authorization**: Better Auth + JWT Token (Rotation & RBAC)
 - 🚀 **Deployment**: Vercel
 - 🌿 **Git Branching Strategy**: GitHub dengan `dev` branch (development) & `main` branch (production release)
+- 🎭 **Motion Design**: Gunakan panduan LottieFiles motion design skill untuk keselarasan endpoint & state UI animation (loading, success, error feedback) dengan frontend.
 - 🛡️ **Safe Logic Flow & Error Handling Guide**: Guard Clause, Result Pattern, Custom Exception, Global Error Handler & Structured Logging. Lihat `references/safe-logic-flow-guide.md`.
 - 🗺️ **Maps & Routing Services**: Route API Proxy (sembunyikan API Key) atau Self-hosted OSRM Engine. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data Schema & APIs**: Tabel dinamis & CRUD Admin API untuk data master. Lihat `references/dynamic-masterdata-and-flow-guide.md`.

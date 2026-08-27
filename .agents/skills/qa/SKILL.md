@@ -34,7 +34,7 @@ QA WAJIB memfokuskan pengujian dan audit pada stack standar berikut:
 
 - 🔒 **Auth & Security Audit**: Better Auth + JWT Token security, protected routes, Supabase Row Level Security (RLS), Supabase Bucket Storage access policies.
 - ⚙️ **Backend Testing**: Express JS error handling & route middleware, Prisma ORM query performance (N+1 check & SQL injection prevention).
-- 💻 **Frontend & UI Testing**: Next.js PWA audit, Tailwind CSS + Shadcn/Untitled/Animate UI component rendering, Zustand state immutability, Framer Motion & AnimeJS animation performance (<60fps dropping check).
+- 💻 **Frontend & UI Testing**: Next.js PWA audit, Tailwind CSS + Shadcn/Untitled/Animate UI component rendering, Zustand state immutability, Framer Motion & AnimeJS animation performance (<60fps dropping check), serta audit kesesuaian **Motion Design Skill** (timing, choreography, state feedback).
 - 🚀 **Deployment & Git Workflow**: Vercel deployment verification, GitHub PR checks (`dev` branch → `main` branch).
 - 🗺️ **Maps & Navigation Audit**: Audit kebocoran API Key (Google/Mapbox Key), presisi plotting koordinat GPS, rendering polyline, & penanganan jaringan offline/lemah. Lihat `references/routing-and-maps-guide.md`.
 - 🛠️ **Dynamic Master Data & Flow Audit**: Audit zero hardcode data master & pengujian alur filter bebas misconception. Lihat `references/dynamic-masterdata-and-flow-guide.md`.

@@ -29,7 +29,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "auth-patterns.md",
       "id": ".agents/skills/backend/references/auth-patterns.md"
     },
@@ -679,7 +679,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "authentication & authorization patterns",
       "id": ".agents/skills/backend/references/auth-patterns.md#authentication-&-authorization-patterns"
     },
@@ -689,7 +689,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "authentication strategy selection",
       "id": ".agents/skills/backend/references/auth-patterns.md#authentication-strategy-selection"
     },
@@ -699,7 +699,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "jwt (json web token) flow",
       "id": ".agents/skills/backend/references/auth-patterns.md#jwt-(json-web-token)-flow"
     },
@@ -709,7 +709,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "access + refresh token pattern",
       "id": ".agents/skills/backend/references/auth-patterns.md#access-+-refresh-token-pattern"
     },
@@ -719,7 +719,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "jwt best practices",
       "id": ".agents/skills/backend/references/auth-patterns.md#jwt-best-practices"
     },
@@ -729,7 +729,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "jwt payload structure",
       "id": ".agents/skills/backend/references/auth-patterns.md#jwt-payload-structure"
     },
@@ -739,7 +739,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "token revocation strategies",
       "id": ".agents/skills/backend/references/auth-patterns.md#token-revocation-strategies"
     },
@@ -749,7 +749,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "oauth 2.0 flows",
       "id": ".agents/skills/backend/references/auth-patterns.md#oauth-20-flows"
     },
@@ -759,7 +759,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "authorization code flow (with pkce) \u2014 recommended for spas/mobile",
       "id": ".agents/skills/backend/references/auth-patterns.md#authorization-code-flow-(with-pkce)-\u2014-recommended-for-spas-mobile"
     },
@@ -769,7 +769,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "client credentials flow \u2014 server-to-server",
       "id": ".agents/skills/backend/references/auth-patterns.md#client-credentials-flow-\u2014-server-to-server"
     },
@@ -779,19 +779,9 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "flow selection guide",
       "id": ".agents/skills/backend/references/auth-patterns.md#flow-selection-guide"
-    },
-    {
-      "label": "Session Management",
-      "type": "Section",
-      "source_file": ".agents/skills/backend/references/auth-patterns.md",
-      "description": "",
-      "file_type": "concept",
-      "community": 4,
-      "norm_label": "session management",
-      "id": ".agents/skills/backend/references/auth-patterns.md#session-management"
     },
     {
       "label": "Secure Session Configuration",
@@ -799,7 +789,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "secure session configuration",
       "id": ".agents/skills/backend/references/auth-patterns.md#secure-session-configuration"
     },
@@ -809,7 +799,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "session security checklist",
       "id": ".agents/skills/backend/references/auth-patterns.md#session-security-checklist"
     },
@@ -819,7 +809,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "rbac (role-based access control)",
       "id": ".agents/skills/backend/references/auth-patterns.md#rbac-(role-based-access-control)"
     },
@@ -829,7 +819,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "permission model",
       "id": ".agents/skills/backend/references/auth-patterns.md#permission-model"
     },
@@ -839,7 +829,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "implementation pattern",
       "id": ".agents/skills/backend/references/auth-patterns.md#implementation-pattern"
     },
@@ -849,7 +839,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "permission granularity",
       "id": ".agents/skills/backend/references/auth-patterns.md#permission-granularity"
     },
@@ -859,7 +849,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "password security",
       "id": ".agents/skills/backend/references/auth-patterns.md#password-security"
     },
@@ -869,7 +859,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "hashing algorithms (ranked)",
       "id": ".agents/skills/backend/references/auth-patterns.md#hashing-algorithms-(ranked)"
     },
@@ -879,7 +869,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "password policy recommendations",
       "id": ".agents/skills/backend/references/auth-patterns.md#password-policy-recommendations"
     },
@@ -889,7 +879,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "password reset flow",
       "id": ".agents/skills/backend/references/auth-patterns.md#password-reset-flow"
     },
@@ -899,7 +889,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "api key management",
       "id": ".agents/skills/backend/references/auth-patterns.md#api-key-management"
     },
@@ -909,7 +899,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "key generation",
       "id": ".agents/skills/backend/references/auth-patterns.md#key-generation"
     },
@@ -919,7 +909,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "key storage & validation",
       "id": ".agents/skills/backend/references/auth-patterns.md#key-storage-&-validation"
     },
@@ -929,7 +919,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "multi-factor authentication (mfa)",
       "id": ".agents/skills/backend/references/auth-patterns.md#multi-factor-authentication-(mfa)"
     },
@@ -939,7 +929,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "totp (time-based one-time password)",
       "id": ".agents/skills/backend/references/auth-patterns.md#totp-(time-based-one-time-password)"
     },
@@ -949,7 +939,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 4,
+      "community": 3,
       "norm_label": "backup codes",
       "id": ".agents/skills/backend/references/auth-patterns.md#backup-codes"
     },
@@ -1199,7 +1189,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "javascript backend at scale \u2014 architecture, maintenance, scalability & performance",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#javascript-backend-at-scale-\u2014-architecture,-maintenance,-scalability-&-performance"
     },
@@ -1209,7 +1199,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "1. pemilihan teknologi & arsitektur dasar",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#1-pemilihan-teknologi-&-arsitektur-dasar"
     },
@@ -1219,7 +1209,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "1.1 gunakan typescript",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#11-gunakan-typescript"
     },
@@ -1229,7 +1219,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "1.2 framework backend modern",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#12-framework-backend-modern"
     },
@@ -1239,7 +1229,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "1.3 runtime alternatif",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#13-runtime-alternatif"
     },
@@ -1249,7 +1239,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2. kemudahan pemeliharaan (maintenance)",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#2-kemudahan-pemeliharaan-(maintenance)"
     },
@@ -1259,7 +1249,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2.1 modular monolith architecture",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#21-modular-monolith-architecture"
     },
@@ -1269,7 +1259,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2.2 layered architecture",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#22-layered-architecture"
     },
@@ -1279,7 +1269,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2.3 dependency injection (di)",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#23-dependency-injection-(di)"
     },
@@ -1289,7 +1279,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2.4 automated testing strategy",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#24-automated-testing-strategy"
     },
@@ -1299,7 +1289,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "2.5 configuration management",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#25-configuration-management"
     },
@@ -1309,7 +1299,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3. skalabilitas (scalability)",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#3-skalabilitas-(scalability)"
     },
@@ -1319,7 +1309,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3.1 microservices architecture (node.js)",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#31-microservices-architecture-(nodejs)"
     },
@@ -1329,7 +1319,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3.2 database scaling",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#32-database-scaling"
     },
@@ -1339,7 +1329,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3.3 caching layers",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#33-caching-layers"
     },
@@ -1349,7 +1339,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3.4 queue & background jobs",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#34-queue-&-background-jobs"
     },
@@ -1359,7 +1349,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 20,
+      "community": 19,
       "norm_label": "3.5 horizontal scaling dengan pm2/docker",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#35-horizontal-scaling-dengan-pm2-docker"
     },
@@ -1369,7 +1359,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "docker-compose.yml \u2014 multi-instance",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#docker-composeyml-\u2014-multi-instance"
     },
@@ -1379,7 +1369,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4. optimasi performa (performance optimization)",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#4-optimasi-performa-(performance-optimization)"
     },
@@ -1389,7 +1379,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4.1 database query optimization",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#41-database-query-optimization"
     },
@@ -1399,7 +1389,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4.2 response compression & streaming",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#42-response-compression-&-streaming"
     },
@@ -1409,7 +1399,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4.3 rate limiting & throttling",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#43-rate-limiting-&-throttling"
     },
@@ -1419,7 +1409,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4.4 memory management",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#44-memory-management"
     },
@@ -1429,7 +1419,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "4.5 api response optimization",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#45-api-response-optimization"
     },
@@ -1439,7 +1429,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "5. observability & monitoring",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#5-observability-&-monitoring"
     },
@@ -1449,7 +1439,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "5.1 structured logging",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#51-structured-logging"
     },
@@ -1459,7 +1449,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "5.2 health checks",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#52-health-checks"
     },
@@ -1469,7 +1459,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "6. checklist: backend javascript at scale",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#6-checklist:-backend-javascript-at-scale"
     },
@@ -1479,7 +1469,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "architecture checklist",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#architecture-checklist"
     },
@@ -1489,7 +1479,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "maintenance checklist",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#maintenance-checklist"
     },
@@ -1499,7 +1489,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "scalability checklist",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#scalability-checklist"
     },
@@ -1509,7 +1499,7 @@
       "source_file": ".agents/skills/backend/references/js-at-scale-backend.md",
       "description": "",
       "file_type": "concept",
-      "community": 22,
+      "community": 21,
       "norm_label": "performance checklist",
       "id": ".agents/skills/backend/references/js-at-scale-backend.md#performance-checklist"
     },
@@ -1599,7 +1589,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "ui-design-system.md",
       "id": ".agents/skills/frontend/references/ui-design-system.md"
     },
@@ -1619,7 +1609,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "performance-guide.md",
       "id": ".agents/skills/frontend/references/performance-guide.md"
     },
@@ -1629,7 +1619,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "accessibility-checklist.md",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md"
     },
@@ -1639,7 +1629,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "accessibility checklist \u2014 wcag 2.1 aa",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#accessibility-checklist-\u2014-wcag-21-aa"
     },
@@ -1649,7 +1639,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "quick accessibility audit",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#quick-accessibility-audit"
     },
@@ -1659,7 +1649,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "the 5-minute check",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#the-5-minute-check"
     },
@@ -1669,7 +1659,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "wcag 2.1 aa checklist by principle",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#wcag-21-aa-checklist-by-principle"
     },
@@ -1679,7 +1669,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "1. perceivable \u2014 can users perceive the content?",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#1-perceivable-\u2014-can-users-perceive-the-content?"
     },
@@ -1689,7 +1679,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "2. operable \u2014 can users operate the interface?",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#2-operable-\u2014-can-users-operate-the-interface?"
     },
@@ -1699,7 +1689,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "3. understandable \u2014 can users understand the content?",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#3-understandable-\u2014-can-users-understand-the-content?"
     },
@@ -1709,7 +1699,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "4. robust \u2014 does it work with assistive technology?",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#4-robust-\u2014-does-it-work-with-assistive-technology?"
     },
@@ -1719,7 +1709,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "aria patterns reference",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#aria-patterns-reference"
     },
@@ -1729,7 +1719,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "landmarks",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#landmarks"
     },
@@ -1739,7 +1729,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "common widget patterns",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#common-widget-patterns"
     },
@@ -1749,7 +1739,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "focus management",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#focus-management"
     },
@@ -1759,7 +1749,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "focus styles",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#focus-styles"
     },
@@ -1769,7 +1759,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "skip navigation",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#skip-navigation"
     },
@@ -1779,7 +1769,7 @@
       "source_file": ".agents/skills/frontend/references/accessibility-checklist.md",
       "description": "",
       "file_type": "concept",
-      "community": 21,
+      "community": 20,
       "norm_label": "testing tools",
       "id": ".agents/skills/frontend/references/accessibility-checklist.md#testing-tools"
     },
@@ -2009,7 +1999,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "performance guide \u2014 core web vitals & optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#performance-guide-\u2014-core-web-vitals-&-optimization"
     },
@@ -2019,7 +2009,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "core web vitals",
       "id": ".agents/skills/frontend/references/performance-guide.md#core-web-vitals"
     },
@@ -2029,7 +2019,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "metrics & targets",
       "id": ".agents/skills/frontend/references/performance-guide.md#metrics-&-targets"
     },
@@ -2039,7 +2029,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "lcp optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#lcp-optimization"
     },
@@ -2049,7 +2039,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "inp optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#inp-optimization"
     },
@@ -2059,7 +2049,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "cls optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#cls-optimization"
     },
@@ -2069,7 +2059,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "code splitting",
       "id": ".agents/skills/frontend/references/performance-guide.md#code-splitting"
     },
@@ -2079,7 +2069,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "route-based splitting",
       "id": ".agents/skills/frontend/references/performance-guide.md#route-based-splitting"
     },
@@ -2089,7 +2079,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "component-level splitting",
       "id": ".agents/skills/frontend/references/performance-guide.md#component-level-splitting"
     },
@@ -2099,7 +2089,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "image optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#image-optimization"
     },
@@ -2109,7 +2099,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "format selection",
       "id": ".agents/skills/frontend/references/performance-guide.md#format-selection"
     },
@@ -2119,7 +2109,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "responsive images",
       "id": ".agents/skills/frontend/references/performance-guide.md#responsive-images"
     },
@@ -2129,7 +2119,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "image loading strategy",
       "id": ".agents/skills/frontend/references/performance-guide.md#image-loading-strategy"
     },
@@ -2139,7 +2129,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "bundle size optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#bundle-size-optimization"
     },
@@ -2149,7 +2139,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "analysis tools",
       "id": ".agents/skills/frontend/references/performance-guide.md#analysis-tools"
     },
@@ -2159,7 +2149,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "webpack",
       "id": ".agents/skills/frontend/references/performance-guide.md#webpack"
     },
@@ -2169,7 +2159,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "vite",
       "id": ".agents/skills/frontend/references/performance-guide.md#vite"
     },
@@ -2179,7 +2169,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "generic",
       "id": ".agents/skills/frontend/references/performance-guide.md#generic"
     },
@@ -2189,7 +2179,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "common savings",
       "id": ".agents/skills/frontend/references/performance-guide.md#common-savings"
     },
@@ -2199,7 +2189,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "heavy dependencies to watch",
       "id": ".agents/skills/frontend/references/performance-guide.md#heavy-dependencies-to-watch"
     },
@@ -2209,7 +2199,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "render optimization",
       "id": ".agents/skills/frontend/references/performance-guide.md#render-optimization"
     },
@@ -2219,7 +2209,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "memoization guide",
       "id": ".agents/skills/frontend/references/performance-guide.md#memoization-guide"
     },
@@ -2229,7 +2219,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "list virtualization",
       "id": ".agents/skills/frontend/references/performance-guide.md#list-virtualization"
     },
@@ -2239,7 +2229,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "debounce & throttle",
       "id": ".agents/skills/frontend/references/performance-guide.md#debounce-&-throttle"
     },
@@ -2249,7 +2239,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "caching strategies",
       "id": ".agents/skills/frontend/references/performance-guide.md#caching-strategies"
     },
@@ -2259,7 +2249,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "http cache headers",
       "id": ".agents/skills/frontend/references/performance-guide.md#http-cache-headers"
     },
@@ -2269,7 +2259,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "service worker strategies",
       "id": ".agents/skills/frontend/references/performance-guide.md#service-worker-strategies"
     },
@@ -2279,7 +2269,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "performance budget",
       "id": ".agents/skills/frontend/references/performance-guide.md#performance-budget"
     },
@@ -2289,7 +2279,7 @@
       "source_file": ".agents/skills/frontend/references/performance-guide.md",
       "description": "",
       "file_type": "concept",
-      "community": 3,
+      "community": 4,
       "norm_label": "recommended targets",
       "id": ".agents/skills/frontend/references/performance-guide.md#recommended-targets"
     },
@@ -2299,7 +2289,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "ui design system \u2014 tokens & visual guide",
       "id": ".agents/skills/frontend/references/ui-design-system.md#ui-design-system-\u2014-tokens-&-visual-guide"
     },
@@ -2309,7 +2299,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "design tokens (css custom properties)",
       "id": ".agents/skills/frontend/references/ui-design-system.md#design-tokens-(css-custom-properties)"
     },
@@ -2319,7 +2309,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "color system",
       "id": ".agents/skills/frontend/references/ui-design-system.md#color-system"
     },
@@ -2329,7 +2319,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "dark mode",
       "id": ".agents/skills/frontend/references/ui-design-system.md#dark-mode"
     },
@@ -2339,7 +2329,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "typography scale",
       "id": ".agents/skills/frontend/references/ui-design-system.md#typography-scale"
     },
@@ -2349,7 +2339,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "fluid typography (clamp)",
       "id": ".agents/skills/frontend/references/ui-design-system.md#fluid-typography-(clamp)"
     },
@@ -2359,7 +2349,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "font loading strategy",
       "id": ".agents/skills/frontend/references/ui-design-system.md#font-loading-strategy"
     },
@@ -2369,7 +2359,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "spacing scale",
       "id": ".agents/skills/frontend/references/ui-design-system.md#spacing-scale"
     },
@@ -2379,7 +2369,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "shadows & elevation",
       "id": ".agents/skills/frontend/references/ui-design-system.md#shadows-&-elevation"
     },
@@ -2389,7 +2379,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "animation & transition tokens",
       "id": ".agents/skills/frontend/references/ui-design-system.md#animation-&-transition-tokens"
     },
@@ -2399,7 +2389,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "common animation keyframes",
       "id": ".agents/skills/frontend/references/ui-design-system.md#common-animation-keyframes"
     },
@@ -2409,7 +2399,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "skeleton loading pattern",
       "id": ".agents/skills/frontend/references/ui-design-system.md#skeleton-loading-pattern"
     },
@@ -2419,7 +2409,7 @@
       "source_file": ".agents/skills/frontend/references/ui-design-system.md",
       "description": "",
       "file_type": "concept",
-      "community": 24,
+      "community": 23,
       "norm_label": "glassmorphism pattern",
       "id": ".agents/skills/frontend/references/ui-design-system.md#glassmorphism-pattern"
     },
@@ -2459,7 +2449,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "roadmap-template.md",
       "id": ".agents/skills/pm/references/roadmap-template.md"
     },
@@ -3359,7 +3349,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "roadmap & timeline templates",
       "id": ".agents/skills/pm/references/roadmap-template.md#roadmap-&-timeline-templates"
     },
@@ -3369,7 +3359,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "roadmap formats",
       "id": ".agents/skills/pm/references/roadmap-template.md#roadmap-formats"
     },
@@ -3379,7 +3369,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "now / next / later (recommended for agile)",
       "id": ".agents/skills/pm/references/roadmap-template.md#now---next---later-(recommended-for-agile)"
     },
@@ -3389,7 +3379,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "product roadmap \u2014 [product name]",
       "id": ".agents/skills/pm/references/roadmap-template.md#product-roadmap-\u2014-[product-name]"
     },
@@ -3399,7 +3389,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udfe2 now (current sprint / this month)",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udfe2-now-(current-sprint---this-month)"
     },
@@ -3409,7 +3399,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udfe1 next (next 1-3 months)",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udfe1-next-(next-1-3-months)"
     },
@@ -3419,7 +3409,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udd35 later (3-6 months)",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udd35-later-(3-6-months)"
     },
@@ -3429,7 +3419,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\u2744\ufe0f icebox (ideas \u2014 not prioritized)",
       "id": ".agents/skills/pm/references/roadmap-template.md#\u2744\ufe0f-icebox-(ideas-\u2014-not-prioritized)"
     },
@@ -3439,7 +3429,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "quarterly roadmap",
       "id": ".agents/skills/pm/references/roadmap-template.md#quarterly-roadmap"
     },
@@ -3729,7 +3719,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "weekly status \u2014 [product name] \u2014 week of [date]",
       "id": ".agents/skills/pm/references/roadmap-template.md#weekly-status-\u2014-[product-name]-\u2014-week-of-[date]"
     },
@@ -3739,7 +3729,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83c\udfaf sprint goal",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83c\udfaf-sprint-goal"
     },
@@ -3749,7 +3739,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udcca progress",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udcca-progress"
     },
@@ -3759,7 +3749,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\u2705 completed this week",
       "id": ".agents/skills/pm/references/roadmap-template.md#\u2705-completed-this-week"
     },
@@ -3769,7 +3759,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udd04 in progress",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udd04-in-progress"
     },
@@ -3779,7 +3769,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udeab blocked / at risk",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udeab-blocked---at-risk"
     },
@@ -3789,7 +3779,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udcc5 next week",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udcc5-next-week"
     },
@@ -3799,7 +3789,7 @@
       "source_file": ".agents/skills/pm/references/roadmap-template.md",
       "description": "",
       "file_type": "concept",
-      "community": 18,
+      "community": 17,
       "norm_label": "\ud83d\udca1 decisions needed",
       "id": ".agents/skills/pm/references/roadmap-template.md#\ud83d\udca1-decisions-needed"
     },
@@ -3809,7 +3799,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "code-review-patterns.md",
       "id": ".agents/skills/qa/references/code-review-patterns.md"
     },
@@ -3849,7 +3839,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "code review patterns & anti-patterns reference",
       "id": ".agents/skills/qa/references/code-review-patterns.md#code-review-patterns-&-anti-patterns-reference"
     },
@@ -3859,7 +3849,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "design principles checklist",
       "id": ".agents/skills/qa/references/code-review-patterns.md#design-principles-checklist"
     },
@@ -3869,7 +3859,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "solid principles",
       "id": ".agents/skills/qa/references/code-review-patterns.md#solid-principles"
     },
@@ -3879,7 +3869,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "dry (don't repeat yourself)",
       "id": ".agents/skills/qa/references/code-review-patterns.md#dry-(don't-repeat-yourself)"
     },
@@ -3889,7 +3879,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "kiss (keep it simple, stupid)",
       "id": ".agents/skills/qa/references/code-review-patterns.md#kiss-(keep-it-simple,-stupid)"
     },
@@ -3899,7 +3889,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "common code smells",
       "id": ".agents/skills/qa/references/code-review-patterns.md#common-code-smells"
     },
@@ -3909,7 +3899,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "method/function level",
       "id": ".agents/skills/qa/references/code-review-patterns.md#method-function-level"
     },
@@ -3919,7 +3909,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "class level",
       "id": ".agents/skills/qa/references/code-review-patterns.md#class-level"
     },
@@ -3929,7 +3919,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "architecture level",
       "id": ".agents/skills/qa/references/code-review-patterns.md#architecture-level"
     },
@@ -3939,7 +3929,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "anti-patterns to flag",
       "id": ".agents/skills/qa/references/code-review-patterns.md#anti-patterns-to-flag"
     },
@@ -3949,7 +3939,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "error handling anti-patterns",
       "id": ".agents/skills/qa/references/code-review-patterns.md#error-handling-anti-patterns"
     },
@@ -3959,7 +3949,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "naming anti-patterns",
       "id": ".agents/skills/qa/references/code-review-patterns.md#naming-anti-patterns"
     },
@@ -3969,7 +3959,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "concurrency anti-patterns",
       "id": ".agents/skills/qa/references/code-review-patterns.md#concurrency-anti-patterns"
     },
@@ -3979,7 +3969,7 @@
       "source_file": ".agents/skills/qa/references/code-review-patterns.md",
       "description": "",
       "file_type": "concept",
-      "community": 23,
+      "community": 22,
       "norm_label": "positive patterns to acknowledge",
       "id": ".agents/skills/qa/references/code-review-patterns.md#positive-patterns-to-acknowledge"
     },
@@ -3989,7 +3979,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "javascript qa at scale \u2014 testing, quality gates & monitoring",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#javascript-qa-at-scale-\u2014-testing,-quality-gates-&-monitoring"
     },
@@ -3999,7 +3989,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "1. strategi testing untuk proyek besar",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#1-strategi-testing-untuk-proyek-besar"
     },
@@ -4009,7 +3999,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "1.1 test pyramid untuk javascript",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#11-test-pyramid-untuk-javascript"
     },
@@ -4019,7 +4009,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "1.2 framework testing rekomendasi",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#12-framework-testing-rekomendasi"
     },
@@ -4029,7 +4019,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "1.3 testing pattern per layer",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#13-testing-pattern-per-layer"
     },
@@ -4039,7 +4029,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "1.4 mock service worker (msw) untuk api mocking",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#14-mock-service-worker-(msw)-untuk-api-mocking"
     },
@@ -4049,7 +4039,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "2. quality gates & ci/cd",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#2-quality-gates-&-ci-cd"
     },
@@ -4059,7 +4049,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "2.1 ci/cd pipeline configuration",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#21-ci-cd-pipeline-configuration"
     },
@@ -4079,7 +4069,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "2.2 quality gates",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#22-quality-gates"
     },
@@ -4089,7 +4079,7 @@
       "source_file": ".agents/skills/qa/references/js-at-scale-qa.md",
       "description": "",
       "file_type": "concept",
-      "community": 34,
+      "community": 33,
       "norm_label": "2.3 pre-commit hooks",
       "id": ".agents/skills/qa/references/js-at-scale-qa.md#23-pre-commit-hooks"
     },
@@ -4809,7 +4799,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "backend/references/dynamic-masterdata-and-flow-guide.md",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide"
     },
@@ -4819,7 +4809,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "dynamic master data & unambiguous flow guide",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_dynamic_master_data_unambiguous_flow_guide"
     },
@@ -4829,7 +4819,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "1. prinsip utama: zero hardcoded master data",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data"
     },
@@ -4839,7 +4829,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "mengapa hardcoded tidak profesional & berbahaya?",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_mengapa_hardcoded_tidak_profesional_berbahaya"
     },
@@ -4849,7 +4839,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\u2705 solusi: dynamic master data via database & admin ui",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     },
@@ -4859,7 +4849,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "2. pencegahan \"data misconception\" & logic flow gaps",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps"
     },
@@ -4869,7 +4859,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\ud83d\udd0d kasus masalah (contoh misconception)",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_kasus_masalah_contoh_misconception"
     },
@@ -4879,7 +4869,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\ud83d\udee1\ufe0f aturan desain logic flow yang bebas misconception",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_aturan_desain_logic_flow_yang_bebas_misconception"
     },
@@ -4889,7 +4879,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "3. penerapan berdasarkan role skill",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_3_penerapan_berdasarkan_role_skill"
     },
@@ -4899,7 +4889,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_role_pm_pm"
     },
@@ -4909,7 +4899,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_role_backend_backend"
     },
@@ -4919,7 +4909,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_role_frontend_frontend"
     },
@@ -4929,7 +4919,7 @@
       "source_file": ".agents/skills/backend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 25,
+      "community": 24,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_backend_references_dynamic_masterdata_and_flow_guide_role_qa_qa"
     },
@@ -4939,7 +4929,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "backend/references/routing-and-maps-guide.md",
       "id": "agents_skills_backend_references_routing_and_maps_guide"
     },
@@ -4949,7 +4939,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration",
       "id": "agents_skills_backend_references_routing_and_maps_guide_routing_maps_navigation_guide_web_mobile_integration"
     },
@@ -4959,7 +4949,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "1. prinsip utama arsitektur peta & rute",
       "id": "agents_skills_backend_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute"
     },
@@ -4969,7 +4959,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "2. perbandingan provider & sdk utama",
       "id": "agents_skills_backend_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama"
     },
@@ -4979,7 +4969,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "3. pilihan solusi berdasarkan skala bisnis & use case",
       "id": "agents_skills_backend_references_routing_and_maps_guide_3_pilihan_solusi_berdasarkan_skala_bisnis_use_case"
     },
@@ -4989,7 +4979,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83c\udfaf solusi 1: premium & real-time traffic (google maps platform)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_solusi_1_premium_real_time_traffic_google_maps_platform"
     },
@@ -4999,7 +4989,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83c\udfa8 solusi 2: kustomisasi visual high-end & voice navigation (mapbox)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox"
     },
@@ -5009,7 +4999,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83d\udcb0 solusi 3: free & uncapped requests (osrm + leaflet / maplibre)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     },
@@ -5019,7 +5009,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "4. peran masing-masing role skill",
       "id": "agents_skills_backend_references_routing_and_maps_guide_4_peran_masing_masing_role_skill"
     },
@@ -5029,7 +5019,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_role_pm_pm"
     },
@@ -5039,7 +5029,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_role_backend_backend"
     },
@@ -5049,7 +5039,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_role_frontend_frontend"
     },
@@ -5059,7 +5049,7 @@
       "source_file": ".agents/skills/backend/references/routing-and-maps-guide.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 26,
+      "community": 25,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_backend_references_routing_and_maps_guide_role_qa_qa"
     },
@@ -5069,7 +5059,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "frontend/references/dynamic-masterdata-and-flow-guide.md",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide"
     },
@@ -5079,7 +5069,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "dynamic master data & unambiguous flow guide",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_dynamic_master_data_unambiguous_flow_guide"
     },
@@ -5089,7 +5079,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "1. prinsip utama: zero hardcoded master data",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data"
     },
@@ -5099,7 +5089,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "mengapa hardcoded tidak profesional & berbahaya?",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_mengapa_hardcoded_tidak_profesional_berbahaya"
     },
@@ -5109,7 +5099,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\u2705 solusi: dynamic master data via database & admin ui",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     },
@@ -5119,7 +5109,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "2. pencegahan \"data misconception\" & logic flow gaps",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps"
     },
@@ -5129,7 +5119,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\ud83d\udd0d kasus masalah (contoh misconception)",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_kasus_masalah_contoh_misconception"
     },
@@ -5139,7 +5129,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\ud83d\udee1\ufe0f aturan desain logic flow yang bebas misconception",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_aturan_desain_logic_flow_yang_bebas_misconception"
     },
@@ -5149,7 +5139,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "3. penerapan berdasarkan role skill",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_3_penerapan_berdasarkan_role_skill"
     },
@@ -5159,7 +5149,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_role_pm_pm"
     },
@@ -5169,7 +5159,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_role_backend_backend"
     },
@@ -5179,7 +5169,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_role_frontend_frontend"
     },
@@ -5189,7 +5179,7 @@
       "source_file": ".agents/skills/frontend/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 27,
+      "community": 26,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_frontend_references_dynamic_masterdata_and_flow_guide_role_qa_qa"
     },
@@ -5479,7 +5469,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "frontend/references/routing-and-maps-guide.md",
       "id": "agents_skills_frontend_references_routing_and_maps_guide"
     },
@@ -5489,7 +5479,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_routing_maps_navigation_guide_web_mobile_integration"
     },
@@ -5499,7 +5489,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "1. prinsip utama arsitektur peta & rute",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute"
     },
@@ -5509,7 +5499,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "2. perbandingan provider & sdk utama",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama"
     },
@@ -5519,7 +5509,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "3. pilihan solusi berdasarkan skala bisnis & use case",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_3_pilihan_solusi_berdasarkan_skala_bisnis_use_case"
     },
@@ -5529,7 +5519,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83c\udfaf solusi 1: premium & real-time traffic (google maps platform)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_solusi_1_premium_real_time_traffic_google_maps_platform"
     },
@@ -5539,7 +5529,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83c\udfa8 solusi 2: kustomisasi visual high-end & voice navigation (mapbox)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox"
     },
@@ -5549,7 +5539,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83d\udcb0 solusi 3: free & uncapped requests (osrm + leaflet / maplibre)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     },
@@ -5559,7 +5549,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "4. peran masing-masing role skill",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_4_peran_masing_masing_role_skill"
     },
@@ -5569,7 +5559,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_role_pm_pm"
     },
@@ -5579,7 +5569,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_role_backend_backend"
     },
@@ -5589,7 +5579,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_role_frontend_frontend"
     },
@@ -5599,7 +5589,7 @@
       "source_file": ".agents/skills/frontend/references/routing-and-maps-guide.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 28,
+      "community": 27,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_frontend_references_routing_and_maps_guide_role_qa_qa"
     },
@@ -6249,7 +6239,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "pm/references/dynamic-masterdata-and-flow-guide.md",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide"
     },
@@ -6259,7 +6249,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "dynamic master data & unambiguous flow guide",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_dynamic_master_data_unambiguous_flow_guide"
     },
@@ -6269,7 +6259,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "1. prinsip utama: zero hardcoded master data",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data"
     },
@@ -6279,7 +6269,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "mengapa hardcoded tidak profesional & berbahaya?",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_mengapa_hardcoded_tidak_profesional_berbahaya"
     },
@@ -6289,7 +6279,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\u2705 solusi: dynamic master data via database & admin ui",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     },
@@ -6299,7 +6289,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "2. pencegahan \"data misconception\" & logic flow gaps",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps"
     },
@@ -6309,7 +6299,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\ud83d\udd0d kasus masalah (contoh misconception)",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_kasus_masalah_contoh_misconception"
     },
@@ -6319,7 +6309,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\ud83d\udee1\ufe0f aturan desain logic flow yang bebas misconception",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_aturan_desain_logic_flow_yang_bebas_misconception"
     },
@@ -6329,7 +6319,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "3. penerapan berdasarkan role skill",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_3_penerapan_berdasarkan_role_skill"
     },
@@ -6339,7 +6329,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_role_pm_pm"
     },
@@ -6349,7 +6339,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_role_backend_backend"
     },
@@ -6359,7 +6349,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_role_frontend_frontend"
     },
@@ -6369,7 +6359,7 @@
       "source_file": ".agents/skills/pm/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 29,
+      "community": 28,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_pm_references_dynamic_masterdata_and_flow_guide_role_qa_qa"
     },
@@ -6379,7 +6369,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "prd-template.md",
       "id": "agents_skills_pm_references_prd_template"
     },
@@ -6389,7 +6379,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "prd template \u2014 product requirements document",
       "id": "agents_skills_pm_references_prd_template_prd_template_product_requirements_document"
     },
@@ -6399,7 +6389,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "full prd template",
       "id": "agents_skills_pm_references_prd_template_full_prd_template"
     },
@@ -6409,7 +6399,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L299",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "prd writing tips",
       "id": "agents_skills_pm_references_prd_template_prd_writing_tips"
     },
@@ -6419,7 +6409,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L301",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "problem statement formula",
       "id": "agents_skills_pm_references_prd_template_problem_statement_formula"
     },
@@ -6429,7 +6419,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L316",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "user story formula",
       "id": "agents_skills_pm_references_prd_template_user_story_formula"
     },
@@ -6439,7 +6429,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L333",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "acceptance criteria (given/when/then)",
       "id": "agents_skills_pm_references_prd_template_acceptance_criteria_given_when_then"
     },
@@ -6449,7 +6439,7 @@
       "source_file": ".agents/skills/pm/references/prd-template.md",
       "source_location": "L343",
       "_origin": "ast",
-      "community": 37,
+      "community": 36,
       "norm_label": "invest criteria for good stories",
       "id": "agents_skills_pm_references_prd_template_invest_criteria_for_good_stories"
     },
@@ -6459,7 +6449,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "pm/references/routing-and-maps-guide.md",
       "id": "agents_skills_pm_references_routing_and_maps_guide"
     },
@@ -6469,7 +6459,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration",
       "id": "agents_skills_pm_references_routing_and_maps_guide_routing_maps_navigation_guide_web_mobile_integration"
     },
@@ -6479,7 +6469,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "1. prinsip utama arsitektur peta & rute",
       "id": "agents_skills_pm_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute"
     },
@@ -6489,7 +6479,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "2. perbandingan provider & sdk utama",
       "id": "agents_skills_pm_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama"
     },
@@ -6499,7 +6489,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "3. pilihan solusi berdasarkan skala bisnis & use case",
       "id": "agents_skills_pm_references_routing_and_maps_guide_3_pilihan_solusi_berdasarkan_skala_bisnis_use_case"
     },
@@ -6509,7 +6499,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83c\udfaf solusi 1: premium & real-time traffic (google maps platform)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_solusi_1_premium_real_time_traffic_google_maps_platform"
     },
@@ -6519,7 +6509,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83c\udfa8 solusi 2: kustomisasi visual high-end & voice navigation (mapbox)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox"
     },
@@ -6529,7 +6519,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83d\udcb0 solusi 3: free & uncapped requests (osrm + leaflet / maplibre)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     },
@@ -6539,7 +6529,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "4. peran masing-masing role skill",
       "id": "agents_skills_pm_references_routing_and_maps_guide_4_peran_masing_masing_role_skill"
     },
@@ -6549,7 +6539,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_role_pm_pm"
     },
@@ -6559,7 +6549,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_role_backend_backend"
     },
@@ -6569,7 +6559,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_role_frontend_frontend"
     },
@@ -6579,7 +6569,7 @@
       "source_file": ".agents/skills/pm/references/routing-and-maps-guide.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 30,
+      "community": 29,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_pm_references_routing_and_maps_guide_role_qa_qa"
     },
@@ -6589,7 +6579,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "qa/skill.md",
       "id": "agents_skills_qa_skill"
     },
@@ -6599,7 +6589,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "qa skill \u2014 comprehensive quality assurance engineer",
       "id": "agents_skills_qa_skill_qa_skill_comprehensive_quality_assurance_engineer"
     },
@@ -6609,7 +6599,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "core principles",
       "id": "agents_skills_qa_skill_core_principles"
     },
@@ -6619,7 +6609,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "standard tech stack audit guidelines",
       "id": "agents_skills_qa_skill_standard_tech_stack_audit_guidelines"
     },
@@ -6629,7 +6619,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "capabilities",
       "id": "agents_skills_qa_skill_capabilities"
     },
@@ -6639,7 +6629,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "1. code review",
       "id": "agents_skills_qa_skill_1_code_review"
     },
@@ -6649,7 +6639,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "2. testing strategy",
       "id": "agents_skills_qa_skill_2_testing_strategy"
     },
@@ -6659,7 +6649,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L90",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "3. bug detection",
       "id": "agents_skills_qa_skill_3_bug_detection"
     },
@@ -6669,7 +6659,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L110",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "4. test case generation",
       "id": "agents_skills_qa_skill_4_test_case_generation"
     },
@@ -6679,7 +6669,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L135",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "5. performance check",
       "id": "agents_skills_qa_skill_5_performance_check"
     },
@@ -6689,7 +6679,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L155",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "6. security review",
       "id": "agents_skills_qa_skill_6_security_review"
     },
@@ -6699,7 +6689,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L180",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "qa workflow",
       "id": "agents_skills_qa_skill_qa_workflow"
     },
@@ -6709,7 +6699,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L184",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "phase 1: analyze",
       "id": "agents_skills_qa_skill_phase_1_analyze"
     },
@@ -6719,7 +6709,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L190",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "phase 2: identify",
       "id": "agents_skills_qa_skill_phase_2_identify"
     },
@@ -6729,7 +6719,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L196",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "phase 3: report",
       "id": "agents_skills_qa_skill_phase_3_report"
     },
@@ -6739,7 +6729,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L235",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "\ud83d\udfe0 high \u2014 [finding title]",
       "id": "agents_skills_qa_skill_high_finding_title"
     },
@@ -6749,7 +6739,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L238",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "recommendations",
       "id": "agents_skills_qa_skill_recommendations"
     },
@@ -6759,7 +6749,7 @@
       "source_file": ".agents/skills/qa/SKILL.md",
       "source_location": "L241",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "positive observations",
       "id": "agents_skills_qa_skill_positive_observations"
     },
@@ -6769,7 +6759,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "qa/references/dynamic-masterdata-and-flow-guide.md",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide"
     },
@@ -6779,7 +6769,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "dynamic master data & unambiguous flow guide",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_dynamic_master_data_unambiguous_flow_guide"
     },
@@ -6789,7 +6779,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "1. prinsip utama: zero hardcoded master data",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_1_prinsip_utama_zero_hardcoded_master_data"
     },
@@ -6799,7 +6789,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "mengapa hardcoded tidak profesional & berbahaya?",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_mengapa_hardcoded_tidak_profesional_berbahaya"
     },
@@ -6809,7 +6799,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\u2705 solusi: dynamic master data via database & admin ui",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_solusi_dynamic_master_data_via_database_admin_ui"
     },
@@ -6819,7 +6809,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "2. pencegahan \"data misconception\" & logic flow gaps",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_2_pencegahan_data_misconception_logic_flow_gaps"
     },
@@ -6829,7 +6819,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\ud83d\udd0d kasus masalah (contoh misconception)",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_kasus_masalah_contoh_misconception"
     },
@@ -6839,7 +6829,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\ud83d\udee1\ufe0f aturan desain logic flow yang bebas misconception",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_aturan_desain_logic_flow_yang_bebas_misconception"
     },
@@ -6849,7 +6839,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "3. penerapan berdasarkan role skill",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_3_penerapan_berdasarkan_role_skill"
     },
@@ -6859,7 +6849,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_role_pm_pm"
     },
@@ -6869,7 +6859,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_role_backend_backend"
     },
@@ -6879,7 +6869,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_role_frontend_frontend"
     },
@@ -6889,7 +6879,7 @@
       "source_file": ".agents/skills/qa/references/dynamic-masterdata-and-flow-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 31,
+      "community": 30,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_qa_references_dynamic_masterdata_and_flow_guide_role_qa_qa"
     },
@@ -6899,7 +6889,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "qa/references/routing-and-maps-guide.md",
       "id": "agents_skills_qa_references_routing_and_maps_guide"
     },
@@ -6909,7 +6899,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration",
       "id": "agents_skills_qa_references_routing_and_maps_guide_routing_maps_navigation_guide_web_mobile_integration"
     },
@@ -6919,7 +6909,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "1. prinsip utama arsitektur peta & rute",
       "id": "agents_skills_qa_references_routing_and_maps_guide_1_prinsip_utama_arsitektur_peta_rute"
     },
@@ -6929,7 +6919,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "2. perbandingan provider & sdk utama",
       "id": "agents_skills_qa_references_routing_and_maps_guide_2_perbandingan_provider_sdk_utama"
     },
@@ -6939,7 +6929,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "3. pilihan solusi berdasarkan skala bisnis & use case",
       "id": "agents_skills_qa_references_routing_and_maps_guide_3_pilihan_solusi_berdasarkan_skala_bisnis_use_case"
     },
@@ -6949,7 +6939,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83c\udfaf solusi 1: premium & real-time traffic (google maps platform)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_solusi_1_premium_real_time_traffic_google_maps_platform"
     },
@@ -6959,7 +6949,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83c\udfa8 solusi 2: kustomisasi visual high-end & voice navigation (mapbox)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_solusi_2_kustomisasi_visual_high_end_voice_navigation_mapbox"
     },
@@ -6969,7 +6959,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83d\udcb0 solusi 3: free & uncapped requests (osrm + leaflet / maplibre)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_solusi_3_free_uncapped_requests_osrm_leaflet_maplibre"
     },
@@ -6979,7 +6969,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "4. peran masing-masing role skill",
       "id": "agents_skills_qa_references_routing_and_maps_guide_4_peran_masing_masing_role_skill"
     },
@@ -6989,7 +6979,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83d\udccb role pm (`/pm`)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_role_pm_pm"
     },
@@ -6999,7 +6989,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\u2699\ufe0f role backend (`/backend`)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_role_backend_backend"
     },
@@ -7009,7 +6999,7 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83c\udfa8 role frontend (`/frontend`)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_role_frontend_frontend"
     },
@@ -7019,219 +7009,9 @@
       "source_file": ".agents/skills/qa/references/routing-and-maps-guide.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 32,
+      "community": 31,
       "norm_label": "\ud83e\uddea role qa (`/qa`)",
       "id": "agents_skills_qa_references_routing_and_maps_guide_role_qa_qa"
-    },
-    {
-      "label": "backend/SKILL.md",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill",
-      "community": 17,
-      "norm_label": "backend/skill.md"
-    },
-    {
-      "label": "Backend Skill \u2014 Comprehensive Backend Engineer",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "community": 17,
-      "norm_label": "backend skill \u2014 comprehensive backend engineer"
-    },
-    {
-      "label": "Core Principles",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_core_principles",
-      "community": 17,
-      "norm_label": "core principles"
-    },
-    {
-      "label": "Standard Tech Stack Guidelines",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_standard_tech_stack_guidelines",
-      "community": 17,
-      "norm_label": "standard tech stack guidelines"
-    },
-    {
-      "label": "Safe Logic Flow & Error Handling Architecture",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_safe_logic_flow_error_handling_architecture",
-      "community": 17,
-      "norm_label": "safe logic flow & error handling architecture"
-    },
-    {
-      "label": "Ringkasan Alur Kerja Aman (*Architecture Flow*)",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L56",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_ringkasan_alur_kerja_aman_architecture_flow",
-      "community": 17,
-      "norm_label": "ringkasan alur kerja aman (*architecture flow*)"
-    },
-    {
-      "label": "Detail 5 Pola Utama:",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L65",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_detail_5_pola_utama",
-      "community": 17,
-      "norm_label": "detail 5 pola utama:"
-    },
-    {
-      "label": "Capabilities",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L77",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_capabilities",
-      "community": 17,
-      "norm_label": "capabilities"
-    },
-    {
-      "label": "1. API Design",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L81",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_1_api_design",
-      "community": 17,
-      "norm_label": "1. api design"
-    },
-    {
-      "label": "2. Database Management",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L89",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_2_database_management",
-      "community": 17,
-      "norm_label": "2. database management"
-    },
-    {
-      "label": "3. Authentication & Authorization",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L96",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_3_authentication_authorization",
-      "community": 17,
-      "norm_label": "3. authentication & authorization"
-    },
-    {
-      "label": "4. Architecture Patterns",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L102",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_4_architecture_patterns",
-      "community": 17,
-      "norm_label": "4. architecture patterns"
-    },
-    {
-      "label": "5. Error Handling & Observability",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L109",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_5_error_handling_observability",
-      "community": 17,
-      "norm_label": "5. error handling & observability"
-    },
-    {
-      "label": "6. Deployment & DevOps",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_6_deployment_devops",
-      "community": 17,
-      "norm_label": "6. deployment & devops"
-    },
-    {
-      "label": "Backend Development Workflow",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L123",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_backend_development_workflow",
-      "community": 17,
-      "norm_label": "backend development workflow"
-    },
-    {
-      "label": "Phase 1: Understand & Plan",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L125",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_phase_1_understand_plan",
-      "community": 17,
-      "norm_label": "phase 1: understand & plan"
-    },
-    {
-      "label": "Phase 2: Architecture & Schema",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L129",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_phase_2_architecture_schema",
-      "community": 17,
-      "norm_label": "phase 2: architecture & schema"
-    },
-    {
-      "label": "Phase 3: Implement Safe Logic & APIs",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L133",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_phase_3_implement_safe_logic_apis",
-      "community": 17,
-      "norm_label": "phase 3: implement safe logic & apis"
-    },
-    {
-      "label": "Phase 4: Validate & Deploy",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L140",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_phase_4_validate_deploy",
-      "community": 17,
-      "norm_label": "phase 4: validate & deploy"
-    },
-    {
-      "label": "Checklists",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L146",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_checklists",
-      "community": 17,
-      "norm_label": "checklists"
-    },
-    {
-      "label": "Safe Logic Flow Checklist",
-      "file_type": "document",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L148",
-      "_origin": "ast",
-      "id": "agents_skills_backend_skill_safe_logic_flow_checklist",
-      "community": 17,
-      "norm_label": "safe logic flow checklist"
     },
     {
       "label": "backend/references/safe-logic-flow-guide.md",
@@ -7239,9 +7019,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide",
-      "community": 35,
-      "norm_label": "backend/references/safe-logic-flow-guide.md"
+      "community": 34,
+      "norm_label": "backend/references/safe-logic-flow-guide.md",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide"
     },
     {
       "label": "Safe Logic Flow & Error Handling Architecture Guide",
@@ -7249,9 +7029,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "community": 35,
-      "norm_label": "safe logic flow & error handling architecture guide"
+      "community": 34,
+      "norm_label": "safe logic flow & error handling architecture guide",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     },
     {
       "label": "Ringkasan Alur Kerja Aman (*Architecture Flow Matrix*)",
@@ -7259,9 +7039,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "community": 35,
-      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)"
+      "community": 34,
+      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix"
     },
     {
       "label": "1. Pola Guard Clause (Early Return)",
@@ -7269,9 +7049,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
-      "community": 35,
-      "norm_label": "1. pola guard clause (early return)"
+      "community": 34,
+      "norm_label": "1. pola guard clause (early return)",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return"
     },
     {
       "label": "2. Result Pattern (Result Object)",
@@ -7279,9 +7059,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_2_result_pattern_result_object",
-      "community": 35,
-      "norm_label": "2. result pattern (result object)"
+      "community": 34,
+      "norm_label": "2. result pattern (result object)",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_2_result_pattern_result_object"
     },
     {
       "label": "3. Custom Domain Exception",
@@ -7289,9 +7069,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_3_custom_domain_exception",
-      "community": 35,
-      "norm_label": "3. custom domain exception"
+      "community": 34,
+      "norm_label": "3. custom domain exception",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_3_custom_domain_exception"
     },
     {
       "label": "4. Centralized Global Exception Handler",
@@ -7299,9 +7079,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L103",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_4_centralized_global_exception_handler",
-      "community": 35,
-      "norm_label": "4. centralized global exception handler"
+      "community": 34,
+      "norm_label": "4. centralized global exception handler",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_4_centralized_global_exception_handler"
     },
     {
       "label": "5. Structured Logging & Observability",
@@ -7309,9 +7089,9 @@
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L128",
       "_origin": "ast",
-      "id": "agents_skills_backend_references_safe_logic_flow_guide_5_structured_logging_observability",
-      "community": 35,
-      "norm_label": "5. structured logging & observability"
+      "community": 34,
+      "norm_label": "5. structured logging & observability",
+      "id": "agents_skills_backend_references_safe_logic_flow_guide_5_structured_logging_observability"
     },
     {
       "label": "frontend/SKILL.md",
@@ -7319,9 +7099,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill",
-      "community": 33,
-      "norm_label": "frontend/skill.md"
+      "community": 32,
+      "norm_label": "frontend/skill.md",
+      "id": "agents_skills_frontend_skill"
     },
     {
       "label": "Frontend Skill \u2014 Comprehensive Frontend Engineer & UI/UX Pro Max",
@@ -7329,9 +7109,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "community": 33,
-      "norm_label": "frontend skill \u2014 comprehensive frontend engineer & ui/ux pro max"
+      "community": 32,
+      "norm_label": "frontend skill \u2014 comprehensive frontend engineer & ui/ux pro max",
+      "id": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max"
     },
     {
       "label": "Core Principles",
@@ -7339,9 +7119,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_core_principles",
-      "community": 33,
-      "norm_label": "core principles"
+      "community": 32,
+      "norm_label": "core principles",
+      "id": "agents_skills_frontend_skill_core_principles"
     },
     {
       "label": "Standard Tech Stack & Setup Guidelines",
@@ -7349,9 +7129,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_standard_tech_stack_setup_guidelines",
-      "community": 33,
-      "norm_label": "standard tech stack & setup guidelines"
+      "community": 32,
+      "norm_label": "standard tech stack & setup guidelines",
+      "id": "agents_skills_frontend_skill_standard_tech_stack_setup_guidelines"
     },
     {
       "label": "Safe Logic Flow & Error Handling Architecture",
@@ -7359,9 +7139,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture",
-      "community": 33,
-      "norm_label": "safe logic flow & error handling architecture"
+      "community": 32,
+      "norm_label": "safe logic flow & error handling architecture",
+      "id": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture"
     },
     {
       "label": "Ringkasan Alur Kerja Aman (*Architecture Flow Matrix*)",
@@ -7369,9 +7149,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "community": 33,
-      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)"
+      "community": 32,
+      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)",
+      "id": "agents_skills_frontend_skill_ringkasan_alur_kerja_aman_architecture_flow_matrix"
     },
     {
       "label": "Detail 5 Pola Utama:",
@@ -7379,9 +7159,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_detail_5_pola_utama",
-      "community": 33,
-      "norm_label": "detail 5 pola utama:"
+      "community": 32,
+      "norm_label": "detail 5 pola utama:",
+      "id": "agents_skills_frontend_skill_detail_5_pola_utama"
     },
     {
       "label": "UI/UX Pro Max \u2014 Design Intelligence Framework",
@@ -7389,9 +7169,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L86",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework",
-      "community": 33,
-      "norm_label": "ui/ux pro max \u2014 design intelligence framework"
+      "community": 32,
+      "norm_label": "ui/ux pro max \u2014 design intelligence framework",
+      "id": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework"
     },
     {
       "label": "Rule Categories by Priority",
@@ -7399,9 +7179,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L90",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_rule_categories_by_priority",
-      "community": 33,
-      "norm_label": "rule categories by priority"
+      "community": 32,
+      "norm_label": "rule categories by priority",
+      "id": "agents_skills_frontend_skill_rule_categories_by_priority"
     },
     {
       "label": "How to Use Search CLI Tool",
@@ -7409,9 +7189,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L105",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_how_to_use_search_cli_tool",
-      "community": 33,
-      "norm_label": "how to use search cli tool"
+      "community": 32,
+      "norm_label": "how to use search cli tool",
+      "id": "agents_skills_frontend_skill_how_to_use_search_cli_tool"
     },
     {
       "label": "Pre-Delivery UI/UX & Safe Flow Checklist",
@@ -7419,9 +7199,9 @@
       "source_file": ".agents/skills/frontend/SKILL.md",
       "source_location": "L117",
       "_origin": "ast",
-      "id": "agents_skills_frontend_skill_pre_delivery_ui_ux_safe_flow_checklist",
-      "community": 33,
-      "norm_label": "pre-delivery ui/ux & safe flow checklist"
+      "community": 32,
+      "norm_label": "pre-delivery ui/ux & safe flow checklist",
+      "id": "agents_skills_frontend_skill_pre_delivery_ui_ux_safe_flow_checklist"
     },
     {
       "label": "frontend/references/safe-logic-flow-guide.md",
@@ -7429,9 +7209,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide",
-      "community": 36,
-      "norm_label": "frontend/references/safe-logic-flow-guide.md"
+      "community": 35,
+      "norm_label": "frontend/references/safe-logic-flow-guide.md",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide"
     },
     {
       "label": "Safe Logic Flow & Error Handling Architecture Guide",
@@ -7439,9 +7219,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "community": 36,
-      "norm_label": "safe logic flow & error handling architecture guide"
+      "community": 35,
+      "norm_label": "safe logic flow & error handling architecture guide",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     },
     {
       "label": "Ringkasan Alur Kerja Aman (*Architecture Flow Matrix*)",
@@ -7449,9 +7229,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "community": 36,
-      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)"
+      "community": 35,
+      "norm_label": "ringkasan alur kerja aman (*architecture flow matrix*)",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix"
     },
     {
       "label": "1. Pola Guard Clause (Early Return)",
@@ -7459,9 +7239,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
-      "community": 36,
-      "norm_label": "1. pola guard clause (early return)"
+      "community": 35,
+      "norm_label": "1. pola guard clause (early return)",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return"
     },
     {
       "label": "2. Result Pattern (Result Object)",
@@ -7469,9 +7249,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_2_result_pattern_result_object",
-      "community": 36,
-      "norm_label": "2. result pattern (result object)"
+      "community": 35,
+      "norm_label": "2. result pattern (result object)",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_2_result_pattern_result_object"
     },
     {
       "label": "3. Custom Domain Exception",
@@ -7479,9 +7259,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_3_custom_domain_exception",
-      "community": 36,
-      "norm_label": "3. custom domain exception"
+      "community": 35,
+      "norm_label": "3. custom domain exception",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_3_custom_domain_exception"
     },
     {
       "label": "4. Centralized Global Exception Handler",
@@ -7489,9 +7269,9 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L103",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_4_centralized_global_exception_handler",
-      "community": 36,
-      "norm_label": "4. centralized global exception handler"
+      "community": 35,
+      "norm_label": "4. centralized global exception handler",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_4_centralized_global_exception_handler"
     },
     {
       "label": "5. Structured Logging & Observability",
@@ -7499,9 +7279,360 @@
       "source_file": ".agents/skills/frontend/references/safe-logic-flow-guide.md",
       "source_location": "L128",
       "_origin": "ast",
-      "id": "agents_skills_frontend_references_safe_logic_flow_guide_5_structured_logging_observability",
-      "community": 36,
-      "norm_label": "5. structured logging & observability"
+      "community": 35,
+      "norm_label": "5. structured logging & observability",
+      "id": "agents_skills_frontend_references_safe_logic_flow_guide_5_structured_logging_observability"
+    },
+    {
+      "label": "Agent Skill Repository",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Ahmad Arif",
+      "contributor": null,
+      "id": "readme_agent_skill_repository",
+      "community": 37,
+      "norm_label": "agent skill repository"
+    },
+    {
+      "label": "Backend Skill",
+      "file_type": "document",
+      "source_file": ".agents/skills/backend/SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "_agents_skills_backend_skill_backend_skill",
+      "community": 37,
+      "norm_label": "backend skill"
+    },
+    {
+      "label": "JWT Flow",
+      "file_type": "concept",
+      "source_file": "skills/backend/references/auth-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_backend_references_auth_patterns_jwt_flow",
+      "community": 3,
+      "norm_label": "jwt flow"
+    },
+    {
+      "label": "Session Management",
+      "file_type": "concept",
+      "source_file": "skills/backend/references/auth-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_backend_references_auth_patterns_session_management",
+      "community": 3,
+      "norm_label": "session management"
+    },
+    {
+      "label": "Graphify CLI",
+      "file_type": "concept",
+      "source_file": "skills/graphify/SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_graphify_skill_graphify_cli",
+      "community": 42,
+      "norm_label": "graphify cli"
+    },
+    {
+      "label": "graphify reference: commit hook and native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": "skills/graphify/references/hooks.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_graphify_references_hooks_hooks",
+      "community": 38,
+      "norm_label": "graphify reference: commit hook and native claude.md integration"
+    },
+    {
+      "label": "graphify reference: query, path, explain",
+      "file_type": "document",
+      "source_file": "skills/graphify/references/query.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_graphify_references_query_query",
+      "community": 39,
+      "norm_label": "graphify reference: query, path, explain"
+    },
+    {
+      "label": "graphify reference: transcribe video and audio",
+      "file_type": "document",
+      "source_file": "skills/graphify/references/transcribe.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_graphify_references_transcribe_transcribe",
+      "community": 40,
+      "norm_label": "graphify reference: transcribe video and audio"
+    },
+    {
+      "label": "graphify reference: incremental update and cluster-only",
+      "file_type": "document",
+      "source_file": "skills/graphify/references/update.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_graphify_references_update_update",
+      "community": 41,
+      "norm_label": "graphify reference: incremental update and cluster-only"
+    },
+    {
+      "label": "PM Skill \u2014 Comprehensive Product Manager",
+      "file_type": "document",
+      "source_file": "skills/pm/SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_skill_skill",
+      "community": 52,
+      "norm_label": "pm skill \u2014 comprehensive product manager"
+    },
+    {
+      "label": "Dynamic Master Data & Unambiguous Flow Guide",
+      "file_type": "document",
+      "source_file": "skills/pm/references/dynamic-masterdata-and-flow-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide",
+      "community": 43,
+      "norm_label": "dynamic master data & unambiguous flow guide"
+    },
+    {
+      "label": "Feature Breakdown Guide \u2014 Decomposition & Estimation",
+      "file_type": "document",
+      "source_file": "skills/pm/references/feature-breakdown-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_feature_breakdown_guide_feature_breakdown_guide",
+      "community": 44,
+      "norm_label": "feature breakdown guide \u2014 decomposition & estimation"
+    },
+    {
+      "label": "JavaScript Project Management at Scale \u2014 Methodology, Architecture & Team Scaling",
+      "file_type": "document",
+      "source_file": "skills/pm/references/js-at-scale-pm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_js_at_scale_pm_js_at_scale_pm",
+      "community": 45,
+      "norm_label": "javascript project management at scale \u2014 methodology, architecture & team scaling"
+    },
+    {
+      "label": "Methodology Guide \u2014 Agile, Scrum, Kanban & More",
+      "file_type": "document",
+      "source_file": "skills/pm/references/methodology-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_methodology_guide_methodology_guide",
+      "community": 46,
+      "norm_label": "methodology guide \u2014 agile, scrum, kanban & more"
+    },
+    {
+      "label": "Panduan Product & Frontend: Standar PWA & Arsitektur Monorepo",
+      "file_type": "document",
+      "source_file": "skills/pm/references/monorepo-product-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_monorepo_product_guide_monorepo_product_guide",
+      "community": 47,
+      "norm_label": "panduan product & frontend: standar pwa & arsitektur monorepo"
+    },
+    {
+      "label": "PRD Template \u2014 Product Requirements Document",
+      "file_type": "document",
+      "source_file": "skills/pm/references/prd-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_prd_template_prd_template",
+      "community": 48,
+      "norm_label": "prd template \u2014 product requirements document"
+    },
+    {
+      "label": "Prompting Best Practices \u2014 5-Step T-C-R-E-I Framework",
+      "file_type": "document",
+      "source_file": "skills/pm/references/prompting-framework-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_prompting_framework_guide_prompting_framework_guide",
+      "community": 49,
+      "norm_label": "prompting best practices \u2014 5-step t-c-r-e-i framework"
+    },
+    {
+      "label": "Roadmap & Timeline Templates",
+      "file_type": "document",
+      "source_file": "skills/pm/references/roadmap-template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_roadmap_template_roadmap_template",
+      "community": 50,
+      "norm_label": "roadmap & timeline templates"
+    },
+    {
+      "label": "Routing, Maps & Navigation Guide \u2014 Web & Mobile Integration",
+      "file_type": "document",
+      "source_file": "skills/pm/references/routing-and-maps-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_pm_references_routing_and_maps_guide_routing_and_maps_guide",
+      "community": 51,
+      "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration"
+    },
+    {
+      "label": "QA Skill \u2014 Comprehensive Quality Assurance Engineer",
+      "file_type": "document",
+      "source_file": "skills/qa/SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_skill_skill",
+      "community": 60,
+      "norm_label": "qa skill \u2014 comprehensive quality assurance engineer"
+    },
+    {
+      "label": "Code Review Patterns & Anti-Patterns Reference",
+      "file_type": "document",
+      "source_file": "skills/qa/references/code-review-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_code_review_patterns_code_review_patterns",
+      "community": 53,
+      "norm_label": "code review patterns & anti-patterns reference"
+    },
+    {
+      "label": "Dynamic Master Data & Unambiguous Flow Guide",
+      "file_type": "document",
+      "source_file": "skills/qa/references/dynamic-masterdata-and-flow-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_dynamic_masterdata_and_flow_guide_dynamic_masterdata_and_flow_guide",
+      "community": 54,
+      "norm_label": "dynamic master data & unambiguous flow guide"
+    },
+    {
+      "label": "JavaScript QA at Scale \u2014 Testing, Quality Gates & Monitoring",
+      "file_type": "document",
+      "source_file": "skills/qa/references/js-at-scale-qa.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_js_at_scale_qa_js_at_scale_qa",
+      "community": 55,
+      "norm_label": "javascript qa at scale \u2014 testing, quality gates & monitoring"
+    },
+    {
+      "label": "Prompting Best Practices \u2014 5-Step T-C-R-E-I Framework",
+      "file_type": "document",
+      "source_file": "skills/qa/references/prompting-framework-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_prompting_framework_guide_prompting_framework_guide",
+      "community": 56,
+      "norm_label": "prompting best practices \u2014 5-step t-c-r-e-i framework"
+    },
+    {
+      "label": "Routing, Maps & Navigation Guide \u2014 Web & Mobile Integration",
+      "file_type": "document",
+      "source_file": "skills/qa/references/routing-and-maps-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_routing_and_maps_guide_routing_and_maps_guide",
+      "community": 57,
+      "norm_label": "routing, maps & navigation guide \u2014 web & mobile integration"
+    },
+    {
+      "label": "Security Review Checklist",
+      "file_type": "document",
+      "source_file": "skills/qa/references/security-checklist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_security_checklist_security_checklist",
+      "community": 58,
+      "norm_label": "security review checklist"
+    },
+    {
+      "label": "Testing Guide \u2014 Methodology & Best Practices",
+      "file_type": "document",
+      "source_file": "skills/qa/references/testing-guide.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skills_qa_references_testing_guide_testing_guide",
+      "community": 59,
+      "norm_label": "testing guide \u2014 methodology & best practices"
     }
   ],
   "links": [
@@ -8215,7 +8346,7 @@
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "confidence_score": 1.0,
       "source": ".agents/skills/backend/references/auth-patterns.md#authentication-&-authorization-patterns",
-      "target": ".agents/skills/backend/references/auth-patterns.md#session-management"
+      "target": "skills_backend_references_auth_patterns_session_management"
     },
     {
       "relation": "contains",
@@ -8278,7 +8409,7 @@
       "confidence": 1.0,
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "confidence_score": 1.0,
-      "source": ".agents/skills/backend/references/auth-patterns.md#session-management",
+      "source": "skills_backend_references_auth_patterns_session_management",
       "target": ".agents/skills/backend/references/auth-patterns.md#secure-session-configuration"
     },
     {
@@ -8286,7 +8417,7 @@
       "confidence": 1.0,
       "source_file": ".agents/skills/backend/references/auth-patterns.md",
       "confidence_score": 1.0,
-      "source": ".agents/skills/backend/references/auth-patterns.md#session-management",
+      "source": "skills_backend_references_auth_patterns_session_management",
       "target": ".agents/skills/backend/references/auth-patterns.md#session-security-checklist"
     },
     {
@@ -13687,233 +13818,13 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill",
-      "target": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L123",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_backend_development_workflow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L146",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_checklists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_core_principles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_safe_logic_flow_error_handling_architecture",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_skill_comprehensive_backend_engineer",
-      "target": "agents_skills_backend_skill_standard_tech_stack_guidelines",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_safe_logic_flow_error_handling_architecture",
-      "target": "agents_skills_backend_skill_detail_5_pola_utama",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_safe_logic_flow_error_handling_architecture",
-      "target": "agents_skills_backend_skill_ringkasan_alur_kerja_aman_architecture_flow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_1_api_design",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L89",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_2_database_management",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L96",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_3_authentication_authorization",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L102",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_4_architecture_patterns",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L109",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_5_error_handling_observability",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L117",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_capabilities",
-      "target": "agents_skills_backend_skill_6_deployment_devops",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L125",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_development_workflow",
-      "target": "agents_skills_backend_skill_phase_1_understand_plan",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L129",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_development_workflow",
-      "target": "agents_skills_backend_skill_phase_2_architecture_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L133",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_development_workflow",
-      "target": "agents_skills_backend_skill_phase_3_implement_safe_logic_apis",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L140",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_backend_development_workflow",
-      "target": "agents_skills_backend_skill_phase_4_validate_deploy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/backend/SKILL.md",
-      "source_location": "L148",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "agents_skills_backend_skill_checklists",
-      "target": "agents_skills_backend_skill_safe_logic_flow_checklist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": ".agents/skills/backend/references/safe-logic-flow-guide.md",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     },
     {
       "relation": "contains",
@@ -13922,9 +13833,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return"
     },
     {
       "relation": "contains",
@@ -13933,9 +13844,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_2_result_pattern_result_object",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_2_result_pattern_result_object"
     },
     {
       "relation": "contains",
@@ -13944,9 +13855,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_3_custom_domain_exception",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_3_custom_domain_exception"
     },
     {
       "relation": "contains",
@@ -13955,9 +13866,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_4_centralized_global_exception_handler",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_4_centralized_global_exception_handler"
     },
     {
       "relation": "contains",
@@ -13966,9 +13877,9 @@
       "source_location": "L128",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_5_structured_logging_observability",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_5_structured_logging_observability"
     },
     {
       "relation": "contains",
@@ -13977,9 +13888,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_backend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_backend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "confidence_score": 1.0
+      "target": "agents_skills_backend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix"
     },
     {
       "relation": "contains",
@@ -13988,9 +13899,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill",
-      "target": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max"
     },
     {
       "relation": "contains",
@@ -13999,9 +13910,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "target": "agents_skills_frontend_skill_core_principles",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_core_principles"
     },
     {
       "relation": "contains",
@@ -14010,9 +13921,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "target": "agents_skills_frontend_skill_pre_delivery_ui_ux_safe_flow_checklist",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_pre_delivery_ui_ux_safe_flow_checklist"
     },
     {
       "relation": "contains",
@@ -14021,9 +13932,9 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "target": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture"
     },
     {
       "relation": "contains",
@@ -14032,9 +13943,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "target": "agents_skills_frontend_skill_standard_tech_stack_setup_guidelines",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_standard_tech_stack_setup_guidelines"
     },
     {
       "relation": "contains",
@@ -14043,9 +13954,9 @@
       "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_frontend_skill_comprehensive_frontend_engineer_ui_ux_pro_max",
-      "target": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework"
     },
     {
       "relation": "contains",
@@ -14054,9 +13965,9 @@
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture",
-      "target": "agents_skills_frontend_skill_detail_5_pola_utama",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_detail_5_pola_utama"
     },
     {
       "relation": "contains",
@@ -14065,9 +13976,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_safe_logic_flow_error_handling_architecture",
-      "target": "agents_skills_frontend_skill_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_ringkasan_alur_kerja_aman_architecture_flow_matrix"
     },
     {
       "relation": "contains",
@@ -14076,9 +13987,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework",
-      "target": "agents_skills_frontend_skill_how_to_use_search_cli_tool",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_how_to_use_search_cli_tool"
     },
     {
       "relation": "contains",
@@ -14087,9 +13998,9 @@
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_skill_ui_ux_pro_max_design_intelligence_framework",
-      "target": "agents_skills_frontend_skill_rule_categories_by_priority",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_skill_rule_categories_by_priority"
     },
     {
       "relation": "contains",
@@ -14098,9 +14009,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide"
     },
     {
       "relation": "contains",
@@ -14109,9 +14020,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_1_pola_guard_clause_early_return"
     },
     {
       "relation": "contains",
@@ -14120,9 +14031,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_2_result_pattern_result_object",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_2_result_pattern_result_object"
     },
     {
       "relation": "contains",
@@ -14131,9 +14042,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_3_custom_domain_exception",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_3_custom_domain_exception"
     },
     {
       "relation": "contains",
@@ -14142,9 +14053,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_4_centralized_global_exception_handler",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_4_centralized_global_exception_handler"
     },
     {
       "relation": "contains",
@@ -14153,9 +14064,9 @@
       "source_location": "L128",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_5_structured_logging_observability",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_5_structured_logging_observability"
     },
     {
       "relation": "contains",
@@ -14164,10 +14075,31 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "agents_skills_frontend_references_safe_logic_flow_guide_safe_logic_flow_error_handling_architecture_guide",
-      "target": "agents_skills_frontend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix",
-      "confidence_score": 1.0
+      "target": "agents_skills_frontend_references_safe_logic_flow_guide_ringkasan_alur_kerja_aman_architecture_flow_matrix"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_agent_skill_repository",
+      "target": "_agents_skills_backend_skill_backend_skill"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "skills/backend/references/auth-patterns.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "skills_backend_references_auth_patterns_jwt_flow",
+      "target": "skills_backend_references_auth_patterns_session_management"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "b05c5e6e2a8cde7538e9dcf747109ea4a809adf1"
 }
