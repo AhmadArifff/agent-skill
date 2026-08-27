@@ -303,30 +303,5 @@
     "mtime": 1785853213.1429377,
     "ast_hash": "2e40c0e00cee8f614c906bea04713c80",
     "semantic_hash": "2e40c0e00cee8f614c906bea04713c80"
-  },
-  ".agents/skills/_jutsu/ui-ux-pro-max/scripts/core.py": {
-    "mtime": 1787818486.2756698,
-    "ast_hash": "d45f78b3a4fe7549bdf497d3cf0a0d42",
-    "semantic_hash": "d45f78b3a4fe7549bdf497d3cf0a0d42"
-  },
-  ".agents/skills/_jutsu/ui-ux-pro-max/scripts/design_system.py": {
-    "mtime": 1787818486.2784822,
-    "ast_hash": "a620bb1c5482726e504ae317a1c35bd1",
-    "semantic_hash": "a620bb1c5482726e504ae317a1c35bd1"
-  },
-  ".agents/skills/_jutsu/ui-ux-pro-max/scripts/search.py": {
-    "mtime": 1787818486.2801752,
-    "ast_hash": "263d0dcee8d5f79cae8d6ad2033bad96",
-    "semantic_hash": "263d0dcee8d5f79cae8d6ad2033bad96"
-  },
-  ".agents/skills/_jutsu/ui-ux-pro-max/scripts/tests/test_core.py": {
-    "mtime": 1787818486.2836466,
-    "ast_hash": "f9dd0590001b9950912014c85b69abe7",
-    "semantic_hash": "f9dd0590001b9950912014c85b69abe7"
-  },
-  ".agents/skills/_jutsu/ui-ux-pro-max/scripts/validate_data.py": {
-    "mtime": 1787818486.2858515,
-    "ast_hash": "5bb56026af0d4fbd5a64590c015d5f60",
-    "semantic_hash": "5bb56026af0d4fbd5a64590c015d5f60"
   }
 }
