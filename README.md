@@ -13,10 +13,10 @@ This repository contains production-grade AI Agent Skills designed for autonomou
 ### 🌟 Core Roles
 | Skill | Role / Function | Key Capabilities & Architecture |
 |---|---|---|
-| 📋 [**PM (Product Manager)**](./skills/pm) | Product Requirements & Architecture | • **Documentation Only (No Code Writing)**<br>• PRD Creation & Feature Breakdown (MoSCoW)<br>• Architecture Decision: Next.js vs Vue 3 (Vite SPA) vs Nuxt 3<br>• Mandatory Admin/App Auth Planning<br>• Early QA Shift-Left Alignment<br>• Dynamic Master Data & Unambiguous Flow Design |
-| ⚙️ [**Backend Engineer**](./skills/backend) | Server, API & Database | • **Express JS + Prisma ORM + Supabase DB & Storage**<br>• Better Auth + JWT Token Rotation & RBAC<br>• Multi-Client Interoperability (Next.js, Vue 3 SPA, Nuxt 3)<br>• Centralized Global Error Handler & Custom Exceptions<br>• Safe Logic Flow (Guard Clause & Result Pattern)<br>• Route Proxy API for Maps (Google/Mapbox/OSRM) |
-| 🎨 [**Frontend Engineer**](./skills/frontend) | UI/UX & Client Applications | • **Dual Ecosystem**: Next.js (React) & Vue 3 / Nuxt 3 (Vite + Pinia)<br>• **UI/UX Pro Max Design Intelligence** (50+ styles, 97 palettes, 57 font pairings)<br>• Components: Shadcn UI, Shadcn Vue, Untitled UI, Nuxt UI<br>• Global Configs: `vite.config.ts`, `nuxt.config.ts`, `main.ts`<br>• Animations: Framer Motion, Vue Transitions, AnimeJS<br>• **Device Priority**: 📱 Mobile & Tablet/iPad → 💻 Desktop<br>• Protected Routes & Admin Auth Guards |
-| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• Zero Hardcode Master Data Audit<br>• Reactivity Loss & SSR Hydration Mismatch Audit<br>• Security Audit (OWASP, Auth, RBAC, IDOR, API Key leaks)<br>• Unit & E2E Testing (Vitest, Vue Test Utils, Playwright Automation) |
+| 📋 [**PM (Product Manager)**](./skills/pm) | Product Requirements & Architecture | • **Documentation Only (No Code Writing)**<br>• PRD Creation & Feature Breakdown (MoSCoW)<br>• Architecture Decision: Customer Portal (Nuxt 3 SSR) vs Operations Portal (Vue 3 SPA)<br>• Real-Time Concurrency Specs (Server-Authoritative Lock, Hold Timer, Teardown)<br>• Mandatory Admin/App Auth Planning<br>• Dynamic Master Data & Unambiguous Flow Design |
+| ⚙️ [**Backend Engineer**](./skills/backend) | Server, API & Database | • **Express JS + Prisma ORM + Supabase DB & Storage**<br>• **Redis Atomic Locking** (`SET ... NX EX`) & Safe Release Lua Scripts<br>• Better Auth + JWT Token Rotation & RBAC<br>• Multi-Client Interoperability (Next.js, Vue 3 SPA, Nuxt 3)<br>• Teardown Beacon Endpoints (`navigator.sendBeacon` & `keepalive`)<br>• Safe Logic Flow (Guard Clause & Result Pattern) |
+| 🎨 [**Frontend Engineer**](./skills/frontend) | UI/UX & Client Applications | • **Dual Ecosystem**: Next.js (React) & Vue 3 / Nuxt 3 (Vite + Pinia)<br>• **Vertical Slice Architecture** (`app`, `modules`, `shared`) & Clean Patterns (Repository, Adapter)<br>• **Real-Time Resilient Connection**: Auto-reconnect WebSocket + Fallback Short Polling<br>• **Smooth 60fps Geo-Tracking**: MapLibre/Mapbox LERP + Bearing Calculation<br>• **Teardown Beacons**: Graceful lock release on tab close (`pagehide` beacon)<br>• **UI/UX Pro Max Intelligence** (50+ styles, 97 palettes, 57 font pairings) |
+| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• **Race Condition & Concurrency Testing**: Multi-user lock contention & Redis TTL verification<br>• **Resilience Audit**: WebSocket drop to polling fallback verification<br>• **Performance Audit**: 60fps LERP Map Tracking & Memory Leak checks in `onUnmounted`<br>• Unit & E2E Testing (Vitest, Vue Test Utils, Playwright Automation) |
 | 🌐 [**Graphify**](./skills/graphify) | Knowledge Graph & Codebase Mapping | • Persistent Codebase Knowledge Graph<br>• God Nodes & Community Detection<br>• Query, Path Extraction & Codebase Explanations |
 
 ---
@@ -67,14 +67,15 @@ All skills are configured to work seamlessly together under these unified tech s
 
 - 💻 **Frontend Ecosystems**:
   - **React Stack**: Next.js (App Router) + PWA + Tailwind CSS + Zustand + Shadcn UI + Untitled UI + Framer Motion
-  - **Vue Stack**: Vue 3 (Vite SPA/PWA) / Nuxt 3 (SSR) + Tailwind CSS + Pinia + Shadcn Vue + Nuxt UI + Vue Transitions
+  - **Vue Stack**: Vue 3 (Vite SPA/PWA) / Nuxt 3 (SSR) + Tailwind CSS + Pinia + TanStack Query + Shadcn Vue + Nuxt UI + Vue Transitions
 - 🎬 **Animations & 3D**: Framer Motion + AnimeJS + Animate UI + Three.js + Genjutsu (`/cast`, `/paint`)
 - ⚙️ **Backend**: Express JS (TypeScript / Node.js) with CORS support for Vite (`5173`) & Next/Nuxt (`3000`)
 - 🗄️ **Database & Storage**: Supabase PostgreSQL + Supabase Bucket Storage
+- ⚡ **Distributed Locking & Caching**: Redis / Upstash Redis (`SET ... NX EX` & Lua scripts)
 - 🛠️ **ORM**: Prisma ORM (`prisma/schema.prisma`)
 - 🔐 **Auth & Security**: Better Auth + JWT Token (Access/Refresh Token Rotation & RBAC)
 - 🧪 **Testing & Automation**: Vitest (Unit) + Vue Test Utils + Playwright (`/playwright-skill` E2E)
-- 🗺️ **Maps & Routing**: Google Maps Platform / Mapbox GL JS / OSRM + Leaflet / MapLibre
+- 🗺️ **Maps & Routing**: Google Maps Platform / Mapbox GL JS / OSRM + Leaflet / MapLibre (with LERP tracking)
 - 🌿 **Git Workflow**: GitHub with `dev` branch (Development) & `main` branch (Production Release)
 - 🚀 **Deployment**: Vercel
 - 📝 **Prompting Framework**: 5-Step T-C-R-E-I Framework (Task, Context, References, Evaluate, Iterate)
@@ -92,7 +93,8 @@ agent-skill/
 │   ├── backend/                 # Backend Engineer Skill & Reference Guides
 │   ├── frontend/                # Frontend Engineer (Next.js & Vue 3 / Nuxt 3)
 │   │   └── references/
-│   │       ├── vue-development-guide.md  # Complete Vue 3 / Nuxt 3 Config & Guide
+│   │       ├── vue-development-guide.md     # Vue 3 / Nuxt 3 Config & Setup Guide
+│   │       ├── enterprise-vue-patterns.md   # Vertical Slice, Real-Time & High Concurrency
 │   │       └── ...
 │   ├── qa/                      # Quality Assurance Skill & Testing Guides
 │   ├── graphify/                # Graphify Skill & Knowledge Graph Spec
