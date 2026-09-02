@@ -89,7 +89,19 @@ the problem, solution, and impact from this section alone.]
 | 3 | [Feature name] | P1 (Should) | [Brief description] |
 | 4 | [Feature name] | P2 (Could) | [Brief description] |
 
-### 4.3 User Flow
+### 4.3 Architecture & Tech Stack Selection
+
+| Component | Technology Choice | Rationale |
+|---|---|---|
+| **Frontend Framework** | `Next.js (React)` / `Vue 3 (Vite SPA)` / `Nuxt 3 (SSR)` | [Alasan pemilihan: SEO vs Performance vs SPA Dashboard] |
+| **State Management** | `Zustand` (React) / `Pinia` (Vue) | [Setup store with persistence] |
+| **UI Component Library** | `Shadcn UI` (React) / `Shadcn Vue` / `Nuxt UI` | [Design token consistency & accessibility] |
+| **Animation & Motion** | `Framer Motion` (React) / `Vue Transition + AnimeJS` | [Micro-interactions & transitions] |
+| **Backend Server** | `Express JS (TypeScript)` | [RESTful API & Centralized Error Handling] |
+| **Database & ORM** | `Supabase PostgreSQL` + `Prisma ORM` | [Schema integrity & dynamic master tables] |
+| **Authentication** | `Better Auth` + `JWT Token Rotation` | [Mandatory Admin & App RBAC] |
+
+### 4.4 User Flow
 [Describe the main user journey step by step]
 
 ```
@@ -100,7 +112,7 @@ Step 1: User [action]
                  └→ Step 5: [Outcome achieved]
 ```
 
-### 4.4 Wireframes / Mockups
+### 4.5 Wireframes / Mockups
 [Low-fidelity descriptions or links to design files]
 
 **Screen 1: [Name]**
@@ -149,18 +161,6 @@ Step 1: User [action]
 **Edge Cases:**
 - [ ] What happens when [edge case]?
 - [ ] What happens when [edge case]?
-
----
-
-#### Story 1.2: [Story Title]
-[Repeat format...]
-
----
-
-### Epic 2: [Epic Name]
-
-#### Story 2.1: [Story Title]
-[Repeat format...]
 
 ---
 
@@ -293,60 +293,3 @@ Step 1: User [action]
 |---------|------|--------|---------|
 | v1.0 | [Date] | [Name] | Initial draft |
 ```
-
----
-
-## PRD Writing Tips
-
-### Problem Statement Formula
-
-```
-[User segment] currently [pain point / struggle] when trying to [goal].
-This results in [negative outcome — quantify if possible].
-Our solution will [high-level approach], enabling users to [positive outcome].
-```
-
-**Example:**
-> Small business owners currently spend 3+ hours per week manually creating
-> invoices when trying to bill their clients. This results in delayed payments
-> (avg. 15 days late) and $2,400/year in lost revenue from unbilled work.
-> Our solution will automate invoice generation from project time tracking,
-> enabling users to send accurate invoices in under 2 minutes.
-
-### User Story Formula
-
-```
-As a [specific user role],
-I want to [concrete action],
-So that [measurable benefit].
-```
-
-**Good vs Bad Stories:**
-
-```
-❌ Bad: "As a user, I want a dashboard, so that I can see things."
-✅ Good: "As a store manager, I want to see today's revenue and top-selling 
-         products on a dashboard, so that I can make restocking decisions 
-         before the afternoon delivery cutoff."
-```
-
-### Acceptance Criteria (Given/When/Then)
-
-```
-Given I am a logged-in store manager viewing the dashboard,
-When I select "This Week" from the date filter,
-Then the revenue chart updates to show daily revenue for the past 7 days,
-And the top products list shows the 10 best-selling items for that period,
-And the data refreshes automatically every 5 minutes.
-```
-
-### INVEST Criteria for Good Stories
-
-| Letter | Meaning | Check |
-|--------|---------|-------|
-| **I** | Independent | Can be developed without depending on other stories |
-| **N** | Negotiable | Details can be discussed with the team |
-| **V** | Valuable | Delivers value to the user or business |
-| **E** | Estimable | Team can estimate the effort |
-| **S** | Small | Can be completed in one sprint |
-| **T** | Testable | Has clear acceptance criteria |

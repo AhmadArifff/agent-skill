@@ -1,6 +1,6 @@
 # Testing Guide — Methodology & Best Practices
 
-Reference document for the QA Skill's testing strategy and test case generation capabilities.
+Reference document for the QA Skill's testing strategy and test case generation capabilities across **Express Backend**, **Next.js (React)**, and **Vue 3 / Nuxt 3**.
 
 ---
 
@@ -8,13 +8,13 @@ Reference document for the QA Skill's testing strategy and test case generation 
 
 ```
          ┌───────┐
-         │  E2E  │  ← Few, slow, expensive, high confidence
+         │  E2E  │  ← Few, slow, expensive, high confidence (Playwright)
          │ Tests │
         ┌┴───────┴┐
-        │Integration│  ← Moderate count, medium speed
+        │Integration│  ← Moderate count, medium speed (API, Route, Store)
         │  Tests    │
        ┌┴──────────┴┐
-       │  Unit Tests  │  ← Many, fast, cheap, focused
+       │  Unit Tests  │  ← Many, fast, cheap, focused (Vitest, Vue Test Utils, RTL)
        └──────────────┘
 ```
 
@@ -22,9 +22,84 @@ Reference document for the QA Skill's testing strategy and test case generation 
 
 | Test Type | Percentage | Speed | Scope | When to Use |
 |-----------|-----------|-------|-------|-------------|
-| **Unit** | 60-70% | < 100ms each | Single function/class | Pure logic, calculations, transformations, validators |
-| **Integration** | 20-30% | < 5s each | Multiple components | Database queries, API endpoints, service interactions |
-| **E2E** | 5-10% | < 30s each | Full user flow | Critical user journeys, payment flows, auth flows |
+| **Unit** | 60-70% | < 100ms each | Single function/component | Pure logic, validators, composables, hooks, atom components |
+| **Integration** | 20-30% | < 5s each | Multiple components | Pinia stores + API mocks, DB queries, Express controllers |
+| **E2E** | 5-10% | < 30s each | Full user flow | Critical user journeys, auth flows, checkout, form submission |
+
+---
+
+## Vue 3 & Nuxt 3 Testing Standards (Vitest + Vue Test Utils)
+
+### 1. Component Unit Test (`@vue/test-utils`)
+```typescript
+// tests/unit/AppButton.spec.ts
+import { describe, it, expect, vi } from 'vitest';
+import { mount } from '@vue/test-utils';
+import AppButton from '@/components/ui/AppButton.vue';
+
+describe('AppButton.vue', () => {
+  it('renders button label correctly through default slot', () => {
+    const wrapper = mount(AppButton, {
+      slots: { default: 'Simpan Perubahan' },
+    });
+    expect(wrapper.text()).toContain('Simpan Perubahan');
+  });
+
+  it('emits click event when clicked and not loading/disabled', async () => {
+    const wrapper = mount(AppButton);
+    await wrapper.trigger('click');
+    expect(wrapper.emitted('click')).toHaveLength(1);
+  });
+
+  it('does NOT emit click when disabled or isLoading is true', async () => {
+    const wrapper = mount(AppButton, {
+      props: { isLoading: true },
+    });
+    await wrapper.trigger('click');
+    expect(wrapper.emitted('click')).toBeUndefined();
+    expect(wrapper.find('button').attributes('disabled')).toBeDefined();
+  });
+});
+```
+
+### 2. Pinia Store Unit Test (`@pinia/testing`)
+```typescript
+// tests/unit/stores/auth.spec.ts
+import { describe, it, expect, beforeEach } from 'vitest';
+import { setActivePinia, createPinia } from 'pinia';
+import { useAuthStore } from '@/stores/auth';
+
+describe('Auth Store (Pinia)', () => {
+  beforeEach(() => {
+    // Inisialisasi Pinia bersih sebelum setiap test
+    setActivePinia(createPinia());
+  });
+
+  it('initial state is unauthenticated', () => {
+    const store = useAuthStore();
+    expect(store.isAuthenticated).toBe(false);
+    expect(store.user).toBeNull();
+  });
+
+  it('sets user and token on setAuth', () => {
+    const store = useAuthStore();
+    store.setAuth({ id: '1', name: 'Admin', email: 'admin@test.com', role: 'ADMIN' }, 'jwt-token-xyz');
+
+    expect(store.isAuthenticated).toBe(true);
+    expect(store.isAdmin).toBe(true);
+    expect(store.user?.name).toBe('Admin');
+  });
+
+  it('clears state on clearAuth', () => {
+    const store = useAuthStore();
+    store.setAuth({ id: '1', name: 'Admin', email: 'admin@test.com', role: 'ADMIN' }, 'jwt-token-xyz');
+    store.clearAuth();
+
+    expect(store.isAuthenticated).toBe(false);
+    expect(store.token).toBeNull();
+  });
+});
+```
 
 ---
 
@@ -64,14 +139,6 @@ Test security-related scenarios:
 - Rate limiting enforcement
 - Input sanitization verification
 
-### Performance Tests
-Test performance characteristics:
-- Response time under normal load
-- Behavior under high concurrency
-- Memory usage patterns
-- Database query performance
-- Cache hit/miss ratios
-
 ---
 
 ## Test Case Design Techniques
@@ -106,46 +173,13 @@ Boundaries:
 Test: boundary ± 1, boundary exact
 ```
 
-### 3. Decision Table Testing
-
-Map all condition combinations to expected outcomes:
-
-```
-Example: Shipping rules
-
-| Condition              | Rule 1 | Rule 2 | Rule 3 | Rule 4 |
-|------------------------|--------|--------|--------|--------|
-| Order > $50            | Yes    | Yes    | No     | No     |
-| Premium member         | Yes    | No     | Yes    | No     |
-| → Free shipping        | ✓      | ✓      | ✓      |        |
-| → Standard shipping    |        |        |        | ✓      |
-
-Each rule = one test case.
-```
-
-### 4. State Transition Testing
-
-Test transitions between states:
-
-```
-Example: Order lifecycle
-
-[Created] --pay--> [Paid] --ship--> [Shipped] --deliver--> [Delivered]
-    |                 |                                          |
-    +-cancel--> [Cancelled]                              +--return--> [Returned]
-
-Test:
-✅ Valid transitions: Created→Paid, Paid→Shipped, Shipped→Delivered
-❌ Invalid transitions: Created→Shipped (skip Paid), Delivered→Created
-```
-
 ---
 
 ## Test Structure
 
 ### Arrange-Act-Assert (AAA)
 
-```
+```typescript
 // Arrange — set up the test data and preconditions
 const user = createTestUser({ role: 'admin' });
 const service = new UserService(mockRepo);
@@ -157,51 +191,6 @@ const result = await service.updateProfile(user.id, { name: 'New Name' });
 expect(result.name).toBe('New Name');
 expect(mockRepo.save).toHaveBeenCalledWith(user.id, { name: 'New Name' });
 ```
-
-### Given-When-Then (BDD)
-
-```
-Given a registered user with admin role
-When they update their profile name to "New Name"
-Then the profile name should be updated to "New Name"
-And the change should be persisted to the database
-```
-
----
-
-## Test Naming Convention
-
-Use descriptive names that explain the scenario:
-
-```
-❌ testUpdate()
-❌ test1()
-❌ updateTest()
-
-✅ should_return_404_when_user_not_found()
-✅ updateProfile_withValidData_updatesSuccessfully()
-✅ given_expired_token_when_authenticate_then_throws_unauthorized()
-```
-
-Pattern: `[method]_[scenario]_[expectedBehavior]`
-
----
-
-## Test Doubles
-
-| Type | Purpose | When to Use |
-|------|---------|-------------|
-| **Stub** | Returns predetermined values | When you need controlled inputs from dependencies |
-| **Mock** | Verifies interactions were made correctly | When you need to verify a method was called with specific args |
-| **Spy** | Records calls while delegating to real implementation | When you want real behavior but need to verify calls |
-| **Fake** | Working implementation with shortcuts | In-memory database, fake email sender, local file system |
-| **Dummy** | Placeholder that's never actually used | When a parameter is required but irrelevant to the test |
-
-### Guidelines
-- **Prefer stubs over mocks** — test behavior, not implementation
-- **Don't mock what you don't own** — wrap external libraries and mock the wrapper
-- **Don't mock value objects** — use real instances
-- **Keep mocks simple** — if mock setup is complex, the design may need refactoring
 
 ---
 
@@ -215,43 +204,14 @@ Pattern: `[method]_[scenario]_[expectedBehavior]`
 | **Critical Path Coverage** | 100% | All critical business flows must be fully tested |
 
 ### What NOT to Test
-
-- Framework/library code (they have their own tests)
+- Framework/library code
 - Simple getters/setters with no logic
 - Configuration files
-- Generated code
 - Third-party API responses (mock them instead)
 
 ### What to ALWAYS Test
-
 - Business logic and domain rules
 - Data transformations and calculations
-- Validation rules
-- Error handling paths
-- Security-critical code
-- Edge cases in parsing/formatting
-
----
-
-## Test Quality Indicators
-
-### Good Tests Are:
-
-- **Fast** — Unit tests < 100ms, integration < 5s
-- **Independent** — No test depends on another test's output
-- **Repeatable** — Same result every time, regardless of environment
-- **Self-Validating** — Pass or fail, no manual inspection needed
-- **Timely** — Written alongside or before the code (TDD/BDD)
-- **Readable** — Test name explains the scenario, assertion explains the expectation
-
-### Test Smells to Flag:
-
-| Smell | Problem | Fix |
-|-------|---------|-----|
-| **Flaky tests** | Pass/fail randomly | Fix timing issues, remove external dependencies |
-| **Slow tests** | Take > 10s for unit tests | Mock I/O, reduce setup, parallelize |
-| **Coupled tests** | Test B fails when Test A changes | Make tests independent, don't share state |
-| **Test duplication** | Same scenario tested multiple ways | Use parameterized tests |
-| **Missing assertions** | Test runs code but doesn't verify | Add meaningful assertions |
-| **Over-mocking** | Everything is mocked, nothing is real | Only mock external boundaries |
-| **Fragile tests** | Break when implementation changes | Test behavior, not implementation |
+- Validation rules & Guard clauses
+- Error handling paths & Result pattern outputs
+- Security-critical code & Auth Guards

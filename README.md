@@ -1,6 +1,6 @@
 # Agent Skill Repository 🚀
 
-> **Comprehensive Custom AI Agent Skills** for Software Development Life Cycle (SDLC) — Product Management, Backend Engineering, Frontend Engineering, Quality Assurance, and Graphify Knowledge Graph.
+> **Comprehensive Custom AI Agent Skills** for Software Development Life Cycle (SDLC) — Product Management, Backend Engineering, Frontend Engineering (Next.js & Vue 3 / Nuxt 3), Quality Assurance, and Graphify Knowledge Graph.
 
 Created and maintained by **Ahmad Arif**.
 
@@ -13,10 +13,10 @@ This repository contains production-grade AI Agent Skills designed for autonomou
 ### 🌟 Core Roles
 | Skill | Role / Function | Key Capabilities & Architecture |
 |---|---|---|
-| 📋 [**PM (Product Manager)**](./skills/pm) | Product Requirements & Architecture | • **Documentation Only (No Code Writing)**<br>• PRD Creation & Feature Breakdown (MoSCoW)<br>• Mandatory Admin/App Auth Planning<br>• Early QA Shift-Left Alignment<br>• Dynamic Master Data & Unambiguous Flow Design |
-| ⚙️ [**Backend Engineer**](./skills/backend) | Server, API & Database | • **Express JS + Prisma ORM + Supabase DB & Storage**<br>• Better Auth + JWT Token Rotation & RBAC<br>• Centralized Global Error Handler & Custom Exceptions<br>• Safe Logic Flow (Guard Clause & Result Pattern)<br>• Route Proxy API for Maps (Google/Mapbox/OSRM) |
-| 🎨 [**Frontend Engineer**](./skills/frontend) | UI/UX & Client Applications | • **Next.js + PWA + Tailwind CSS + Zustand**<br>• **UI/UX Pro Max Design Intelligence** (50+ styles, 97 palettes, 57 font pairings)<br>• Component Setup: Shadcn UI + Untitled UI + Animate UI<br>• Animations: Framer Motion + AnimeJS<br>• **Device Priority**: 📱 Mobile (HP) & Tablet/iPad → 💻 Desktop<br>• Protected Routes & Admin Auth Guard |
-| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• Zero Hardcode Master Data Audit<br>• Data Misconception & Edge Case Testing<br>• Security Audit (OWASP, Auth, RBAC, IDOR, API Key leaks)<br>• Unit & E2E Testing (Vitest, Playwright Automation) |
+| 📋 [**PM (Product Manager)**](./skills/pm) | Product Requirements & Architecture | • **Documentation Only (No Code Writing)**<br>• PRD Creation & Feature Breakdown (MoSCoW)<br>• Architecture Decision: Next.js vs Vue 3 (Vite SPA) vs Nuxt 3<br>• Mandatory Admin/App Auth Planning<br>• Early QA Shift-Left Alignment<br>• Dynamic Master Data & Unambiguous Flow Design |
+| ⚙️ [**Backend Engineer**](./skills/backend) | Server, API & Database | • **Express JS + Prisma ORM + Supabase DB & Storage**<br>• Better Auth + JWT Token Rotation & RBAC<br>• Multi-Client Interoperability (Next.js, Vue 3 SPA, Nuxt 3)<br>• Centralized Global Error Handler & Custom Exceptions<br>• Safe Logic Flow (Guard Clause & Result Pattern)<br>• Route Proxy API for Maps (Google/Mapbox/OSRM) |
+| 🎨 [**Frontend Engineer**](./skills/frontend) | UI/UX & Client Applications | • **Dual Ecosystem**: Next.js (React) & Vue 3 / Nuxt 3 (Vite + Pinia)<br>• **UI/UX Pro Max Design Intelligence** (50+ styles, 97 palettes, 57 font pairings)<br>• Components: Shadcn UI, Shadcn Vue, Untitled UI, Nuxt UI<br>• Global Configs: `vite.config.ts`, `nuxt.config.ts`, `main.ts`<br>• Animations: Framer Motion, Vue Transitions, AnimeJS<br>• **Device Priority**: 📱 Mobile & Tablet/iPad → 💻 Desktop<br>• Protected Routes & Admin Auth Guards |
+| 🧪 [**QA (Quality Assurance)**](./skills/qa) | Testing, Security & Quality Audit | • Early PM-QA Shift-Left Alignment<br>• Zero Hardcode Master Data Audit<br>• Reactivity Loss & SSR Hydration Mismatch Audit<br>• Security Audit (OWASP, Auth, RBAC, IDOR, API Key leaks)<br>• Unit & E2E Testing (Vitest, Vue Test Utils, Playwright Automation) |
 | 🌐 [**Graphify**](./skills/graphify) | Knowledge Graph & Codebase Mapping | • Persistent Codebase Knowledge Graph<br>• God Nodes & Community Detection<br>• Query, Path Extraction & Codebase Explanations |
 
 ---
@@ -63,16 +63,17 @@ flowchart TD
 
 ## 🛠️ Standard Project Tech Stack
 
-All skills are configured to work seamlessly together under this unified tech stack:
+All skills are configured to work seamlessly together under these unified tech stacks:
 
-- 💻 **Frontend**: Next.js (App Router) + PWA + Tailwind CSS + Zustand
-- 🧩 **UI Components**: Shadcn UI (`npx shadcn@latest init`) + Untitled UI (`npx untitledui@latest init --nextjs`)
+- 💻 **Frontend Ecosystems**:
+  - **React Stack**: Next.js (App Router) + PWA + Tailwind CSS + Zustand + Shadcn UI + Untitled UI + Framer Motion
+  - **Vue Stack**: Vue 3 (Vite SPA/PWA) / Nuxt 3 (SSR) + Tailwind CSS + Pinia + Shadcn Vue + Nuxt UI + Vue Transitions
 - 🎬 **Animations & 3D**: Framer Motion + AnimeJS + Animate UI + Three.js + Genjutsu (`/cast`, `/paint`)
-- ⚙️ **Backend**: Express JS (TypeScript / Node.js)
+- ⚙️ **Backend**: Express JS (TypeScript / Node.js) with CORS support for Vite (`5173`) & Next/Nuxt (`3000`)
 - 🗄️ **Database & Storage**: Supabase PostgreSQL + Supabase Bucket Storage
 - 🛠️ **ORM**: Prisma ORM (`prisma/schema.prisma`)
-- 🔐 **Auth & Security**: Better Auth + JWT Token (Access/Refresh Token Rotation)
-- 🧪 **Testing & Automation**: Vitest (Unit) + Playwright (`/playwright-skill` E2E)
+- 🔐 **Auth & Security**: Better Auth + JWT Token (Access/Refresh Token Rotation & RBAC)
+- 🧪 **Testing & Automation**: Vitest (Unit) + Vue Test Utils + Playwright (`/playwright-skill` E2E)
 - 🗺️ **Maps & Routing**: Google Maps Platform / Mapbox GL JS / OSRM + Leaflet / MapLibre
 - 🌿 **Git Workflow**: GitHub with `dev` branch (Development) & `main` branch (Production Release)
 - 🚀 **Deployment**: Vercel
@@ -89,8 +90,11 @@ agent-skill/
 ├── skills/                      # Production Skill Folders
 │   ├── pm/                      # Product Manager Skill & Reference Guides
 │   ├── backend/                 # Backend Engineer Skill & Reference Guides
-│   ├── frontend/                # Frontend Engineer & UI/UX Pro Max Skill
-│   ├── qa/                      # Quality Assurance Skill & Reference Guides
+│   ├── frontend/                # Frontend Engineer (Next.js & Vue 3 / Nuxt 3)
+│   │   └── references/
+│   │       ├── vue-development-guide.md  # Complete Vue 3 / Nuxt 3 Config & Guide
+│   │       └── ...
+│   ├── qa/                      # Quality Assurance Skill & Testing Guides
 │   ├── graphify/                # Graphify Skill & Knowledge Graph Spec
 │   ├── playwright-skill/        # Playwright Browser Automation Skill
 │   ├── motion-design-skill/     # Motion Design Skill (LottieFiles)

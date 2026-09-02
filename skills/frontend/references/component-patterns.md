@@ -1,6 +1,6 @@
 # Component Patterns — Architecture & Design Guide
 
-Reference document for the Frontend Skill's component architecture capability.
+Reference document for the Frontend Skill's component architecture capability across **React (Next.js)** and **Vue.js 3 / Nuxt 3**.
 
 ---
 
@@ -44,12 +44,11 @@ Reference document for the Frontend Skill's component architecture capability.
 ```
 src/
 ├── components/                  # Shared, reusable components
-│   ├── ui/                      # Atoms + Molecules
+│   ├── ui/                      # Atoms + Molecules (React / Vue)
 │   │   ├── Button/
-│   │   │   ├── Button.tsx       # Component
-│   │   │   ├── Button.styles.css # Styles
-│   │   │   ├── Button.test.tsx  # Tests
-│   │   │   └── index.ts        # Barrel export
+│   │   │   ├── Button.tsx / Button.vue
+│   │   │   ├── Button.test.ts
+│   │   │   └── index.ts
 │   │   ├── Input/
 │   │   ├── Badge/
 │   │   └── Modal/
@@ -64,23 +63,19 @@ src/
 ├── features/                    # Feature-specific components
 │   ├── auth/
 │   │   ├── components/
-│   │   │   ├── LoginForm/
-│   │   │   └── RegisterForm/
-│   │   ├── hooks/
+│   │   ├── hooks/ / composables/
 │   │   └── utils/
 │   ├── products/
 │   │   ├── components/
-│   │   │   ├── ProductCard/
-│   │   │   ├── ProductGrid/
-│   │   │   └── ProductFilter/
-│   │   ├── hooks/
+│   │   ├── hooks/ / composables/
 │   │   └── api/
 │   └── dashboard/
 │
-├── hooks/                       # Shared custom hooks
+├── stores/                      # Zustand (React) or Pinia (Vue) stores
+├── hooks/ / composables/        # Shared custom hooks / Vue composables
 ├── utils/                       # Shared utilities
 ├── styles/                      # Global styles & tokens
-└── pages/                       # Page-level components / routes
+└── pages/ / views/              # Page-level components / routes
 ```
 
 ### Co-Location Rules
@@ -91,7 +86,7 @@ src/
 ├── Component + its tests
 ├── Component + its types
 ├── Component + its stories (Storybook)
-└── Feature + its hooks/utils/api
+└── Feature + its hooks/composables/utils/api
 
 ❌ Avoid:
 ├── All styles in one /styles folder
@@ -130,124 +125,116 @@ src/
 ✅ Good Props:
 ├── Minimal required props (only what's truly necessary)
 ├── Sensible defaults for optional props
-├── Standard HTML attributes extended (className, style, id)
-├── Event handlers follow onX naming (onClick, onChange)
+├── Standard HTML attributes extended (className/class, style, id)
+├── Event handlers follow onX naming (React) or typed defineEmits (Vue)
 ├── Boolean props default to false
 └── Discriminated unions for variants
 
 ❌ Bad Props:
 ├── 20+ props (split into multiple components)
 ├── Boolean props that enable unrelated features
-├── Prop drilling through 3+ levels (use context/composition)
+├── Prop drilling through 3+ levels (use context/provide-inject/stores)
 ├── Ambiguous naming (data, info, options)
 └── Accepting entire objects when only 1-2 fields needed
 ```
 
-### Component State Checklist
+---
 
-Every interactive component should handle these states:
+## React vs Vue 3 Component Patterns Comparison
 
-| State | What to Show | Example |
-|-------|-------------|---------|
-| **Default** | Normal, ready state | Button with label |
-| **Hover** | Visual feedback on mouse over | Slight color change, shadow lift |
-| **Focus** | Visible focus indicator | Outline ring (for keyboard navigation) |
-| **Active/Pressed** | Pressed feedback | Slight scale down, darker color |
-| **Disabled** | Interaction prevented | Reduced opacity, not-allowed cursor |
-| **Loading** | Operation in progress | Spinner replacing label, skeleton |
-| **Error** | Something went wrong | Red border, error message |
-| **Empty** | No data to show | Illustration + message + CTA |
-| **Success** | Operation completed | Green indicator, checkmark |
+| Pattern | React / Next.js | Vue 3 / Nuxt 3 |
+|---|---|---|
+| **Component Syntax** | JSX / TSX Functional Components | Single File Component (`.vue` with `<script setup lang="ts">`) |
+| **Props Definition** | `interface Props { ... }` in function param | `const props = withDefaults(defineProps<Props>(), { ... })` |
+| **Events / Callbacks** | Prop callbacks: `onClick?: () => void` | `const emit = defineEmits<{ (e: 'click'): void }>()` |
+| **Two-Way Binding** | Controlled `value` + `onChange` | `const model = defineModel<string>()` |
+| **Reusable Logic** | Custom Hooks (`useForm`, `useAuth`) | Composables (`useForm`, `useAuth` returning refs) |
+| **Global State** | Zustand / Context API | Pinia (`useAuthStore`) + `storeToRefs()` |
+| **Slots / Content Projection** | `children` prop / render props | `<slot name="header" :item="item" />` + `defineSlots()` |
+| **Context / Dependency** | `createContext` + `useContext` | `provide(key, value)` + `inject(key)` |
 
 ---
 
-## Composition Patterns
+## Vue 3 Single File Component (SFC) Patterns
 
-### Compound Components
+### 1. Composition API with `<script setup lang="ts">`
+```vue
+<script setup lang="ts">
+import { ref, computed } from 'vue';
 
-Components that share state and work together as a group:
+interface Props {
+  title: string;
+  initialCount?: number;
+}
 
-```jsx
-// Usage — flexible, declarative
-<Tabs defaultValue="overview">
-  <Tabs.List>
-    <Tabs.Trigger value="overview">Overview</Tabs.Trigger>
-    <Tabs.Trigger value="settings">Settings</Tabs.Trigger>
-  </Tabs.List>
-  <Tabs.Content value="overview">Overview content</Tabs.Content>
-  <Tabs.Content value="settings">Settings content</Tabs.Content>
-</Tabs>
+const props = withDefaults(defineProps<Props>(), {
+  initialCount: 0,
+});
 
-// vs. Configuration-based (less flexible)
-<Tabs tabs={[
-  { label: 'Overview', content: <Overview /> },
-  { label: 'Settings', content: <Settings /> },
-]} />
+const emit = defineEmits<{
+  (e: 'update:count', value: number): void;
+  (e: 'submit', value: number): void;
+}>();
+
+// Reactive State
+const count = ref(props.initialCount);
+
+// Computed Property
+const doubled = computed(() => count.value * 2);
+
+function increment() {
+  count.value++;
+  emit('update:count', count.value);
+}
+</script>
+
+<template>
+  <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-800">
+    <h3 class="font-bold text-lg text-slate-900 dark:text-white">{{ title }}</h3>
+    <p class="text-sm text-slate-600 dark:text-slate-400">Count: {{ count }} (Double: {{ doubled }})</p>
+    <button
+      class="mt-3 px-4 py-2 bg-indigo-600 text-white rounded-lg cursor-pointer"
+      @click="increment"
+    >
+      Tambah
+    </button>
+  </div>
+</template>
 ```
 
-### Render Props / Slots
+### 2. Vue 3 Custom Composable with Result Pattern
+```typescript
+// src/composables/useCounter.ts
+import { ref, computed } from 'vue';
 
-Allow consumers to customize rendering:
+export function useCounter(initial = 0) {
+  const count = ref(initial);
+  const error = ref<string | null>(null);
 
-```jsx
-// Render prop pattern
-<DataTable
-  data={users}
-  columns={columns}
-  renderRow={(user) => (
-    <tr key={user.id}>
-      <td>{user.name}</td>
-      <td><StatusBadge status={user.status} /></td>
-    </tr>
-  )}
-  renderEmpty={() => <EmptyState message="No users found" />}
-/>
-```
+  const isEven = computed(() => count.value % 2 === 0);
 
-### Higher-Order Component (HOC)
+  function increment() {
+    count.value++;
+    error.value = null;
+  }
 
-Wrap components to add behavior:
-
-```jsx
-// Add authentication requirement to any page
-const ProtectedPage = withAuth(DashboardPage);
-
-// Add loading state to any component
-const UserListWithLoading = withLoading(UserList);
-```
-
-### Custom Hooks
-
-Extract reusable logic from components:
-
-```jsx
-// Custom hook for form handling
-function useForm(initialValues, validate) {
-  const [values, setValues] = useState(initialValues);
-  const [errors, setErrors] = useState({});
-  const [touched, setTouched] = useState({});
-
-  const handleChange = (field) => (e) => {
-    setValues(prev => ({ ...prev, [field]: e.target.value }));
-  };
-
-  const handleBlur = (field) => () => {
-    setTouched(prev => ({ ...prev, [field]: true }));
-    const fieldErrors = validate({ ...values });
-    setErrors(fieldErrors);
-  };
-
-  const handleSubmit = (onSubmit) => (e) => {
-    e.preventDefault();
-    const formErrors = validate(values);
-    if (Object.keys(formErrors).length === 0) {
-      onSubmit(values);
-    } else {
-      setErrors(formErrors);
+  function decrement() {
+    // Guard Clause
+    if (count.value <= 0) {
+      error.value = 'Nilai tidak boleh kurang dari 0';
+      return;
     }
-  };
+    count.value--;
+    error.value = null;
+  }
 
-  return { values, errors, touched, handleChange, handleBlur, handleSubmit };
+  return {
+    count,
+    isEven,
+    error,
+    increment,
+    decrement,
+  };
 }
 ```
 
@@ -257,37 +244,16 @@ function useForm(initialValues, validate) {
 
 | Approach | Pros | Cons | Best For |
 |----------|------|------|----------|
-| **CSS Modules** | Scoped by default, zero runtime, standard CSS | No dynamic styles without vars | Most projects |
+| **Tailwind CSS** | Fast development, consistent, small bundle | Verbose HTML, learning curve | Rapid prototyping, utility-first (Standard) |
+| **CSS Modules / Scoped CSS** | Scoped by default, zero runtime, standard CSS | No dynamic styles without vars | Custom styles, SFC scoped `<style scoped>` |
 | **CSS Custom Properties** | Dynamic, no build tool, great for themes | No conditional logic | Design systems, themes |
-| **Styled Components** | Dynamic, co-located, full JS power | Runtime cost, learning curve | React apps, dynamic styling |
-| **Tailwind CSS** | Fast development, consistent, small bundle | Verbose HTML, learning curve | Rapid prototyping, utility-first |
-| **BEM** | Predictable, no tooling needed | Verbose class names, manual scoping | Legacy/vanilla projects |
-| **Vanilla CSS** | No dependencies, full control, standards | Manual scoping, no composition | Simple projects, learning |
-
-### BEM Naming Convention
-
-```css
-/* Block */
-.card { }
-
-/* Element (part of block) */
-.card__title { }
-.card__image { }
-.card__body { }
-.card__footer { }
-
-/* Modifier (variant of block or element) */
-.card--featured { }
-.card--compact { }
-.card__title--large { }
-```
+| **Styled Components / Emotion** | Dynamic, co-located, full JS power | Runtime cost, learning curve | React apps, dynamic styling |
 
 ---
 
 ## Common UI Patterns
 
 ### Modal / Dialog
-
 ```
 Requirements:
 ├── Focus trap (Tab cycles within modal)
@@ -300,7 +266,6 @@ Requirements:
 ```
 
 ### Toast / Notification
-
 ```
 Requirements:
 ├── Auto-dismiss after timeout (3-5 seconds)
@@ -310,32 +275,4 @@ Requirements:
 ├── ARIA: role="alert" or role="status", aria-live="polite"
 ├── Pause auto-dismiss on hover
 └── Animation: slideIn from edge + fadeOut
-```
-
-### Dropdown / Select
-
-```
-Requirements:
-├── Open on click (not hover — accessibility)
-├── Close on outside click, Escape, or selection
-├── Keyboard: Arrow keys to navigate, Enter to select, type-ahead search
-├── ARIA: role="listbox", role="option", aria-expanded, aria-activedescendant
-├── Position: flip to top if near viewport bottom
-├── Max height with scroll for long lists
-└── Search/filter for 10+ options
-```
-
-### Form Patterns
-
-```
-Requirements:
-├── Labels associated with inputs (htmlFor/id)
-├── Required fields marked visually AND with aria-required
-├── Validation on blur (not on every keystroke)
-├── Error messages below the field with aria-describedby
-├── Disable submit button during submission
-├── Show loading state on submit
-├── Preserve form data on validation failure
-├── Focus first error field after failed submission
-└── Success feedback after submission
 ```

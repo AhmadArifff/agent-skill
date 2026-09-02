@@ -1,6 +1,6 @@
-# Safe Logic Flow & Error Handling Architecture Guide
+# Frontend Safe Logic Flow & Error Handling Architecture Guide
 
-Standar pengolahan alur logika aman untuk mencegah *silent bug* dan mencegah aplikasi *crash* secara liar melalui penerapan kombinasi **pola desain (*design patterns*)** dan **praktik arsitektur kode** terstandarisasi.
+Standar pengolahan alur logika aman di sisi client (Frontend) untuk mencegah *silent bug*, *race condition*, dan aplikasi *crash/white-screen* melalui kombinasi **Guard Clauses**, **Result Pattern**, **Error Boundaries**, dan **Structured Telemetry** di **Next.js (React)** dan **Vue 3 / Nuxt 3**.
 
 ---
 
@@ -8,140 +8,165 @@ Standar pengolahan alur logika aman untuk mencegah *silent bug* dan mencegah apl
 
 | Lapisan Kode (*Layer*) | Metode yang Digunakan | Perilaku Saat Terjadi Kondisi Gagal |
 | --- | --- | --- |
-| **Validation / Input** | `if-else` / Guard Clause | Kembalikan respons validasi `400 Bad Request` ke pengguna. |
-| **Business Logic (Service)** | Result Pattern & Domain Exception | Kembalikan `Result.fail()` untuk kegagalan bisnis, atau lempar `CustomException`. |
-| **Infrastructure (DB / API)** | `try-catch` + Structured Logging | Tangkap error teknis, buat log detail, lalu *re-throw* atau bungkus dengan `CustomException`. |
-| **Outer Layer (Framework)** | Global Exception Handler | Menangkap semua error yang lolos, menyembunyikan stack trace dari pengguna akhir, dan mengirim respons `500`. |
+| **Validation / UI Input** | `if-else` / Guard Clause | Return early, tampilkan validasi inline / toast feedback. |
+| **Business Logic (Hooks / Composables)** | Result Pattern & Domain Exception | Kembalikan `Result.fail()` terstruktur, hindari melempar error tak tertangkap. |
+| **Infrastructure (API / Fetch / Storage)** | `try-catch` + Structured Logging | Tangkap error network/storage, log ke Sentry/console, fallback data default. |
+| **Outer Layer (Framework/UI)** | Global Error Boundary | Menangkap unhandled UI render error (`onErrorCaptured` / React Error Boundary), tampilkan Fallback UI ramah pengguna. |
 
 ---
 
 ## 1. Pola Guard Clause (Early Return)
 
-Daripada membuat sarang `if-else` yang dalam (*pyramid of doom*), lakukan validasi prasyarat di baris-baris awal fungsi. Jika kondisi tidak terpenuhi, langsung hentikan eksekusi (*return*) atau lempar *exception*.
+Hindari *pyramid of doom* (`if-else` bersarang). Lakukan validasi prasyarat di awal fungsi/event handler.
 
-```javascript
-// AMAN & RAPI: Guard Clause
-function transferSaldo(sender, receiver, amount) {
-    if (!sender || !receiver) {
-        return Result.fail("Akun pengirim atau penerima tidak ditemukan.");
-    }
-    if (amount <= 0) {
-        return Result.fail("Nominal transfer harus lebih dari 0.");
-    }
-    if (sender.balance < amount) {
-        return Result.fail("Saldo pengirim tidak mencukupi.");
-    }
+```typescript
+// AMAN & RAPI: Guard Clause pada Event Handler / Form Submission
+function handleCheckout(cartItems: CartItem[], user: User | null) {
+  // Guard 1: Cek autentikasi
+  if (!user) {
+    toast.error('Silakan login terlebih dahulu untuk checkout.');
+    router.push('/login');
+    return;
+  }
 
-    // Eksekusi logika utama hanya jika semua kondisi aman
-    sender.balance -= amount;
-    receiver.balance += amount;
-    return Result.ok("Transfer berhasil.");
+  // Guard 2: Cek keranjang kosong
+  if (!cartItems || cartItems.length === 0) {
+    toast.warning('Keranjang belanja Anda masih kosong.');
+    return;
+  }
+
+  // Guard 3: Validasi ketersediaan stok
+  const outOfStockItem = cartItems.find((item) => item.stock <= 0);
+  if (outOfStockItem) {
+    toast.error(`Produk ${outOfStockItem.name} sedang habis.`);
+    return;
+  }
+
+  // Eksekusi checkout hanya jika semua kondisi aman
+  executeCheckoutProcess(cartItems, user);
 }
 ```
 
 ---
 
-## 2. Result Pattern (Result Object)
+## 2. Result Pattern pada Frontend
 
-Sangat berguna pada *Service Layer*. Daripada mengembalikan nilai acak seperti `null`, `false`, atau melempar *exception* untuk kasus kegagalan bisnis biasa, kembalikan **objek terstruktur** yang mengindikasikan status keberhasilan secara eksplisit.
-
-```javascript
-// Kelas pembungkus hasil eksekusi
-class Result {
-    constructor(isSuccess, data = null, error = null) {
-        this.isSuccess = isSuccess;
-        this.data = data;
-        this.error = error;
-    }
-
-    static ok(data) {
-        return new Result(true, data, null);
-    }
-
-    static fail(error) {
-        return new Result(false, null, error);
-    }
+### A. Objek Terstruktur `Result<T>`
+```typescript
+export interface Result<T> {
+  isSuccess: boolean;
+  data: T | null;
+  error: string | null;
 }
 
-// Penggunaan pada Service
-async function registerUser(payload) {
-    const existing = await userRepo.findByEmail(payload.email);
-    if (existing) {
-        return Result.fail("Email sudah terdaftar."); // Bukan error sistem, tapi validasi bisnis
+export const Result = {
+  ok: <T>(data: T): Result<T> => ({ isSuccess: true, data, error: null }),
+  fail: <T>(error: string): Result<T> => ({ isSuccess: false, data: null, error }),
+};
+```
+
+### B. Implementasi pada Vue 3 Composable
+```typescript
+// src/composables/useProfile.ts (Vue 3 Composition API)
+import { ref } from 'vue';
+import { Result } from '@/utils/result';
+
+export function useProfile() {
+  const profile = ref<UserProfile | null>(null);
+  const isLoading = ref(false);
+
+  async function updateProfile(payload: UpdateProfileDTO): Promise<Result<UserProfile>> {
+    // 1. Guard Clause
+    if (!payload.name || payload.name.trim().length < 3) {
+      return Result.fail('Nama minimal harus 3 karakter.');
     }
 
-    const newUser = await userRepo.create(payload);
-    return Result.ok(newUser);
+    isLoading.value = true;
+    try {
+      const response = await api.put('/user/profile', payload);
+      profile.value = response.data;
+      return Result.ok(response.data);
+    } catch (err: any) {
+      console.error('[useProfile] Update failed:', err);
+      const message = err.response?.data?.message || 'Gagal memperbarui profil.';
+      return Result.fail(message);
+    } finally {
+      isLoading.value = false;
+    }
+  }
+
+  return { profile, isLoading, updateProfile };
 }
 ```
 
 ---
 
-## 3. Custom Domain Exception
+## 3. Global & Component Error Boundary
 
-Buat kelas *exception* khusus untuk membedakan antara **kesalahan logika bisnis** dan **kesalahan teknis sistem**. Ini mencegah penangkapan *exception* secara acak.
+### A. Vue 3 Error Boundary (`onErrorCaptured`)
+```vue
+<!-- src/components/ErrorBoundary.vue -->
+<script setup lang="ts">
+import { ref, onErrorCaptured } from 'vue';
+import { AlertCircle, RefreshCw } from 'lucide-vue-next';
 
-```javascript
-// Exception khusus domain
-class InsufficientBalanceException extends Error {
-    constructor(message) {
-        super(message);
-        this.name = "InsufficientBalanceException";
-    }
-}
+const hasError = ref(false);
+const errorMsg = ref('');
 
-class DatabaseConnectionException extends Error {
-    constructor(message) {
-        super(message);
-        this.name = "DatabaseConnectionException";
-    }
-}
-```
-
----
-
-## 4. Centralized Global Exception Handler
-
-Jangan menangani *try-catch* teknis di setiap baris fungsi controller. Biarkan *exception* teknis yang tidak terduga melayang ke atas (*bubble up*) hingga ditangkap oleh **Global Exception Handler** di tingkat *framework* (Middleware/Filter).
-
-- **Di Service/Model:** Biarkan error fatal terlempar jika memang gagal secara teknis (misal: koneksi DB terputus).
-- **Di Global Handler:** Tangkap error tersebut, catat log lengkapnya, lalu ubah menjadi respon yang aman dan ramah pengguna (misal: HTTP Status 500 dengan pesan *"Terjadi kesalahan pada sistem"*).
-
-```javascript
-// Contoh Middleware Global Error Handler (Express/Node.js)
-app.use((err, req, res, next) => {
-    // 1. Log error beserta stack trace ke sistem pengawas (Winston, Sentry, dsb.)
-    logger.error(`[${err.name}] ${err.message}`, { stack: err.stack });
-
-    // 2. Jika error kustom (domain exception), tampilkan pesan yang sesuai
-    if (err instanceof InsufficientBalanceException) {
-        return res.status(400).json({ status: "error", message: err.message });
-    }
-
-    // 3. Jika error teknis yang tidak terduga, Sembunyikan detail sensitif dari client
-    return res.status(500).json({ status: "error", message: "Terjadi gangguan internal pada server." });
+onErrorCaptured((err, _instance, info) => {
+  hasError.value = true;
+  errorMsg.value = err instanceof Error ? err.message : String(err);
+  console.error('[Vue Component Error]', { err, info });
+  return false; // Hentikan propagasi error
 });
+
+function retry() {
+  hasError.value = false;
+}
+</script>
+
+<template>
+  <div v-if="hasError" class="p-6 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900 text-center">
+    <AlertCircle class="w-8 h-8 text-rose-600 mx-auto mb-2" />
+    <h4 class="text-sm font-semibold text-rose-900 dark:text-rose-200">Gagal memuat komponen</h4>
+    <p class="text-xs text-rose-700 dark:text-rose-400 mt-1">{{ errorMsg }}</p>
+    <button class="mt-3 px-3 py-1.5 text-xs bg-rose-600 text-white rounded-lg cursor-pointer" @click="retry">
+      <RefreshCw class="w-3 h-3 inline mr-1" /> Coba Lagi
+    </button>
+  </div>
+  <slot v-else />
+</template>
+```
+
+### B. Vue 3 Global Error Handler (`main.ts`)
+```typescript
+app.config.errorHandler = (err, instance, info) => {
+  console.error('[Vue Global Error Handler]', {
+    error: err,
+    component: instance?.$options?.name,
+    info,
+  });
+};
 ```
 
 ---
 
-## 5. Structured Logging & Observability
+## 4. Structured Logging & Observability
 
-Aturan utama saat menggunakan `try-catch` adalah **selalu mencatat log**. Jangan pernah membiarkan blok `catch` kosong.
+Dilarang membiarkan blok `catch` kosong tanpa logging atau tanpa user feedback:
 
-```javascript
+```typescript
 try {
-    await externalPaymentGateway.charge(paymentData);
-} catch (error) {
-    // WAJIB: Log context detail agar bisa di-audit saat ada laporan bug
-    logger.error("Gagal melakukan charge ke Payment Gateway", {
-        userId: user.id,
-        amount: paymentData.amount,
-        errorMessage: error.message,
-        stackTrace: error.stack
-    });
+  await submitPayment(orderId);
+} catch (error: any) {
+  // 1. Structured Logging
+  console.error('[Payment Error]', {
+    orderId,
+    timestamp: new Date().toISOString(),
+    error: error?.message || error,
+  });
 
-    // Lempar kembali atau kembalikan status gagal yang jelas
-    throw new PaymentProcessException("Gagal memproses pembayaran online.");
+  // 2. Clear & Friendly UI Feedback
+  toast.error('Pembayaran tidak dapat diproses saat ini. Silakan coba kembali.');
 }
 ```
